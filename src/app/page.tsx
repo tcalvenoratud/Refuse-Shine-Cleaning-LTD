@@ -8,6 +8,7 @@ import { HowItWorks } from "@/components/HowItWorks/how-it-works"
 import { BeforeAfterGallery } from "@/components/BeforeAfterGallery/before-after-gallery"
 import { Testimonials } from "@/components/Testimonials/testimonials"
 import { TrustCredentials } from "@/components/TrustCredentials/trust-credentials"
+import { FAQ } from "@/components/FAQ/faq"
 
 export default function Home() {
   const [mounted, setMounted] = React.useState(false)
@@ -27,6 +28,7 @@ export default function Home() {
       <BeforeAfterGallery />
       <Testimonials />
       <TrustCredentials />
+      <FAQ />
     </div>
   )
 }

@@ -41,7 +41,7 @@ const listItemVariants: Variants = {
 
 export function TrustCredentials() {
   return (
-    <section className="relative overflow-hidden bg-background pt-8 pb-12 md:pt-10 md:pb-16 lg:pb-20 border-t border-border/40 dark:border-border/10">
+    <section className="relative overflow-hidden bg-background pt-8 pb-6 md:pt-10 md:pb-8 lg:pb-10 border-t border-border/40 dark:border-border/10">
       {/* Background visual details */}
       <div className="absolute top-[10%] left-[-10%] -z-10 size-[300px] sm:size-[450px] rounded-full bg-accent/5 dark:bg-accent/10 blur-3xl" />
       <div className="absolute bottom-[10%] right-[-10%] -z-10 size-[300px] sm:size-[450px] rounded-full bg-primary/5 dark:bg-primary/10 blur-3xl" />
