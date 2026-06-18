@@ -121,7 +121,7 @@ const cardVariants: Variants = {
 export function ServicesPreview() {
 
   return (
-    <section className="pt-10 pb-16 md:pt-14 md:pb-24 bg-card/40 dark:bg-secondary/10 relative overflow-hidden border-t border-border/40 dark:border-border/10">
+    <section className="pt-8 pb-6 md:pt-10 md:pb-8 lg:pb-10 bg-card/40 dark:bg-secondary/10 relative overflow-hidden border-t border-border/40 dark:border-border/10">
       {/* Decorative blobs */}
       <div className="absolute top-1/2 left-[-10%] -z-10 size-[350px] rounded-full bg-accent/5 dark:bg-accent/10 blur-3xl" />
       <div className="absolute bottom-0 right-[-10%] -z-10 size-[350px] rounded-full bg-primary/5 dark:bg-primary/10 blur-3xl" />
@@ -192,20 +192,20 @@ export function ServicesPreview() {
                   </div>
 
                   {/* Title */}
-                  <h3 className="text-lg font-extrabold text-foreground mt-4 group-hover:text-primary dark:group-hover:text-accent transition-colors">
+                  <h3 className="text-[24px] font-extrabold text-foreground mt-4 group-hover:text-primary dark:group-hover:text-accent transition-colors">
                     {service.title}
                   </h3>
 
                   {/* Description */}
-                  <p className="text-xs sm:text-sm text-text-gray dark:text-muted-foreground mt-2 leading-relaxed">
+                  <p className="text-base sm:text-lg text-foreground/80 dark:text-foreground/90 mt-2.5 leading-relaxed font-medium">
                     {service.description}
                   </p>
 
                   {/* Checklist */}
                   <ul className="mt-4 space-y-2 border-t border-border/40 dark:border-border/10 pt-4">
                     {service.checklist.map((item, idx) => (
-                      <li key={idx} className="flex items-start gap-2 text-xs text-text-gray dark:text-muted-foreground/80">
-                        <CheckCircle2 className={`size-3.5 mt-0.5 shrink-0 ${service.iconColor} opacity-75`} />
+                      <li key={idx} className="flex items-start gap-2 text-base sm:text-lg text-foreground/85 dark:text-foreground/90 font-semibold">
+                        <CheckCircle2 className={`size-4.5 mt-0.5 shrink-0 ${service.iconColor} opacity-90`} />
                         <span>{item}</span>
                       </li>
                     ))}

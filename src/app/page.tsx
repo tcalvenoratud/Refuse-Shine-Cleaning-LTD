@@ -3,6 +3,11 @@
 import * as React from "react"
 import { Hero } from "@/components/Hero/hero"
 import { ServicesPreview } from "@/components/Services/services-preview"
+import { WhyChooseUs } from "@/components/WhyChooseUs/why-choose-us"
+import { HowItWorks } from "@/components/HowItWorks/how-it-works"
+import { BeforeAfterGallery } from "@/components/BeforeAfterGallery/before-after-gallery"
+import { Testimonials } from "@/components/Testimonials/testimonials"
+import { TrustCredentials } from "@/components/TrustCredentials/trust-credentials"
 
 export default function Home() {
   const [mounted, setMounted] = React.useState(false)
@@ -17,6 +22,11 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       <Hero />
       <ServicesPreview />
+      <WhyChooseUs />
+      <HowItWorks />
+      <BeforeAfterGallery />
+      <Testimonials />
+      <TrustCredentials />
     </div>
   )
 }

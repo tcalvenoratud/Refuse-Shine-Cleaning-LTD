@@ -165,7 +165,7 @@ export function Footer() {
               <li>
                 <a href="tel:+447721714434" className="flex items-center gap-3 hover:text-white transition-colors cursor-pointer group text-sm text-white/90 font-medium">
                   <Phone className="size-4.5 text-[#459B4A] group-hover:scale-110 transition-transform" />
-                  <span>+44 (772) 1714434</span>
+                  <span>+447721714435</span>
                 </a>
               </li>
               <li>

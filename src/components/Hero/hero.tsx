@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button"
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-background pt-8 pb-8 md:pt-12 md:pb-12 lg:pt-16 lg:pb-16">
+    <section className="relative overflow-hidden bg-background pt-8 pb-6 md:pt-12 md:pb-8 lg:pt-16 lg:pb-10">
       {/* Decorative background glows */}
       <div className="absolute top-[-10%] right-[-10%] -z-10 size-[300px] sm:size-[500px] rounded-full bg-primary/8 dark:bg-primary/15 blur-3xl" />
       <div className="absolute bottom-[-10%] left-[-10%] -z-10 size-[300px] sm:size-[500px] rounded-full bg-accent/8 dark:bg-accent/15 blur-3xl" />
@@ -44,7 +44,7 @@ export function Hero() {
               className="inline-flex max-w-fit items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-xs sm:text-sm font-semibold text-primary dark:border-accent/30 dark:bg-accent/10 dark:text-accent shadow-sm"
             >
               <Sparkles className="size-3.5 animate-pulse text-accent dark:text-accent" />
-              <span>Professional Cleaning Services in London</span>
+              <span>Professional Cleaning Services in West Midlands</span>
             </motion.div>
 
             {/* Main Headline */}
@@ -67,7 +67,7 @@ export function Hero() {
                 hidden: { opacity: 0, y: 20 },
                 visible: { opacity: 1, y: 0 },
               }}
-              className="mt-6 text-base sm:text-lg text-text-gray dark:text-muted-foreground leading-relaxed max-w-xl"
+              className="mt-6 text-lg sm:text-xl text-foreground/85 dark:text-foreground/90 leading-relaxed max-w-xl font-medium"
             >
               Refuse Shine Cleaning LTD delivers premium commercial and residential cleaning solutions. We craft custom cleaning routines so your workspace or home always makes a spectacular impression.
             </motion.p>
@@ -113,31 +113,31 @@ export function Hero() {
             >
               <div className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-2">
                 <div className="rounded-full bg-accent/10 p-2 text-accent">
-                  <Star className="size-4 fill-accent" />
+                  <Star className="size-4.5 fill-accent" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-foreground">5-Star Rated</h4>
-                  <p className="text-xs text-text-gray dark:text-muted-foreground mt-0.5">Top-rated cleaners</p>
+                  <h4 className="text-base font-extrabold text-foreground leading-tight">5-Star Rated</h4>
+                  <p className="text-sm text-foreground/75 dark:text-foreground/80 mt-0.5 font-semibold">Top-rated cleaners</p>
                 </div>
               </div>
 
               <div className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-2">
                 <div className="rounded-full bg-primary/10 p-2 text-primary dark:bg-primary/20 dark:text-primary-foreground">
-                  <ShieldCheck className="size-4 text-primary dark:text-foreground" />
+                  <ShieldCheck className="size-4.5 text-primary dark:text-foreground" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-foreground">Fully Vetted</h4>
-                  <p className="text-xs text-text-gray dark:text-muted-foreground mt-0.5">Insured professionals</p>
+                  <h4 className="text-base font-extrabold text-foreground leading-tight">Fully Vetted</h4>
+                  <p className="text-sm text-foreground/75 dark:text-foreground/80 mt-0.5 font-semibold">Insured professionals</p>
                 </div>
               </div>
 
               <div className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-2">
                 <div className="rounded-full bg-accent/10 p-2 text-accent">
-                  <Leaf className="size-4" />
+                  <Leaf className="size-4.5" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-foreground">Eco-Friendly</h4>
-                  <p className="text-xs text-text-gray dark:text-muted-foreground mt-0.5">Safe & green products</p>
+                  <h4 className="text-base font-extrabold text-foreground leading-tight">Eco-Friendly</h4>
+                  <p className="text-sm text-foreground/75 dark:text-foreground/80 mt-0.5 font-semibold">Safe & green products</p>
                 </div>
               </div>
             </motion.div>
