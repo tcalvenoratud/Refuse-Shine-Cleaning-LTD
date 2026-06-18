@@ -123,17 +123,70 @@ function BookingWizardContent() {
     )
   }
 
-  // Handle Photo selection and preview mapping
+  // Client-side image compression helper using Canvas
+  const compressImage = (base64Str: string, maxWidth = 1200, maxHeight = 1200, quality = 0.7): Promise<string> => {
+    return new Promise((resolve, reject) => {
+      const img = new Image()
+      img.src = base64Str
+      img.onload = () => {
+        const canvas = document.createElement("canvas")
+        let width = img.width
+        let height = img.height
+
+        if (width > height) {
+          if (width > maxWidth) {
+            height = Math.round((height * maxWidth) / width)
+            width = maxWidth
+          }
+        } else {
+          if (height > maxHeight) {
+            width = Math.round((width * maxHeight) / height)
+            height = maxHeight
+          }
+        }
+
+        canvas.width = width
+        canvas.height = height
+
+        const ctx = canvas.getContext("2d")
+        if (!ctx) {
+          resolve(base64Str)
+          return
+        }
+
+        ctx.drawImage(img, 0, 0, width, height)
+        const compressedDataUrl = canvas.toDataURL("image/jpeg", quality)
+        resolve(compressedDataUrl)
+      }
+      img.onerror = (err) => {
+        reject(err)
+      }
+    })
+  }
+
+  // Handle Photo selection and preview mapping with compression
   const handlePhotoChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files) {
       const filesArray = Array.from(e.target.files)
       filesArray.forEach((file) => {
         const reader = new FileReader()
-        reader.onloadend = () => {
-          setUploadedPhotos((prev) => [
-            ...prev,
-            { name: file.name, size: file.size, preview: reader.result as string }
-          ])
+        reader.onloadend = async () => {
+          try {
+            const rawBase64 = reader.result as string
+            const compressedBase64 = await compressImage(rawBase64, 1200, 1200, 0.7)
+            const approximateSize = Math.round((compressedBase64.length * 3) / 4)
+
+            setUploadedPhotos((prev) => [
+              ...prev,
+              { name: file.name, size: approximateSize, preview: compressedBase64 }
+            ])
+          } catch (compressErr) {
+            console.error("Compression error:", compressErr)
+            setUploadedPhotos((prev) => [
+              ...prev,
+              { name: file.name, size: file.size, preview: reader.result as string }
+            ])
+          }
         }
         reader.readAsDataURL(file)
       })
