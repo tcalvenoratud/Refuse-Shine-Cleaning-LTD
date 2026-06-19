@@ -40,12 +40,12 @@ const itemVariants: Variants = {
 export default function TermsPage() {
   return (
     <div className="flex flex-col min-h-screen">
-      
+
       {/* 1. Hero Header */}
       <section className="relative overflow-hidden bg-background pt-12 pb-8 md:pt-16 md:pb-12 border-b border-border/40 dark:border-border/10">
         <div className="absolute top-[-10%] right-[-10%] -z-10 size-[300px] sm:size-[500px] rounded-full bg-primary/5 dark:bg-primary/10 blur-3xl" />
         <div className="absolute bottom-[-10%] left-[-10%] -z-10 size-[300px] sm:size-[500px] rounded-full bg-accent/5 dark:bg-accent/10 blur-3xl" />
-        
+
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-3xl mx-auto">
             <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-xs font-semibold text-primary dark:border-accent/30 dark:bg-accent/10 dark:text-accent shadow-sm">
@@ -71,7 +71,7 @@ export default function TermsPage() {
       <section className="py-12 bg-background">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
-            
+
             {/* Table of Contents Sticky Sidebar */}
             <div className="lg:col-span-4 sticky top-24 hidden lg:block p-6 rounded-3xl border border-border/60 bg-card dark:border-border/10 dark:bg-card/75 shadow-sm">
               <h3 className="text-lg font-extrabold text-foreground mb-4 flex items-center gap-2">
@@ -100,14 +100,14 @@ export default function TermsPage() {
                 viewport={{ once: true, margin: "-100px" }}
                 className="space-y-10"
               >
-                
+
                 {/* Section 1: Bookings */}
                 <motion.div id="bookings" variants={itemVariants} className="scroll-mt-24">
                   <h2 className="text-2xl font-black text-foreground border-b border-border/40 dark:border-border/10 pb-2 mb-4">
                     1. Scope of Service & Bookings
                   </h2>
                   <p className="text-base sm:text-lg text-foreground/80 dark:text-foreground/90 font-medium leading-relaxed">
-                    By requesting a quote or booking services with <strong>Refuse Shine Cleaning LTD</strong>, you enter into a binding agreement to abide by these terms. 
+                    By requesting a quote or booking services with <strong>Refuse Shine Cleaning LTD</strong>, you enter into a binding agreement to abide by these terms.
                   </p>
                   <p className="mt-3 text-base sm:text-lg text-foreground/80 dark:text-foreground/90 font-medium leading-relaxed">
                     We agree to provide professional cleaning services matching the agreed-upon package checklist (e.g. Regular House Clean, End of Tenancy, Deep Clean). Standard duration and quotes are initial estimations based on size parameters and may be adjusted if the property condition differs significantly from descriptions.
@@ -256,7 +256,7 @@ export default function TermsPage() {
                   <p className="mt-3 text-base sm:text-lg text-foreground/80 dark:text-foreground/90 font-medium leading-relaxed">
                     For any questions regarding these Terms & Conditions, please contact us:
                   </p>
-                  
+
                   <div className="mt-6 p-6 rounded-2xl border border-border/60 bg-card dark:border-border/10 dark:bg-card/75 space-y-3.5 max-w-lg">
                     <div className="flex items-center gap-3">
                       <Shield className="size-5 text-accent shrink-0" />
@@ -273,10 +273,10 @@ export default function TermsPage() {
                     <div className="flex items-center gap-3">
                       <Mail className="size-5 text-accent shrink-0" />
                       <a
-                        href="mailto:refuseshinecleaningltd@gmail.com"
+                        href="mailto:info@refuseshinecleaningltd.co.uk"
                         className="text-base font-extrabold text-primary hover:text-primary/85 dark:text-accent dark:hover:text-accent/85 transition-colors break-all"
                       >
-                        refuseshinecleaningltd@gmail.com
+                        info@refuseshinecleaningltd.co.uk
                       </a>
                     </div>
 

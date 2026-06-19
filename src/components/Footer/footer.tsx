@@ -70,7 +70,7 @@ export function Footer() {
     <footer className="w-full bg-[#050110] border-t border-white/5 text-gray-400 py-16 px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 lg:gap-8 mb-12">
-          
+
           {/* Logo & Description Column */}
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center gap-2.5 w-fit group">
@@ -92,7 +92,7 @@ export function Footer() {
                 </span>
               </div>
             </Link>
-            
+
             <p className="text-sm text-gray-500 leading-relaxed mt-2">
               Refusing to let your home or commercial space lose its shine. Experience the premium standard in professional cleaning.
             </p>
@@ -169,9 +169,9 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:refuseshinecleaningltd@gmail.com" className="flex items-center gap-3 hover:text-white transition-colors cursor-pointer group text-sm text-white/90 font-medium">
+                <a href="mailto:info@refuseshinecleaningltd.co.uk" className="flex items-center gap-3 hover:text-white transition-colors cursor-pointer group text-sm text-white/90 font-medium">
                   <Mail className="size-4.5 text-[#459B4A] group-hover:scale-110 transition-transform" />
-                  <span className="break-all">refuseshinecleaningltd@gmail.com</span>
+                  <span className="break-all">info@refuseshinecleaningltd.co.uk</span>
                 </a>
               </li>
             </ul>

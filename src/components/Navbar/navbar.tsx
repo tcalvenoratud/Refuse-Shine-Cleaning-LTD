@@ -58,9 +58,9 @@ export function Navbar() {
               <Phone className="size-3.5 text-accent" />
               <span>+447721714435</span>
             </a>
-            <a href="mailto:refuseshinecleaningltd@gmail.com" className="flex items-center gap-1.5 hover:text-accent transition-colors">
+            <a href="mailto:info@refuseshinecleaningltd.co.uk" className="flex items-center gap-1.5 hover:text-accent transition-colors">
               <Mail className="size-3.5 text-accent" />
-              <span>refuseshinecleaningltd@gmail.com</span>
+              <span>info@refuseshinecleaningltd.co.uk</span>
             </a>
           </div>
           <div className="flex items-center gap-1">

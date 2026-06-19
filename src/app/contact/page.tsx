@@ -75,7 +75,7 @@ export default function ContactPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setFormState("submitting")
-    
+
     try {
       const response = await fetch("/api/contact", {
         method: "POST",
@@ -113,12 +113,12 @@ export default function ContactPage() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      
+
       {/* 1. Hero Header */}
       <section className="relative overflow-hidden bg-background pt-12 pb-8 md:pt-16 md:pb-12 border-b border-border/40 dark:border-border/10">
         <div className="absolute top-[-10%] right-[-10%] -z-10 size-[300px] sm:size-[500px] rounded-full bg-primary/5 dark:bg-primary/10 blur-3xl" />
         <div className="absolute bottom-[-10%] left-[-10%] -z-10 size-[300px] sm:size-[500px] rounded-full bg-accent/5 dark:bg-accent/10 blur-3xl" />
-        
+
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-3xl mx-auto">
             <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-xs font-semibold text-primary dark:border-accent/30 dark:bg-accent/10 dark:text-accent shadow-sm">
@@ -184,11 +184,11 @@ export default function ContactPage() {
               <div className="min-w-0">
                 <h3 className="text-lg font-extrabold text-foreground">Email Our Support</h3>
                 <a
-                  href="mailto:refuseshinecleaningltd@gmail.com"
+                  href="mailto:info@refuseshinecleaningltd.co.uk"
                   className="block mt-2 text-[16px] xs:text-[18px] sm:text-[20px] font-black text-primary hover:text-primary/85 dark:text-accent dark:hover:text-accent/85 transition-colors break-all"
-                  title="refuseshinecleaningltd@gmail.com"
+                  title="info@refuseshinecleaningltd.co.uk"
                 >
-                  refuseshinecleaningltd@gmail.com
+                  info@refuseshinecleaningltd.co.uk
                 </a>
                 <p className="mt-1.5 text-base text-foreground/80 dark:text-foreground/90 font-medium">
                   We reply within 2 business hours.
@@ -220,7 +220,7 @@ export default function ContactPage() {
       <section className="py-12 bg-background">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-stretch">
-            
+
             {/* Contact Form (Left Side - 7 Cols) */}
             <div className="lg:col-span-7 flex flex-col justify-between">
               <div className="rounded-3xl border border-border/60 bg-card p-6 sm:p-8 shadow-sm hover:shadow-md dark:border-border/10 dark:bg-card/75 transition-shadow relative overflow-hidden h-full flex flex-col">
@@ -251,7 +251,7 @@ export default function ContactPage() {
                       <p className="mt-3 text-base sm:text-lg text-foreground/80 dark:text-foreground/90 leading-relaxed font-medium max-w-md mx-auto">
                         Thank you for contacting Refuse Shine Cleaning LTD. Our team will review your submission details and reach back to you within 2 hours.
                       </p>
-                      
+
                       <div className="mt-8 p-4 bg-muted/30 dark:bg-muted/10 border border-border/40 dark:border-border/10 rounded-2xl text-left w-full max-w-sm">
                         <h4 className="text-sm font-bold text-foreground/70 tracking-wider uppercase mb-2">Submitted Request Details:</h4>
                         <p className="text-base text-foreground font-semibold"><span className="text-foreground/60 font-medium">Name:</span> {formData.name}</p>
@@ -398,14 +398,14 @@ export default function ContactPage() {
 
             {/* Map & Regional Coverage (Right Side - 5 Cols) */}
             <div className="lg:col-span-5 flex flex-col gap-6">
-              
+
               {/* Map Card */}
               <div className="rounded-3xl border border-border/60 bg-card dark:border-border/10 dark:bg-card/75 p-4 shadow-sm hover:shadow-md transition-shadow flex-grow flex flex-col">
                 <div className="flex items-center gap-2.5 px-2 mb-3">
                   <Map className="size-5.5 text-accent animate-pulse" />
                   <h3 className="text-lg font-extrabold text-foreground">Interactive Local Map</h3>
                 </div>
-                
+
                 {/* Responsive Google Maps Embed Wrapper */}
                 <div className="relative rounded-2xl overflow-hidden bg-muted border border-border/40 dark:border-border/10 flex-grow min-h-[250px] lg:min-h-0">
                   <iframe
@@ -437,12 +437,12 @@ export default function ContactPage() {
                 <div className="absolute top-0 right-0 p-3 opacity-5 pointer-events-none">
                   <ShieldCheck className="size-20 text-accent" />
                 </div>
-                
+
                 <h3 className="text-lg font-extrabold text-foreground flex items-center gap-2 mb-3">
                   <ShieldCheck className="size-5 text-accent" />
                   <span>West Midlands Coverage</span>
                 </h3>
-                
+
                 <p className="text-base text-foreground/80 dark:text-foreground/90 leading-relaxed font-semibold mb-3">
                   We proudly service the entire West Midlands region, including but not limited to:
                 </p>
