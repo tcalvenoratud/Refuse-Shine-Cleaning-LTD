@@ -19,7 +19,7 @@ export function Hero() {
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8 items-center">
-          
+
           {/* Left Column: Heading, Subheading & CTAs */}
           <motion.div
             className="flex flex-col justify-center lg:col-span-6 text-left"
@@ -103,13 +103,35 @@ export function Hero() {
               </motion.div>
             </motion.div>
 
+            {/* Stats Section */}
+            <motion.div
+              variants={{
+                hidden: { opacity: 0, y: 15 },
+                visible: { opacity: 1, y: 0 },
+              }}
+              className="mt-6 pt-4 grid grid-cols-3 gap-5F sm:gap-6"
+            >
+              <div className="flex flex-col">
+                <span className="font-serif text-3xl sm:text-4xl font-extrabold text-foreground tracking-tight">100+</span>
+                <span className="mt-1 text-base sm:text-base font-medium text-muted-foreground">Happy Clients</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="font-serif text-3xl sm:text-4xl font-extrabold text-foreground tracking-tight">99.9%</span>
+                <span className="mt-1 text-base sm:text-base font-medium text-muted-foreground">Satisfaction Rate</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="font-serif text-3xl sm:text-4xl font-extrabold text-foreground tracking-tight">12+ Yrs</span>
+                <span className="mt-1 text-base sm:text-base font-medium text-muted-foreground">Experience</span>
+              </div>
+            </motion.div>
+
             {/* Trust Badges / Highlights */}
             <motion.div
               variants={{
                 hidden: { opacity: 0, y: 15 },
                 visible: { opacity: 1, y: 0 },
               }}
-              className="mt-10 pt-8 border-t border-border/40 dark:border-border/10 grid grid-cols-3 gap-4"
+              className="mt-5 pt-4  grid grid-cols-3 gap-4"
             >
               <div className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-2">
                 <div className="rounded-full bg-accent/10 p-2 text-accent">
