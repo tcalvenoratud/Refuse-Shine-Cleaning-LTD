@@ -13,6 +13,7 @@ import { FAQ } from "@/components/FAQ/faq"
 export default function Home() {
   const [mounted, setMounted] = React.useState(false)
 
+  
   React.useEffect(() => {
     setMounted(true)
   }, [])
