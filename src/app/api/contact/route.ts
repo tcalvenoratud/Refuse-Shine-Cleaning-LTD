@@ -51,7 +51,7 @@ Message: ${message}`)
     // 4. Set up mail content
     const mailOptions = {
       from: `"${name}" <${user}>`, // Use SMTP sender email to satisfy modern SPF/DMARC checks
-      to: "mehedi@axionexasolutions.com",
+      to: "info@refuseshinecleaningltd.co.uk",
       replyTo: email, // Set Reply-To to the user's email so the client can reply directly
       subject: `[Contact Form] ${service} - Refuse Shine Cleaning`,
       text: `

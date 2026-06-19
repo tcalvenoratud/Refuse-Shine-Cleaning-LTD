@@ -39,7 +39,7 @@ const HISTORY_NAMES: Record<string, string> = {
 export async function POST(request: Request) {
   try {
     const body = await request.json()
-    
+
     // Extract parameters
     const {
       selectedService,
@@ -75,7 +75,7 @@ export async function POST(request: Request) {
 
     // 2. Prepare Direct Email Attachments from Base64 uploaded photos
     const emailAttachments: any[] = []
-    
+
     if (uploadedPhotos && Array.isArray(uploadedPhotos)) {
       uploadedPhotos.forEach((photo, index) => {
         if (photo.preview && photo.preview.startsWith("data:")) {
@@ -86,7 +86,7 @@ export async function POST(request: Request) {
             const base64Data = match[2]
             const fileExtension = contentType.split("/")[1] || "jpg"
             const cid = `photo_${index}`
-            
+
             emailAttachments.push({
               filename: photo.name || `room-photo-${index + 1}.${fileExtension}`,
               content: Buffer.from(base64Data, "base64"),
@@ -109,7 +109,7 @@ export async function POST(request: Request) {
       console.warn("WARNING: SMTP credentials not set. Logging booking wizard details:")
       console.log("[Booking Wizard Submission Detail]", JSON.stringify(body, null, 2))
       console.log(`Successfully parsed ${emailAttachments.length} attachments.`)
-      
+
       return NextResponse.json({
         success: true,
         info: "Mock mode: SMTP not configured. Submission logged in backend console."
@@ -130,16 +130,16 @@ export async function POST(request: Request) {
     const readableService = SERVICE_NAMES[selectedService] || selectedService
     const readableFrequency = FREQUENCY_NAMES[selectedFrequency] || selectedFrequency
     const readableHistory = HISTORY_NAMES[lastCleaned] || lastCleaned
-    
+
     const extrasList = (selectedExtras || [])
       .map((id: string) => EXTRA_NAMES[id] || id)
       .join(", ") || "None selected"
 
-    const timeSlot = preferredTime === "morning" 
-      ? "Morning (8:00 AM - 12:00 PM)" 
-      : preferredTime === "afternoon" 
-      ? "Afternoon (12:00 PM - 4:00 PM)" 
-      : "Late Afternoon (4:00 PM - 6:00 PM)"
+    const timeSlot = preferredTime === "morning"
+      ? "Morning (8:00 AM - 12:00 PM)"
+      : preferredTime === "afternoon"
+        ? "Afternoon (12:00 PM - 4:00 PM)"
+        : "Late Afternoon (4:00 PM - 6:00 PM)"
 
     // 5. Build rich HTML content
     const emailHtml = `
@@ -236,44 +236,40 @@ export async function POST(request: Request) {
             <td style="padding: 6px 0; font-weight: bold; color: #475569;">Has Pets:</td>
             <td style="padding: 6px 0; color: #0f172a; font-weight: bold;">${hasPets === "yes" ? "Yes" : "No"}</td>
           </tr>
-          ${
-            hasPets === "yes" && petDetails
-              ? `<tr>
+          ${hasPets === "yes" && petDetails
+        ? `<tr>
                   <td style="padding: 6px 0; font-weight: bold; color: #475569;">Pet Details:</td>
                   <td style="padding: 6px 0; color: #0f172a; font-style: italic;">${petDetails}</td>
                 </tr>`
-              : ""
-          }
+        : ""
+      }
           <tr>
             <td style="padding: 6px 0; font-weight: bold; color: #475569;">Last Cleaned:</td>
             <td style="padding: 6px 0; color: #0f172a; font-weight: 500;">${readableHistory}</td>
           </tr>
           <tr>
             <td style="padding: 6px 0; font-weight: bold; color: #475569;">Heavily Soiled:</td>
-            <td style="padding: 6px 0; color: ${
-              isHeavilySoiled === "yes" ? "#dc2626" : "#0f172a"
-            }; font-weight: bold;">
+            <td style="padding: 6px 0; color: ${isHeavilySoiled === "yes" ? "#dc2626" : "#0f172a"
+      }; font-weight: bold;">
               ${isHeavilySoiled === "yes" ? "Yes (Heavily Soiled)" : "No"}
             </td>
           </tr>
         </table>
 
         <!-- Section 4: Special Instructions -->
-        ${
-          specialRequests
-            ? `
+        ${specialRequests
+        ? `
             <div style="margin-top: 24px; padding: 16px; background-color: #f8fafc; border-left: 4px solid #ea580c; border-radius: 8px;">
               <p style="margin: 0 0 8px 0; font-weight: bold; color: #1e293b; font-size: 14px;">Special Requests / Customer Notes:</p>
               <p style="margin: 0; color: #475569; white-space: pre-wrap; font-size: 14px; font-style: italic;">"${specialRequests}"</p>
             </div>
             `
-            : ""
-        }
+        : ""
+      }
 
         <!-- Section 5: Uploaded Photos (Direct Inline Previews) -->
-        ${
-          emailAttachments.length > 0
-            ? `
+        ${emailAttachments.length > 0
+        ? `
             <h3 style="color: #0d9488; font-size: 18px; border-bottom: 1px solid #e2e8f0; padding-bottom: 6px; margin-top: 28px;">
               Uploaded Room Photos (${emailAttachments.length})
             </h3>
@@ -283,20 +279,20 @@ export async function POST(request: Request) {
             <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px;">
               <div style="display: grid; grid-template-columns: 1fr; gap: 16px;">
                 ${emailAttachments
-                  .map(
-                    (p) => `
+          .map(
+            (p) => `
                   <div style="border: 1px solid #cbd5e1; border-radius: 8px; padding: 12px; background-color: #ffffff; text-align: center; margin-bottom: 16px;">
                     <div style="font-size: 14px; font-weight: bold; color: #334155; margin-bottom: 8px; text-align: left;">${p.filename}</div>
                     <img src="cid:${p.cid}" alt="${p.filename}" style="max-width: 100%; max-height: 300px; border-radius: 6px; border: 1px solid #e2e8f0; display: block; margin: 0 auto;" />
                   </div>
                 `
-                  )
-                  .join("")}
+          )
+          .join("")}
               </div>
             </div>
             `
-            : ""
-        }
+        : ""
+      }
 
         <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 32px 0 24px 0;" />
         <p style="font-size: 11px; color: #94a3b8; text-align: center; margin-bottom: 0;">
@@ -308,7 +304,7 @@ export async function POST(request: Request) {
     // 6. Send Mail
     const mailOptions = {
       from: `"${clientName}" <${user}>`,
-      to: "mehedi@axionexasolutions.com",
+      to: "info@refuseshinecleaningltd.co.uk",
       replyTo: clientEmail,
       subject: `[Booking Request] ${readableService} - ${clientName}`,
       text: `
