@@ -9,36 +9,37 @@ const TRANSFORMS_DATA = [
   {
     id: "kitchen",
     label: "Kitchen Cleaning",
-    beforeImg: "/assets/before-after/kitchen-before.png",
-    afterImg: "/assets/before-after/kitchen-after.png",
+    beforeImg: "/assets/before-after/kitchen-before.jpeg",
+    afterImg: "/assets/before-after/kitchen-after.jpeg",
     beforeText: "Grease build-up, messy counters, and stovetop grime.",
     afterText: "Polished counters, pristine surfaces, and sterilized appliances."
   },
   {
     id: "bathroom",
     label: "Bathroom Clean",
-    beforeImg: "/assets/before-after/bathroom-before.png",
-    afterImg: "/assets/before-after/bathroom-after.png",
+    beforeImg: "/assets/before-after/bathroom-before.jpeg",
+    afterImg: "/assets/before-after/bathroom-after.jpeg",
     beforeText: "Soap scum, heavy limescale deposits, and stained ceramic.",
     afterText: "Sparkling clean white ceramics, sanitized fixtures, and polished chrome."
   },
   {
-    id: "carpet",
-    label: "Carpet Steam Clean",
-    beforeImg: "/assets/before-after/carpet-before.png",
-    afterImg: "/assets/before-after/carpet-after.png",
-    beforeText: "Coffee spills, embedded dust, and dark traffic stains.",
-    afterText: "Stain-free fibers, restored color, and steam-sanitized carpet."
+    id: "living-room",
+    label: "Living Room",
+    beforeImg: "/assets/before-after/room-before.jpeg",
+    afterImg: "/assets/before-after/room-after.jpeg",
+    beforeText: "Dusty surfaces, cluttered furniture arrangement, and unvacuumed floors.",
+    afterText: "Dusted surfaces, organized layout, and pristine steam-cleaned carpets."
   },
   {
-    id: "oven",
-    label: "Oven & Appliance",
-    beforeImg: "/assets/before-after/oven-before.png",
-    afterImg: "/assets/before-after/oven-after.png",
-    beforeText: "Burnt carbon deposits, grease spills, and smoky interior walls.",
-    afterText: "Like-new metallic shine, clean racks, and crystal clear viewing glass."
+    id: "bedroom",
+    label: "Bedroom Clean",
+    beforeImg: "/assets/before-after/room-2-before.jpeg",
+    afterImg: "/assets/before-after/room-2-after.jpeg",
+    beforeText: "Unmade bed, disorganized nightstands, and dusty surfaces.",
+    afterText: "Crisp neat sheets, fully vacuumed room, and sanitized bedside tables."
   }
 ]
+
 
 const tabContentVariants: Variants = {
   hidden: { opacity: 0, x: 15 },
@@ -126,6 +127,7 @@ export function BeforeAfterGallery() {
                     sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-cover"
                     priority
+                    quality={95}
                   />
                   {/* High Contrast Red Badge */}
                   <div className="absolute top-4 left-4 bg-red-600 text-white font-extrabold text-xs tracking-wider uppercase px-3.5 py-1.5 rounded-lg shadow-md">
@@ -155,6 +157,7 @@ export function BeforeAfterGallery() {
                     sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-cover"
                     priority
+                    quality={95}
                   />
                   {/* High Contrast Green Badge */}
                   <div className="absolute top-4 left-4 bg-accent text-white font-extrabold text-xs tracking-wider uppercase px-3.5 py-1.5 rounded-lg shadow-md">
