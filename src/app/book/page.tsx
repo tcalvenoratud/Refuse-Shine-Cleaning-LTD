@@ -24,6 +24,7 @@ import {
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { toast } from "sonner"
+import { trackEvent } from "@/lib/gtag"
 
 // ----------------------------------------------------
 // static datasets
@@ -78,13 +79,13 @@ function BookingWizardContent() {
   // Form states
   const [selectedService, setSelectedService] = React.useState(initialService)
   const [selectedFrequency, setSelectedFrequency] = React.useState("one-off")
-  
+
   // Property details
   const [bedrooms, setBedrooms] = React.useState(2)
   const [bathrooms, setBathrooms] = React.useState(1)
   const [livingRooms, setLivingRooms] = React.useState(1)
   const [propertySize, setPropertySize] = React.useState("")
-  
+
   // Occupants
   const [adults, setAdults] = React.useState(2)
   const [children, setChildren] = React.useState(0)
@@ -256,6 +257,7 @@ function BookingWizardContent() {
       }
 
       setIsSuccess(true)
+      trackEvent("complete_booking")
       toast.success("Booking request sent successfully!")
       window.scrollTo({ top: 0, behavior: "smooth" })
     } catch (err: any) {
@@ -268,12 +270,12 @@ function BookingWizardContent() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      
+
       {/* Hero Title Header */}
       <section className="relative overflow-hidden bg-background pt-12 pb-8 md:pt-16 md:pb-12 border-b border-border/40 dark:border-border/10">
         <div className="absolute top-[-10%] right-[-10%] -z-10 size-[300px] sm:size-[500px] rounded-full bg-primary/5 dark:bg-primary/10 blur-3xl" />
         <div className="absolute bottom-[-10%] left-[-10%] -z-10 size-[300px] sm:size-[500px] rounded-full bg-accent/5 dark:bg-accent/10 blur-3xl" />
-        
+
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-3xl mx-auto">
             <h1 className="text-4xl font-black tracking-tight text-foreground sm:text-5xl md:text-6xl font-heading leading-[1.1]">
@@ -292,7 +294,7 @@ function BookingWizardContent() {
       {/* Booking Form Layout Section */}
       <section className="py-12 bg-background flex-grow">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          
+
           {isSuccess ? (
             // Success Card State
             <motion.div
@@ -307,7 +309,7 @@ function BookingWizardContent() {
               <p className="mt-4 text-base sm:text-lg text-foreground/80 dark:text-foreground/90 font-medium leading-relaxed">
                 Thank you, <strong>{clientName}</strong>! We have received your booking details and have locked in your preferred time slot of <strong>{preferredDate} ({preferredTime === "morning" ? "Morning 8am-12pm" : preferredTime === "afternoon" ? "Afternoon 12pm-4pm" : "Late Afternoon 4pm-6pm"})</strong>.
               </p>
-              
+
               <div className="mt-8 p-6 bg-muted/40 dark:bg-muted/10 border border-border/40 dark:border-border/10 rounded-2xl text-left space-y-2">
                 <h3 className="text-sm font-bold text-foreground/70 tracking-wider uppercase mb-3 border-b border-border/40 pb-1.5">Booking Reference Summary:</h3>
                 <p className="text-base text-foreground font-semibold"><span className="text-foreground/60 font-medium">Requested Plan:</span> {SERVICES_CARDS.find(s => s.id === selectedService)?.label}</p>
@@ -342,10 +344,10 @@ function BookingWizardContent() {
             </motion.div>
           ) : (
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
-              
+
               {/* Form Area - 8 Columns */}
               <div className="lg:col-span-8 space-y-6">
-                
+
                 {/* 1. Step Progress Bar */}
                 <div className="rounded-2xl border border-border/60 bg-card dark:border-border/10 dark:bg-card/75 p-4 sm:p-6 shadow-sm">
                   <div className="flex justify-between items-center relative z-10">
@@ -356,13 +358,12 @@ function BookingWizardContent() {
                       return (
                         <div key={s.num} className="flex flex-col items-center flex-1 relative">
                           <div
-                            className={`size-10 rounded-full flex items-center justify-center border-2 font-extrabold text-sm transition-all duration-300 ${
-                              isCompleted
-                                ? "bg-accent border-accent text-white"
-                                : isCurrent
+                            className={`size-10 rounded-full flex items-center justify-center border-2 font-extrabold text-sm transition-all duration-300 ${isCompleted
+                              ? "bg-accent border-accent text-white"
+                              : isCurrent
                                 ? "bg-primary border-primary text-white shadow-md ring-4 ring-primary/20"
                                 : "bg-background border-border text-foreground/50"
-                            }`}
+                              }`}
                           >
                             {isCompleted ? <Check className="size-5" /> : s.num}
                           </div>
@@ -373,7 +374,7 @@ function BookingWizardContent() {
                       )
                     })}
                   </div>
-                  
+
                   {/* Progress Line */}
                   <div className="relative h-1.5 bg-muted dark:bg-muted/10 rounded-full mt-4 overflow-hidden">
                     <div
@@ -386,7 +387,7 @@ function BookingWizardContent() {
                 {/* 2. Step Fields Form */}
                 <div className="rounded-3xl border border-border/60 bg-card dark:border-border/10 dark:bg-card/75 p-6 sm:p-8 shadow-sm">
                   <AnimatePresence mode="wait">
-                    
+
                     {/* STEP 1 */}
                     {step === 1 && (
                       <motion.div
@@ -400,18 +401,17 @@ function BookingWizardContent() {
                         <div>
                           <h2 className="text-2xl font-black text-foreground">Select Cleaning Service</h2>
                           <p className="text-base text-foreground/70 mt-1 font-medium">Choose which cleaning package matches your needs.</p>
-                          
+
                           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                             {SERVICES_CARDS.map((item) => (
                               <button
                                 type="button"
                                 key={item.id}
                                 onClick={() => setSelectedService(item.id)}
-                                className={`p-4 rounded-2xl border text-left transition-all cursor-pointer relative ${
-                                  selectedService === item.id
-                                    ? "border-primary bg-primary/5 dark:border-accent dark:bg-accent/10 shadow-sm"
-                                    : "border-border hover:bg-muted/30 dark:border-border/10"
-                                }`}
+                                className={`p-4 rounded-2xl border text-left transition-all cursor-pointer relative ${selectedService === item.id
+                                  ? "border-primary bg-primary/5 dark:border-accent dark:bg-accent/10 shadow-sm"
+                                  : "border-border hover:bg-muted/30 dark:border-border/10"
+                                  }`}
                               >
                                 {selectedService === item.id && (
                                   <div className="absolute top-3 right-3 size-5 rounded-full bg-primary dark:bg-accent text-white flex items-center justify-center">
@@ -428,18 +428,17 @@ function BookingWizardContent() {
                         <div className="border-t border-border/40 dark:border-border/10 pt-6">
                           <h2 className="text-2xl font-black text-foreground">Cleaning Frequency</h2>
                           <p className="text-base text-foreground/70 mt-1 font-medium">How often should we visit your property?</p>
-                          
+
                           <div className="flex flex-wrap gap-3 mt-4">
                             {FREQUENCY_OPTIONS.map((item) => (
                               <button
                                 type="button"
                                 key={item.id}
                                 onClick={() => setSelectedFrequency(item.id)}
-                                className={`px-5 py-2.5 rounded-full border text-base font-extrabold transition-all cursor-pointer ${
-                                  selectedFrequency === item.id
-                                    ? "bg-primary border-primary text-white shadow-sm"
-                                    : "bg-background border-border text-foreground/80 hover:bg-muted/30 dark:border-border/10 dark:bg-muted/5"
-                                }`}
+                                className={`px-5 py-2.5 rounded-full border text-base font-extrabold transition-all cursor-pointer ${selectedFrequency === item.id
+                                  ? "bg-primary border-primary text-white shadow-sm"
+                                  : "bg-background border-border text-foreground/80 hover:bg-muted/30 dark:border-border/10 dark:bg-muted/5"
+                                  }`}
                               >
                                 {item.label}
                               </button>
@@ -471,7 +470,7 @@ function BookingWizardContent() {
                       >
                         <h2 className="text-2xl font-black text-foreground">Property Details</h2>
                         <p className="text-base text-foreground/70 -mt-2 font-medium">Specify details of the property needing the clean.</p>
-                        
+
                         {/* Counters Row */}
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4">
                           {/* Bedrooms */}
@@ -702,7 +701,7 @@ function BookingWizardContent() {
                         <div>
                           <h2 className="text-2xl font-black text-foreground">Select Booking Extras</h2>
                           <p className="text-base text-foreground/70 mt-1 font-medium">Add specialty services to your package checklist.</p>
-                          
+
                           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                             {EXTRAS_CARDS.map((item) => {
                               const isChecked = selectedExtras.includes(item.id)
@@ -711,11 +710,10 @@ function BookingWizardContent() {
                                   type="button"
                                   key={item.id}
                                   onClick={() => handleExtraToggle(item.id)}
-                                  className={`p-4 rounded-2xl border text-left transition-all cursor-pointer relative ${
-                                    isChecked
-                                      ? "border-primary bg-primary/5 dark:border-accent dark:bg-accent/10 shadow-sm"
-                                      : "border-border hover:bg-muted/30 dark:border-border/10"
-                                  }`}
+                                  className={`p-4 rounded-2xl border text-left transition-all cursor-pointer relative ${isChecked
+                                    ? "border-primary bg-primary/5 dark:border-accent dark:bg-accent/10 shadow-sm"
+                                    : "border-border hover:bg-muted/30 dark:border-border/10"
+                                    }`}
                                 >
                                   {isChecked && (
                                     <div className="absolute top-3 right-3 size-5 rounded-full bg-primary dark:bg-accent text-white flex items-center justify-center">
@@ -752,7 +750,7 @@ function BookingWizardContent() {
                         <div className="border-t border-border/40 dark:border-border/10 pt-6">
                           <h3 className="text-xl font-black text-foreground">Upload Room Photos <span className="text-red-500">*</span></h3>
                           <p className="text-sm text-foreground/70 mt-1 font-medium">Adding at least one photo of the rooms is required to help verify property condition.</p>
-                          
+
                           <div className="mt-4 flex flex-col items-center justify-center border-2 border-dashed border-border/60 hover:border-primary/50 dark:border-border/10 rounded-2xl p-6 bg-muted/5 transition-colors cursor-pointer relative group">
                             <input
                               type="file"
@@ -828,7 +826,7 @@ function BookingWizardContent() {
                       >
                         <h2 className="text-2xl font-black text-foreground">Appointment Schedule & Contact</h2>
                         <p className="text-base text-foreground/70 -mt-2 font-medium">Please enter your preferred slot and delivery information.</p>
-                        
+
                         {/* Preferred slot picker */}
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                           <div>
@@ -973,7 +971,7 @@ function BookingWizardContent() {
               <div className="lg:col-span-4 sticky top-24">
                 <div className="rounded-3xl border border-border/60 bg-card dark:border-border/10 dark:bg-card/75 p-6 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden flex flex-col justify-between">
                   <div className="absolute top-0 right-0 -z-10 size-32 bg-gradient-to-br from-primary/5 to-accent/5 rounded-bl-full" />
-                  
+
                   <div>
                     <h3 className="text-lg font-black text-foreground pb-3 border-b border-border/40 dark:border-border/10 mb-4 flex items-center gap-2">
                       <ShieldCheck className="size-5.5 text-accent animate-pulse" />
@@ -982,7 +980,7 @@ function BookingWizardContent() {
 
                     {/* Summary list */}
                     <div className="space-y-4 text-base font-semibold">
-                      
+
                       {/* Service */}
                       <div className="flex justify-between">
                         <span className="text-foreground/60 font-medium">Service Plan:</span>

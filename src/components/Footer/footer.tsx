@@ -4,6 +4,7 @@ import * as React from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { Mail, Phone, MapPin, Sparkles } from "lucide-react"
+import { trackEvent } from "@/lib/gtag"
 
 // Inline SVG social icons to support all lucide-react package versions
 const FacebookIcon = (props: React.SVGProps<SVGSVGElement>) => (
@@ -163,13 +164,13 @@ export function Footer() {
             </h3>
             <ul className="flex flex-col gap-4 mt-2">
               <li>
-                <a href="tel:+447721714434" className="flex items-center gap-3 hover:text-white transition-colors cursor-pointer group text-sm text-white/90 font-medium">
+                <a href="tel:+447721714435" onClick={() => trackEvent("phone_click")} className="flex items-center gap-3 hover:text-white transition-colors cursor-pointer group text-sm text-white/90 font-medium">
                   <Phone className="size-4.5 text-[#459B4A] group-hover:scale-110 transition-transform" />
                   <span>+447721714435</span>
                 </a>
               </li>
               <li>
-                <a href="mailto:info@refuseshinecleaningltd.co.uk" className="flex items-center gap-3 hover:text-white transition-colors cursor-pointer group text-sm text-white/90 font-medium">
+                <a href="mailto:info@refuseshinecleaningltd.co.uk" onClick={()=> trackEvent("email_click")} className="flex items-center gap-3 hover:text-white transition-colors cursor-pointer group text-sm text-white/90 font-medium">
                   <Mail className="size-4.5 text-[#459B4A] group-hover:scale-110 transition-transform" />
                   <span className="break-all">info@refuseshinecleaningltd.co.uk</span>
                 </a>

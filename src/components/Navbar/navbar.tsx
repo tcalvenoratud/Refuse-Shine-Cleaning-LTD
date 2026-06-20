@@ -16,6 +16,7 @@ import {
   SheetDescription,
 } from "@/components/ui/sheet"
 import { cn } from "@/lib/utils"
+import { trackEvent } from "@/lib/gtag"
 
 const NAV_LINKS = [
   { label: "Home", href: "/" },
@@ -54,11 +55,11 @@ export function Navbar() {
       <div className="hidden border-b border-border/10 bg-secondary py-2 text-xs text-secondary-foreground md:block">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-6">
-            <a href="tel:+447721714434" className="flex items-center gap-1.5 hover:text-accent transition-colors">
+            <a href="tel:+447721714435" onClick={() => trackEvent("phone_click")} className="flex items-center gap-1.5 hover:text-accent transition-colors">
               <Phone className="size-3.5 text-accent" />
               <span>+447721714435</span>
             </a>
-            <a href="mailto:info@refuseshinecleaningltd.co.uk" className="flex items-center gap-1.5 hover:text-accent transition-colors">
+            <a href="mailto:info@refuseshinecleaningltd.co.uk" onClick={() => trackEvent("email_click")} className="flex items-center gap-1.5 hover:text-accent transition-colors">
               <Mail className="size-3.5 text-accent" />
               <span>info@refuseshinecleaningltd.co.uk</span>
             </a>

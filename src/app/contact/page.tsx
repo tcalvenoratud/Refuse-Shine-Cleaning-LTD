@@ -17,6 +17,7 @@ import {
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { toast } from "sonner"
+import { trackEvent } from "@/lib/gtag"
 
 const SERVICES_OPTIONS = [
   "Regular House Cleaning",
@@ -92,6 +93,7 @@ export default function ContactPage() {
       }
 
       setFormState("success")
+      trackEvent("contact_submit")
       toast.success("Message sent successfully!")
     } catch (err: any) {
       console.error("Submission error:", err)
@@ -162,6 +164,7 @@ export default function ContactPage() {
                 <h3 className="text-lg font-extrabold text-foreground">Call Us Directly</h3>
                 <a
                   href="tel:+447721714435"
+                  onClick={() => trackEvent("phone_click")}
                   className="block mt-2 text-[20px] font-black text-primary hover:text-primary/85 dark:text-accent dark:hover:text-accent/85 transition-colors"
                 >
                   +44 7721 714435
@@ -185,6 +188,7 @@ export default function ContactPage() {
                 <h3 className="text-lg font-extrabold text-foreground">Email Our Support</h3>
                 <a
                   href="mailto:info@refuseshinecleaningltd.co.uk"
+                  onClick={() => trackEvent("email_click")}
                   className="block mt-2 text-[16px] xs:text-[18px] sm:text-[20px] font-black text-primary hover:text-primary/85 dark:text-accent dark:hover:text-accent/85 transition-colors break-all"
                   title="info@refuseshinecleaningltd.co.uk"
                 >
