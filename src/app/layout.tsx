@@ -18,8 +18,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://refuseshinecleaningltd.co.uk"),
   title: "Refuse Shine Cleaning LTD",
   description: "Premium professional cleaning services provider",
+  alternates: {
+    canonical: "/",
+  },
   icons: {
     icon: [
       { url: "/assets/logo/logo.jpeg" },
