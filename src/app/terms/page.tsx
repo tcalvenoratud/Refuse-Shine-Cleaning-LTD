@@ -3,7 +3,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Terms & Conditions | Refuse Shine Cleaning LTD",
-  description: "Read our service terms, booking details, cancellation policies, payment terms, and liability boundaries for professional cleaning services.",
+  description: "Read the terms and conditions for booking professional cleaning services with Refuse Shine Cleaning LTD, including payments, cancellations and service policies.",
   alternates: {
     canonical: "/terms",
   },

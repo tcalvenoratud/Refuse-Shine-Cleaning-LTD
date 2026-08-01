@@ -18,9 +18,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://refuseshinecleaningltd.co.uk"),
-  title: "Refuse Shine Cleaning LTD",
-  description: "Premium professional cleaning services provider",
+  metadataBase: new URL("https://www.refuseshinecleaningltd.co.uk"),
+  title: {
+    default: "Refuse Shine Cleaning LTD | Professional Cleaning Services",
+    template: "%s | Refuse Shine Cleaning LTD",
+  },
+  description: "Professional cleaning services across Willenhall, Wolverhampton, Walsall, Dudley, Birmingham and the West Midlands.",
   alternates: {
     canonical: "/",
   },

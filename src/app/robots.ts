@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://refuseshinecleaningltd.co.uk/sitemap.xml",
+    sitemap: "https://www.refuseshinecleaningltd.co.uk/sitemap.xml",
   };
 }

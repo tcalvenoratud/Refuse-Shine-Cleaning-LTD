@@ -2,8 +2,8 @@ import ContactClient from "./contact-client";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Refuse Shine Cleaning LTD",
-  description: "Get in touch with Refuse Shine Cleaning LTD. Request a custom quote, call our team, or send a message for professional cleaning services in London.",
+  title: "Contact Refuse Shine Cleaning LTD | Get a Free Cleaning Quote",
+  description: "Contact Refuse Shine Cleaning LTD for a free cleaning quote. We provide trusted cleaning services across Willenhall, Wolverhampton, Walsall, Dudley, Birmingham and the West Midlands.",
   alternates: {
     canonical: "/contact",
   },
