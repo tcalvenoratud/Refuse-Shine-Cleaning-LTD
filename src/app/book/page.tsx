@@ -3,7 +3,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Book Professional Cleaning Services in the West Midlands | Refuse Shine Cleaning LTD",
-  description: "Book trusted professional cleaning services across Willenhall, Wolverhampton, Walsall, Dudley, Birmingham and the West Midlands. Instant online booking with transparent pricing.",
+  description: "Book trusted cleaning services across Willenhall, Wolverhampton, Walsall and the West Midlands with fast online booking.",
   alternates: {
     canonical: "/book",
   },

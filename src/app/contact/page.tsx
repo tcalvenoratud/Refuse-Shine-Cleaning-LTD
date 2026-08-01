@@ -3,7 +3,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact Refuse Shine Cleaning LTD | Get a Free Cleaning Quote",
-  description: "Contact Refuse Shine Cleaning LTD for a free cleaning quote. We provide trusted cleaning services across Willenhall, Wolverhampton, Walsall, Dudley, Birmingham and the West Midlands.",
+  description: "Contact Refuse Shine Cleaning LTD for a free quote. We provide trusted cleaning services across Willenhall, Wolverhampton and the West Midlands.",
   alternates: {
     canonical: "/contact",
   },
