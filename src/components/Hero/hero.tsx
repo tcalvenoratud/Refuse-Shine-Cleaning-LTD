@@ -172,7 +172,7 @@ export function Hero() {
                 </div>
                 <div>
                   <h4 className="text-base font-extrabold text-foreground leading-tight">Eco-Friendly</h4>
-                  <p className="text-sm text-foreground/75 dark:text-foreground/80 mt-0.5 font-semibold">Safe & green products</p>
+                  <p className="text-sm text-foreground/75 dark:text-foreground/80 mt-0.5 font-semibold">Safe & green products.</p>
                 </div>
               </div>
             </motion.div>
