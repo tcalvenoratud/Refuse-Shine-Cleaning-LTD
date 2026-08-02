@@ -82,6 +82,9 @@ export function Footer() {
                   width={48}
                   height={48}
                   className="object-cover rounded-md"
+                  loading="lazy"
+                  decoding="async"
+                  quality={70}
                 />
               </div>
               <div className="flex flex-col">

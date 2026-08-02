@@ -222,6 +222,8 @@ export function Hero() {
                   className="object-cover"
                   priority
                   fetchPriority="high"
+                  decoding="async"
+                  quality={75}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent pointer-events-none" />
               </motion.div>
@@ -247,6 +249,8 @@ export function Hero() {
                   sizes="(max-width: 640px) 50vw, (max-width: 1024px) 35vw, 25vw"
                   className="object-cover"
                   loading="lazy"
+                  decoding="async"
+                  quality={75}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-transparent pointer-events-none" />
               </motion.div>

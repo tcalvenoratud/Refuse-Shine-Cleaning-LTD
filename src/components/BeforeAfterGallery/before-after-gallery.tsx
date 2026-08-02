@@ -127,7 +127,8 @@ export function BeforeAfterGallery() {
                     sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-cover"
                     loading="lazy"
-                    quality={80}
+                    decoding="async"
+                    quality={75}
                   />
                   {/* High Contrast Red Badge */}
                   <div className="absolute top-4 left-4 bg-red-600 text-white font-extrabold text-xs tracking-wider uppercase px-3.5 py-1.5 rounded-lg shadow-md">
@@ -157,7 +158,8 @@ export function BeforeAfterGallery() {
                     sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-cover"
                     loading="lazy"
-                    quality={80}
+                    decoding="async"
+                    quality={75}
                   />
                   {/* High Contrast Green Badge */}
                   <div className="absolute top-4 left-4 bg-accent text-white font-extrabold text-xs tracking-wider uppercase px-3.5 py-1.5 rounded-lg shadow-md">

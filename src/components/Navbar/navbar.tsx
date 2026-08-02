@@ -82,7 +82,9 @@ export function Navbar() {
               width={56}
               height={56}
               className="object-cover rounded-md"
-              priority
+              loading="lazy"
+              decoding="async"
+              quality={70}
             />
           </div>
           <div className="flex flex-col">
@@ -157,6 +159,9 @@ export function Navbar() {
                       width={48}
                       height={48}
                       className="object-cover rounded-md"
+                      loading="lazy"
+                      decoding="async"
+                      quality={70}
                     />
                   </div>
                   <div className="flex flex-col text-left">
