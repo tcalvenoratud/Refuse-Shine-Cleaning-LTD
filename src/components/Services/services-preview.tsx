@@ -19,25 +19,25 @@ const SERVICES_DATA = [
   {
     icon: Home,
     title: "Regular House Cleaning",
-    description: "Reliable, recurring cleaning scheduled weekly or fortnightly. Keep your home consistently fresh and spotless without the stress.",
+    description: "Professional, regular domestic cleans tailored to your home. Scheduled weekly or fortnightly to keep your living space fresh and stress-free.",
     checklist: [
-      "Weekly or fortnightly schedules",
-      "Dusting, vacuuming & mopping",
-      "Same dedicated professional cleaner",
-      "General tidying and trash disposal"
+      "Flexible weekly or fortnightly visits",
+      "Vetted & insured local home cleaners",
+      "Dusting, mopping, vacuuming & tidying",
+      "Fully customisable cleaning checklist"
     ],
     accentColor: "from-primary/20 to-primary/5",
     iconColor: "text-primary"
   },
   {
     icon: Sparkles,
-    title: "Deep Cleaning & Care",
-    description: "An intensive top-to-bottom sanitize of your space. Ideal for spring cleaning or restoring high-traffic areas to mint condition.",
+    title: "Deep Cleaning Services",
+    description: "An intensive top-to-bottom sanitize of your property. Perfect for spring cleaning, post-renovation, or revitalising high-traffic areas.",
     checklist: [
-      "Thorough kitchen deep-scrubbing",
-      "Complete bathroom sanitization",
-      "Behind & under furniture cleans",
-      "Detailed baseboard & door dusting"
+      "Thorough kitchen and oven degreasing",
+      "Complete bathroom limescale removal",
+      "Cleaning behind & under heavy furniture",
+      "Baseboards, doors & sockets disinfected"
     ],
     accentColor: "from-accent/20 to-accent/5",
     iconColor: "text-accent"
@@ -45,51 +45,51 @@ const SERVICES_DATA = [
   {
     icon: Key,
     title: "End of Tenancy Cleaning",
-    description: "Specialized deep cleaning designed for landlords, letting agents, and tenants to ensure security deposits are returned successfully.",
+    description: "High-standard move-out cleaning to secure your tenancy deposit. Trusted by local tenants, landlords, and letting agents across the West Midlands.",
     checklist: [
-      "Landlord checklist approved",
-      "Move-in / move-out optimization",
-      "Internal cabinet & drawer cleaning",
-      "100% satisfaction guarantee"
+      "100% deposit return check guarantee",
+      "Full internal cabinet and drawer clean",
+      "Oven and white goods deep cleaned",
+      "Comprehensive move-in / move-out service"
     ],
     accentColor: "from-primary/20 to-accent/5",
     iconColor: "text-primary"
   },
   {
     icon: Calendar,
-    title: "Airbnb & Short Let Cleaning",
-    description: "Fast-turnaround guest changeover services. We keep your ratings high by styling, washing, and preparing your space for arrivals.",
+    title: "Airbnb & Holiday Let Cleaning",
+    description: "Fast-turnaround guest changeovers to maintain your 5-star ratings. We clean, restock, and style your property ready for the next booking.",
     checklist: [
-      "Rapid 5-star host turnaround",
-      "Staging, styling & amenity restock",
-      "Linen & towel replacement prep",
-      "Spot checks for guest damage"
+      "Rapid, reliable guest checkout cleaning",
+      "Fresh linen change & towel staging",
+      "Toiletries & guest amenities restocked",
+      "Property damage and safety spot checks"
     ],
     accentColor: "from-accent/20 to-primary/5",
     iconColor: "text-accent"
   },
   {
     icon: Layers,
-    title: "Carpet & Appliance Cleaning",
-    description: "Extend the lifespan of your interior. Hot water extraction for carpets and deep grease removal for heavy kitchen appliances.",
+    title: "Carpet Cleaning",
+    description: "Extend the life of your carpets and soft furnishings. Professional hot water extraction removes deep stains, dirt, and allergens.",
     checklist: [
-      "Deep hot-water carpet extraction",
-      "Oven, fridge & microwave scrubbing",
-      "Stain removal and deodorizing",
-      "Eco-friendly, child-safe products"
+      "Advanced hot water carpet extraction",
+      "Tough stain removal and deodorising",
+      "Pet-friendly, non-toxic cleaning products",
+      "Deep upholstery & fabric rejuvenation"
     ],
     accentColor: "from-primary/20 to-primary/5",
     iconColor: "text-primary"
   },
   {
     icon: Trash2,
-    title: "Waste Removal & Windows",
-    description: "Professional clearing of domestic junk alongside window washing (inside & outside where permitted and fully insured).",
+    title: "Window Cleaning & Waste Removal",
+    description: "Streak-free window washing combined with professional domestic clearance. Safe, prompt removal of unwanted junk and rubbish.",
     checklist: [
-      "Safe and certified waste disposal",
-      "Sparkling glass & frame window washing",
-      "Junk clearance & eco-conscious disposal",
-      "Fully insured, vetted operations"
+      "Streak-free internal & external windows",
+      "Fully licensed domestic waste disposal",
+      "End-of-tenancy rubbish clearance",
+      "Eco-friendly recycling and reuse focus"
     ],
     accentColor: "from-accent/20 to-accent/5",
     iconColor: "text-accent"
@@ -138,7 +138,7 @@ export function ServicesPreview() {
             className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-xs font-semibold text-primary dark:border-accent/30 dark:bg-accent/10 dark:text-accent shadow-sm"
           >
             <Sparkles className="size-3.5 text-accent animate-pulse" />
-            <span>Our Service Preview</span>
+            <span>Professional Cleaning Services</span>
           </motion.div>
 
           <motion.h2
@@ -148,9 +148,9 @@ export function ServicesPreview() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="mt-6 text-3xl font-black tracking-tight text-foreground sm:text-4xl md:text-5xl font-heading leading-tight"
           >
-            Spotless Results,{" "}
+            Professional Cleaning Services Across the{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Every Single Time.
+              West Midlands
             </span>
           </motion.h2>
 
@@ -161,7 +161,7 @@ export function ServicesPreview() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="mt-4 text-base sm:text-lg text-text-gray dark:text-muted-foreground leading-relaxed"
           >
-            Explore our main service categories. Whether you need a simple weekly sweep or a complex deep cleaning operation, our fully vetted staff is equipped to handle it all.
+            Refuse Shine Cleaning LTD provides trusted cleaning services across Willenhall, Wolverhampton, Walsall, Birmingham, Dudley, West Bromwich and the West Midlands. Book fully insured, vetted local professionals for a reliable clean.
           </motion.p>
         </div>
 
@@ -224,12 +224,12 @@ export function ServicesPreview() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <Link href="/services">
+            <Link href="/book">
               <Button
                 variant="outline"
                 className="h-12 border-2 border-primary/20 hover:border-primary/45 dark:border-accent/20 dark:hover:border-accent/40 text-foreground font-bold rounded-xl px-8 transition-all cursor-pointer inline-flex items-center gap-2 group/btn"
               >
-                <span>View All Cleaning Services</span>
+                <span>Book Your Cleaning Today</span>
                 <ArrowRight className="size-4 group-hover/btn:translate-x-1 transition-transform text-primary dark:text-accent" />
               </Button>
             </Link>

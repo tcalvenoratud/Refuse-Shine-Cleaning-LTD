@@ -8,8 +8,8 @@ const STEPS_DATA = [
   {
     icon: FileText,
     stepNumber: "01",
-    title: "Request a Quote",
-    description: "Fill out our quick online quote request or give us a call. We'll provide a transparent, custom estimate tailored to your cleaning needs.",
+    title: "Book Your Cleaning",
+    description: "Complete our simple online booking form or call our team to arrange your professional cleaning service.",
     accentColor: "from-primary/20 to-primary/5",
     iconColor: "text-primary"
   },
@@ -17,7 +17,7 @@ const STEPS_DATA = [
     icon: CalendarDays,
     stepNumber: "02",
     title: "Schedule Your Service",
-    description: "Choose a convenient date and time. Our vetted, professional cleaning team will arrive fully equipped and ready to refresh your space.",
+    description: "Choose a convenient date and time that suits your scheduls. Our vetted, professional cleaning team will arrive fully equipped and ready to refresh your space.",
     accentColor: "from-accent/20 to-accent/5",
     iconColor: "text-accent"
   },
@@ -25,7 +25,7 @@ const STEPS_DATA = [
     icon: Sparkles,
     stepNumber: "03",
     title: "Enjoy a Spotless Space",
-    description: "Walk in, take a breath, and enjoy the absolute shine. We follow up to ensure you're 100% satisfied with our meticulous cleaning.",
+    description: "Walk in, take a breath, and enjoy the absolute shine. Enjoy a professionally cleaned home with our reliable and friendly team.",
     accentColor: "from-primary/20 to-accent/5",
     iconColor: "text-primary"
   }
@@ -61,7 +61,7 @@ export function HowItWorks() {
       <div className="absolute bottom-0 right-[10%] -z-10 size-[300px] rounded-full bg-accent/5 dark:bg-accent/10 blur-3xl" />
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <motion.div
@@ -82,9 +82,9 @@ export function HowItWorks() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="mt-6 text-3xl font-black tracking-tight text-foreground sm:text-4xl md:text-5xl font-heading leading-tight"
           >
-            How It{" "}
+            How Our Professional{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Works
+              Cleaning Service Works
             </span>
           </motion.h2>
 
@@ -95,7 +95,7 @@ export function HowItWorks() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="mt-4 text-base sm:text-lg text-foreground/80 dark:text-foreground/90 leading-relaxed"
           >
-            Getting your home or commercial space cleaned has never been easier. Follow our straightforward three-step method.
+            Booking professional cleaning services across Willenhall, Wolverhampton, Walsall and the West Midlands is simple. Follow our quick three-step process to request a quote, schedule your cleaning and enjoy a spotless home or business.
           </motion.p>
         </div>
 

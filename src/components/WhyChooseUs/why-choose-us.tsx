@@ -1,8 +1,10 @@
 "use client"
 
 import * as React from "react"
+import Link from "next/link"
 import { motion, Variants } from "framer-motion"
-import { ShieldCheck, Leaf, Sliders, Award, Sparkles, CheckCircle2 } from "lucide-react"
+import { ShieldCheck, Leaf, Sliders, Award, Sparkles, CheckCircle2, ArrowRight } from "lucide-react"
+import { Button } from "@/components/ui/button"
 
 const WHY_CHOOSE_US_DATA = [
   {
@@ -21,7 +23,7 @@ const WHY_CHOOSE_US_DATA = [
   },
   {
     icon: Sliders,
-    title: "Tailored Cleaning Plans",
+    title: "Flexible Cleaning Plans",
     description: "No two spaces are alike. We customize our checklists and schedules to align precisely with your property layout and schedule.",
     accentColor: "from-primary/20 to-accent/5",
     iconColor: "text-primary"
@@ -78,7 +80,7 @@ export function WhyChooseUs() {
       <div className="absolute bottom-[10%] left-[-10%] -z-10 size-[300px] sm:size-[450px] rounded-full bg-accent/5 dark:bg-accent/10 blur-3xl" />
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        
+
         {/* Centered Header Section */}
         <div className="text-center max-w-3xl mx-auto mb-12">
           {/* Tag Badge */}
@@ -101,9 +103,9 @@ export function WhyChooseUs() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="mt-6 text-3xl font-black tracking-tight text-foreground sm:text-4xl md:text-5xl font-heading leading-tight"
           >
-            Spotless Standards.{" "}
+            Why Homeowners & Businesses Choose{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Vetted Professionals.
+              Refuse Shine Cleaning LTD
             </span>
           </motion.h2>
 
@@ -115,7 +117,7 @@ export function WhyChooseUs() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="mt-6 text-base sm:text-lg text-foreground/80 dark:text-foreground/90 leading-relaxed font-medium"
           >
-            Refuse Shine Cleaning LTD provides residential and commercial cleaning services throughout the West Midlands, including Wolverhampton, Walsall, Willenhall, Dudley, West Bromwich, Cannock, and Birmingham.
+            Refuse Shine Cleaning LTD delivers trusted residential and commercial cleaning services across Willenhall, Wolverhampton, Walsall, Dudley, Birmingham and the West Midlands. Our fully insured team is committed to providing reliable, high-quality cleaning with flexible scheduling and outstanding customer service.
           </motion.p>
         </div>
 
@@ -137,7 +139,7 @@ export function WhyChooseUs() {
                 className="group rounded-2xl border border-border/60 bg-card p-6 shadow-sm hover:shadow-lg hover:border-primary/20 dark:border-border/10 dark:bg-card/75 dark:hover:border-accent/30 transition-all duration-300 relative overflow-hidden"
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-transparent to-primary/2 dark:to-accent/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                
+
                 {/* Icon Wrapper */}
                 <div className={`inline-flex items-center justify-center p-3 rounded-xl bg-gradient-to-br ${item.accentColor} shadow-inner`}>
                   <IconComponent className={`size-5.5 ${item.iconColor} group-hover:scale-110 transition-transform duration-300`} />
@@ -166,33 +168,53 @@ export function WhyChooseUs() {
           className="mt-10 p-6 sm:p-8 rounded-3xl border border-border/60 bg-card/60 dark:border-border/10 dark:bg-card/40 backdrop-blur-sm shadow-sm relative overflow-hidden group"
         >
           <div className="absolute top-0 right-0 -z-10 size-48 bg-gradient-to-br from-primary/5 to-accent/5 rounded-bl-full group-hover:scale-110 transition-transform duration-500" />
-          
+
           <div className="flex flex-col lg:flex-row items-center lg:items-start gap-6 lg:gap-10">
             {/* Title / Icon */}
             <div className="flex items-center gap-3 shrink-0">
               <CheckCircle2 className="size-6 text-accent animate-pulse" />
               <h3 className="text-xl font-extrabold text-foreground">Our Guarantee & Standards</h3>
             </div>
-            
+
             <div className="h-px w-full lg:h-12 lg:w-px bg-border/60 dark:bg-border/20 shrink-0" />
-            
+
             {/* 3 Points - Row Layout on Large Screens */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 flex-grow w-full">
               <div className="flex items-start gap-2.5 text-base sm:text-lg text-foreground/85 dark:text-foreground/90 font-semibold">
                 <div className="size-2 rounded-full bg-primary mt-2 shrink-0" />
-                <span>100% Satisfaction Guarantee — Recleans inside 24 Hours</span>
+                <span>Fully Insured Professionals</span>
               </div>
               <div className="flex items-start gap-2.5 text-base sm:text-lg text-foreground/85 dark:text-foreground/90 font-semibold">
                 <div className="size-2 rounded-full bg-accent mt-2 shrink-0" />
-                <span>Fully Insured & Public Liability Protection (£2M)</span>
+                <span>Flexible Booking Options</span>
               </div>
               <div className="flex items-start gap-2.5 text-base sm:text-lg text-foreground/85 dark:text-foreground/90 font-semibold">
                 <div className="size-2 rounded-full bg-primary mt-2 shrink-0" />
-                <span>Background Checked, Uniformed & Friendly Staff</span>
+                <span>Reliable & Friendly Cleaning Team</span>
               </div>
             </div>
           </div>
         </motion.div>
+
+        {/* Bottom Call to Action */}
+        <div className="mt-10 text-center">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+          >
+            <Link href="/book">
+              <Button
+                className="h-12 bg-primary hover:bg-primary/95 dark:bg-primary dark:hover:bg-primary/90 text-primary-foreground font-bold rounded-xl px-10 shadow-lg shadow-primary/20 transition-all cursor-pointer inline-flex items-center gap-2 group/btn"
+              >
+                <span>Get Started</span>
+                <ArrowRight className="size-4 group-hover/btn:translate-x-1 transition-transform" />
+              </Button>
+            </Link>
+          </motion.div>
+        </div>
+
       </div>
     </section>
   )

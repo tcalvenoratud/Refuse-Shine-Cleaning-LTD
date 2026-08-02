@@ -60,10 +60,10 @@ const QUICK_LINKS = [
 ]
 
 const SERVICES = [
-  { label: "Residential Cleaning", href: "/services#residential" },
-  { label: "Commercial Cleaning", href: "/services#commercial" },
-  { label: "Deep Cleaning", href: "/services#deep" },
-  { label: "Move In / Move Out", href: "/services#move-in-out" },
+  { label: "House Cleaning", href: "/services" },
+  { label: "Deep Cleaning", href: "/services" },
+  { label: "End of Tenancy Cleaning", href: "/services" },
+  { label: "Carpet Cleaning", href: "/services" },
 ]
 
 export function Footer() {
@@ -95,15 +95,15 @@ export function Footer() {
             </Link>
 
             <p className="text-sm text-gray-500 leading-relaxed mt-2">
-              Refusing to let your home or commercial space lose its shine. Experience the premium standard in professional cleaning.
+              Refuse Shine Cleaning LTD provides professional house cleaning, commercial cleaning, deep cleaning, end of tenancy cleaning and carpet cleaning services across Willenhall, Wolverhampton, Walsall, Birmingham and the West Midlands.
             </p>
 
             {/* Social Icons */}
             <div className="flex items-center gap-4 mt-2">
               {[
-                { icon: FacebookIcon, href: "https://facebook.com", label: "Facebook" },
-                { icon: InstagramIcon, href: "https://instagram.com", label: "Instagram" },
-                { icon: TwitterIcon, href: "https://twitter.com", label: "Twitter" },
+                { icon: FacebookIcon, href: "https://www.facebook.com/share/19PZ1ifR27/?mibextid=wwXIfr", label: "Facebook" },
+                { icon: InstagramIcon, href: "https://www.instagram.com/refuseshinecleaningltd/", label: "Instagram" },
+
               ].map((social, i) => (
                 <a
                   key={i}
@@ -165,14 +165,25 @@ export function Footer() {
             <ul className="flex flex-col gap-4 mt-2">
               <li>
                 <a href="tel:+447721714435" onClick={() => trackEvent("phone_click")} className="flex items-center gap-3 hover:text-white transition-colors cursor-pointer group text-sm text-white/90 font-medium">
-                  <Phone className="size-4.5 text-[#459B4A] group-hover:scale-110 transition-transform" />
+                  <Phone className="size-4.5 text-[#459B4A] group-hover:scale-110 transition-transform shrink-0" />
                   <span>+447721714435</span>
                 </a>
               </li>
               <li>
-                <a href="mailto:info@refuseshinecleaningltd.co.uk" onClick={()=> trackEvent("email_click")} className="flex items-center gap-3 hover:text-white transition-colors cursor-pointer group text-sm text-white/90 font-medium">
-                  <Mail className="size-4.5 text-[#459B4A] group-hover:scale-110 transition-transform" />
+                <a href="mailto:info@refuseshinecleaningltd.co.uk" onClick={() => trackEvent("email_click")} className="flex items-center gap-3 hover:text-white transition-colors cursor-pointer group text-sm text-white/90 font-medium">
+                  <Mail className="size-4.5 text-[#459B4A] group-hover:scale-110 transition-transform shrink-0" />
                   <span className="break-all">info@refuseshinecleaningltd.co.uk</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.google.com/maps/dir/?api=1&destination=Flat+24+Lichfield+House,+232+Lighfield+Road,+Willenhall,+England,+WV12+5AB"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-3 hover:text-white transition-colors cursor-pointer group text-sm text-white/90 font-medium"
+                >
+                  <MapPin className="size-4.5 text-[#459B4A] group-hover:scale-110 transition-transform shrink-0 mt-0.5" />
+                  <span>Flat 24 Lichfield House, 232 Lichfield Road, Willenhall, WV12 5AB</span>
                 </a>
               </li>
             </ul>

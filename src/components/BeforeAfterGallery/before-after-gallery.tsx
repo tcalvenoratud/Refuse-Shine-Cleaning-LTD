@@ -16,7 +16,7 @@ const TRANSFORMS_DATA = [
   },
   {
     id: "bathroom",
-    label: "Bathroom Clean",
+    label: "Bathroom Deep Cleaning",
     beforeImg: "/assets/before-after/bathroom-before.png",
     afterImg: "/assets/before-after/bathroom-after.png",
     beforeText: "Soap scum, heavy limescale deposits, and stained ceramic.",
@@ -67,7 +67,7 @@ export function BeforeAfterGallery() {
       <div className="absolute bottom-[20%] right-[-10%] -z-10 size-[300px] rounded-full bg-primary/5 dark:bg-primary/10 blur-3xl" />
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">
           <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-xs font-semibold text-primary dark:border-accent/30 dark:bg-accent/10 dark:text-accent shadow-sm">
@@ -76,14 +76,14 @@ export function BeforeAfterGallery() {
           </div>
 
           <h2 className="mt-6 text-3xl font-black tracking-tight text-foreground sm:text-4xl md:text-5xl font-heading leading-tight">
-            Before & After{" "}
+            Real Before & After{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Transformations
+              Cleaning Results
             </span>
           </h2>
 
           <p className="mt-4 text-base sm:text-lg text-foreground/80 dark:text-foreground/90 leading-relaxed">
-            See the difference our professional steam cleaning and deep scrub routines make. Drag or click the tabs below to view real results.
+            See real before and after results from our professional cleaning services. From kitchens and bathrooms to carpets and appliances, our experienced team delivers outstanding results across the West Midlands.
           </p>
         </div>
 
@@ -95,11 +95,10 @@ export function BeforeAfterGallery() {
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`px-5 py-2.5 sm:px-6 rounded-full text-base font-extrabold transition-all cursor-pointer border ${
-                  isActive
+                className={`px-5 py-2.5 sm:px-6 rounded-full text-base font-extrabold transition-all cursor-pointer border ${isActive
                     ? "bg-primary text-white border-primary shadow-md"
                     : "bg-card text-foreground/80 border-border hover:bg-muted/50"
-                }`}
+                  }`}
               >
                 {tab.label}
               </button>
@@ -127,8 +126,8 @@ export function BeforeAfterGallery() {
                     fill
                     sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-cover"
-                    priority
-                    quality={95}
+                    loading="lazy"
+                    quality={80}
                   />
                   {/* High Contrast Red Badge */}
                   <div className="absolute top-4 left-4 bg-red-600 text-white font-extrabold text-xs tracking-wider uppercase px-3.5 py-1.5 rounded-lg shadow-md">
@@ -157,8 +156,8 @@ export function BeforeAfterGallery() {
                     fill
                     sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-cover"
-                    priority
-                    quality={95}
+                    loading="lazy"
+                    quality={80}
                   />
                   {/* High Contrast Green Badge */}
                   <div className="absolute top-4 left-4 bg-accent text-white font-extrabold text-xs tracking-wider uppercase px-3.5 py-1.5 rounded-lg shadow-md">

@@ -6,7 +6,7 @@ import { ChevronDown, Sparkles } from "lucide-react"
 
 const FAQ_DATA = [
   {
-    question: "What cleaning services do you offer in the West Midlands?",
+    question: "What professional cleaning services do you offer in Willenhall and the West Midlands?",
     answer: "We provide comprehensive residential and commercial cleaning services. This includes regular domestic house cleaning (weekly/fortnightly), deep cleans, landlord-approved end-of-tenancy cleans, Airbnb guest changeover management, carpet steam cleaning, kitchen oven/appliance scrubbing, and window/waste removal."
   },
   {
@@ -18,16 +18,20 @@ const FAQ_DATA = [
     answer: "We bring all standard professional eco-friendly cleaning detergents, sprays, and fresh microfibre cloths. If you require specialty tools (like carpet hot-water extractors or industrial vacuums), we provide them as part of our premium service packages. Let us know during booking if you have any specific preferences."
   },
   {
-    question: "How does your 24-hour satisfaction guarantee work?",
-    answer: "We take pride in our spotless standards. If you are not completely satisfied with any area we cleaned, notify us within 24 hours of the service, and we will send a team back to reclean those specific spots free of charge."
-  },
-  {
-    question: "Are you fully insured against accidental damage?",
+    question: "Is Refuse Shine Cleaning LTD fully insured and DBS checked?",
     answer: "Yes, Refuse Shine Cleaning LTD carries comprehensive public liability insurance coverage up to £5M. In the highly unlikely event that any of your property or belongings are damaged during cleaning, you are fully protected."
   },
   {
-    question: "How do I book or reschedule my cleaning appointment?",
+    question: "How can I book a professional cleaning service in Willenhall or nearby areas?",
     answer: "You can request a free quote online or call us directly. Once booked, scheduling shifts or rescheduling is free as long as you notify us at least 24 hours before your scheduled appointment."
+  },
+  {
+    question: "Which areas do you cover?",
+    answer: "We provide professional cleaning services across Willenhall, Bilston, Walsall, Wolverhampton, Tipton, West Bromwich, Dudley, Birmingham, Cannock, Smethwick, Solihull, Tamworth, Stafford, Redditch and surrounding West Midlands locations."
+  },
+  {
+    question: "How much does professional cleaning cost?",
+    answer: "The cost depends on the size of your property, the type of cleaning service, and your location. Contact us for a free no-obligation quote."
   }
 ]
 
@@ -67,7 +71,7 @@ export function FAQ() {
       <div className="absolute bottom-[20%] right-[-10%] -z-10 size-[350px] rounded-full bg-primary/5 dark:bg-primary/10 blur-3xl" />
 
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">
           <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-xs font-semibold text-primary dark:border-accent/30 dark:bg-accent/10 dark:text-accent shadow-sm">
@@ -101,11 +105,10 @@ export function FAQ() {
               <motion.div
                 key={index}
                 variants={itemVariants}
-                className={`rounded-2xl border transition-all duration-300 overflow-hidden ${
-                  isOpen
+                className={`rounded-2xl border transition-all duration-300 overflow-hidden ${isOpen
                     ? "border-primary/45 bg-background dark:border-accent/40 shadow-md"
                     : "border-border/60 bg-background/50 hover:border-primary/20 dark:border-border/10 dark:bg-card/40 dark:hover:border-accent/20"
-                }`}
+                  }`}
               >
                 {/* Header/Button Trigger */}
                 <button
@@ -113,21 +116,19 @@ export function FAQ() {
                   className="w-full flex items-center justify-between gap-4 p-5 sm:p-6 text-left cursor-pointer select-none"
                   aria-expanded={isOpen}
                 >
-                  <span className={`text-base sm:text-lg font-bold leading-snug transition-colors ${
-                    isOpen ? "text-primary dark:text-accent font-black" : "text-foreground"
-                  }`}>
+                  <span className={`text-base sm:text-lg font-bold leading-snug transition-colors ${isOpen ? "text-primary dark:text-accent font-black" : "text-foreground"
+                    }`}>
                     {item.question}
                   </span>
-                  
+
                   {/* Chevron Icon with rotating animation */}
                   <motion.div
                     animate={{ rotate: isOpen ? 180 : 0 }}
                     transition={{ duration: 0.25, ease: "easeInOut" }}
-                    className={`shrink-0 rounded-full p-1 border transition-colors ${
-                      isOpen
+                    className={`shrink-0 rounded-full p-1 border transition-colors ${isOpen
                         ? "bg-primary/10 border-primary/20 text-primary dark:bg-accent/15 dark:border-accent/30 dark:text-accent"
                         : "bg-muted/50 border-border text-foreground/60"
-                    }`}
+                      }`}
                   >
                     <ChevronDown className="size-5" />
                   </motion.div>
