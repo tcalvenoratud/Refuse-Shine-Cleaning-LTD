@@ -22,176 +22,187 @@ import { Button } from "@/components/ui/button"
 
 const CATEGORIES = [
   { id: "all", label: "All Services" },
-  { id: "domestic", label: "Domestic Cleans" },
-  { id: "specialized", label: "Specialized Property" },
-  { id: "specialty", label: "Specialty Care" }
+  { id: "house", label: "House Cleaning" },
+  { id: "property", label: "Property Cleaning" },
+  { id: "specialty", label: "Specialty Cleaning" }
 ]
 
 const SERVICES_PAGE_DATA = [
   {
     id: "regular-clean",
-    category: "domestic",
+    category: "house",
     icon: Home,
     title: "Regular House Cleaning",
-    description: "Reliable, recurring cleaning scheduled weekly or fortnightly. Keep your home consistently fresh and tidy without the stress.",
+    description: "Professional weekly or fortnightly house cleaning services for busy homeowners across Willenhall and the West Midlands. We keep your property fresh, tidy and hygienic with flexible cleaning schedules tailored to your lifestyle.",
     checklist: [
-      "Dusting all furniture and surfaces",
-      "Vacuuming carpets & mopping hard floors",
-      "Same dedicated professional cleaner",
-      "General tidying and trash disposal"
+      "Weekly or Fortnightly House Cleaning",
+      "Dusting, Vacuuming & Floor Mopping",
+      "Kitchen & Bathroom Surface Cleaning",
+      "Reliable & Fully Insured Cleaning Team"
     ],
     accentColor: "from-primary/20 to-primary/5",
-    iconColor: "text-primary"
+    iconColor: "text-primary",
+    bookingCta: "Book House Cleaning"
   },
   {
     id: "deep-clean",
-    category: "domestic",
+    category: "house",
     icon: Sparkles,
     title: "Deep Cleaning",
-    description: "An intensive top-to-bottom sanitize of your space. Ideal for spring cleaning or restoring high-traffic areas to mint condition.",
+    description: "Our professional deep cleaning service removes built-up dirt, grease and bacteria from every room, making your home or business cleaner, healthier and ready for any occasion.",
     checklist: [
-      "Thorough sanitizing of toilets & showers",
-      "Wiping light switches & door frames",
-      "Cleaning behind and under heavy furniture",
-      "Detailed baseboard & door dusting"
+      "Complete Kitchen & Bathroom Deep Cleaning",
+      "High-Touch Surface Disinfection",
+      "Behind Furniture & Hard-to-Reach Areas",
+      "Skirting Boards, Doors & Frames Cleaned"
     ],
     accentColor: "from-accent/20 to-accent/5",
-    iconColor: "text-accent"
+    iconColor: "text-accent",
+    bookingCta: "Book Deep Cleaning"
   },
   {
     id: "kitchen-deep-clean",
-    category: "domestic",
+    category: "house",
     icon: Utensils,
     title: "Kitchen Deep Cleaning",
-    description: "Specialized deep scrub focusing strictly on the heart of your home to remove built-up oil, grease, and grime.",
+    description: "Restore your kitchen with a comprehensive deep cleaning service that removes grease, food residue and hidden dirt from worktops, cupboards, appliances and food preparation areas.",
     checklist: [
-      "Deep de-greasing of countertops & backsplashes",
-      "Scrubbing sink basins & polishing faucets",
-      "Polishing outer appliance cabinets & details",
-      "Sanitizing food prep surfaces & tiles"
+      "Kitchen Worktops & Cupboards Degreased",
+      "Sink, Taps & Splashback Deep Cleaned",
+      "Appliance Exterior Cleaning",
+      "Food Preparation Areas Sanitised"
     ],
     accentColor: "from-primary/20 to-primary/5",
-    iconColor: "text-primary"
+    iconColor: "text-primary",
+    bookingCta: "Book Kitchen Deep Cleaning"
   },
   {
     id: "bathroom-clean",
-    category: "domestic",
+    category: "house",
     icon: Bath,
     title: "Bathroom Cleaning",
-    description: "Comprehensive bathroom sanitizing to eliminate limescale, soap scum, and hard water stains.",
+    description: "Professional bathroom cleaning designed to remove soap scum, limescale and bacteria, leaving every surface fresh, sanitised and sparkling clean.",
     checklist: [
-      "Disinfecting toilets, tubs, and sinks",
-      "Scrubbing wall tiles and floor grouting",
-      "Polishing mirrors and shower glass doors",
-      "Limescale removal from chrome faucets"
+      "Toilets, Baths & Sinks Sanitised",
+      "Shower Screens & Wall Tiles Cleaned",
+      "Mirrors, Chrome & Fixtures Polished",
+      "Limescale & Soap Scum Removed"
     ],
     accentColor: "from-accent/20 to-accent/5",
-    iconColor: "text-accent"
+    iconColor: "text-accent",
+    bookingCta: "Book Bathroom Cleaning"
   },
   {
     id: "end-of-tenancy",
-    category: "specialized",
+    category: "property",
     icon: Key,
     title: "End of Tenancy Cleaning",
-    description: "Rigid, landlord-checklist approved deep cleaning designed to ensure security deposit returns for tenants and landlords.",
+    description: "Landlord-approved end of tenancy cleaning services that help tenants leave properties spotless and maximise deposit returns throughout the West Midlands.",
     checklist: [
-      "Full internal cabinet & wardrobe cleans",
-      "Detailed oven, fridge, and microwave scrub",
-      "Window frames & glass washing (internal)",
-      "100% deposit return satisfaction guarantee"
+      "Landlord & Letting Agent Standard Cleaning",
+      "Kitchen Appliances Deep Cleaned",
+      "Internal Windows, Frames & Sills Cleaned",
+      "Ideal for End of Tenancy Inspections"
     ],
     accentColor: "from-primary/20 to-accent/5",
-    iconColor: "text-primary"
+    iconColor: "text-primary",
+    bookingCta: "Book End of Tenancy Cleaning"
   },
   {
     id: "move-in-out",
-    category: "specialized",
+    category: "property",
     icon: Truck,
     title: "Move-In / Move-Out Cleaning",
-    description: "Ensure your new home is sterilized before unpacking, or leave your old property in flawless condition for the next occupants.",
+    description: "Prepare your property before moving in or leave it in excellent condition before handing over the keys with our comprehensive move-in and move-out cleaning service.",
     checklist: [
-      "Thorough sanitization of empty cabinets",
-      "Dusting walls, registers, and baseboards",
-      "Deep room disinfecting before unpacking",
-      "Detailed floor-to-ceiling clean-up"
+      "Complete Property Deep Cleaning",
+      "Kitchen & Bathroom Sanitisation",
+      "Empty Cupboards & Storage Cleaned",
+      "Ready for Moving In or Moving Out"
     ],
     accentColor: "from-accent/20 to-primary/5",
-    iconColor: "text-accent"
+    iconColor: "text-accent",
+    bookingCta: "Book Move-In/Out Cleaning"
   },
   {
     id: "airbnb-clean",
-    category: "specialized",
+    category: "property",
     icon: Calendar,
     title: "Airbnb & Short Let Cleaning",
-    description: "Fast-turnaround guest changeovers to keep your review ratings high. We handle linen setup, staging, and check-ins.",
+    description: "Fast and reliable Airbnb cleaning services designed to keep your property guest-ready with fresh linen preparation, cleaning and presentation between every stay.",
     checklist: [
-      "Rapid guest turnaround staging",
-      "Linen stripping & fresh bed prep",
-      "Toiletries & amenity restocking",
-      "Property damage reporting checks"
+      "Fast Airbnb Turnaround Cleaning",
+      "Fresh Linen & Bed Preparation",
+      "Bathroom & Kitchen Sanitisation",
+      "Guest-Ready Property Presentation"
     ],
     accentColor: "from-primary/20 to-primary/5",
-    iconColor: "text-primary"
+    iconColor: "text-primary",
+    bookingCta: "Book Airbnb Cleaning Service"
   },
   {
     id: "carpet-clean",
     category: "specialty",
     icon: Layers,
     title: "Carpet Cleaning",
-    description: "Professional hot-water extraction to wash fibers, lift embedded dirt, and remove stubborn coffee or liquid stains.",
+    description: "Professional carpet cleaning using advanced equipment to remove dirt, stains and odours while restoring the appearance of your carpets.",
     checklist: [
-      "Deep hot-water steam extraction",
-      "Stain removal and deodorizing wash",
-      "Eco-friendly, child and pet-safe products",
-      "High-suction rapid drying process"
+      "Professional Carpet Deep Cleaning",
+      "Stain & Odour Removal",
+      "Safe for Children & Pets",
+      "Fast Drying Carpet Treatment"
     ],
     accentColor: "from-accent/20 to-accent/5",
-    iconColor: "text-accent"
+    iconColor: "text-accent",
+    bookingCta: "Book Carpet Cleaning Service"
   },
   {
     id: "appliance-clean",
     category: "specialty",
     icon: Flame,
     title: "Appliance Cleaning",
-    description: "Restore your heavy kitchen appliances (ovens, fridges, microwaves) to like-new condition by stripping away burnt grease.",
+    description: "Deep appliance cleaning for ovens, refrigerators and microwaves, removing grease, burnt residue and built-up dirt to restore a hygienic finish.",
     checklist: [
-      "Oven interior carbon & grease removal",
-      "Refrigerator sanitizing & defogging",
-      "Microwave steam-scrubbing & clean",
-      "Polishing exterior panels & grates"
+      "Oven Deep Cleaning & Degreasing",
+      "Fridge & Microwave Sanitisation",
+      "Grease & Burnt Residue Removal",
+      "Kitchen Appliance Exterior Polishing"
     ],
     accentColor: "from-primary/20 to-accent/5",
-    iconColor: "text-primary"
+    iconColor: "text-primary",
+    bookingCta: "Book Appliance Cleaning Service"
   },
   {
     id: "window-clean",
     category: "specialty",
     icon: LayoutGrid,
     title: "Window Cleaning",
-    description: "Streak-free glass washing for internal windows, plus external wash where safely accessible and permitted.",
+    description: "Professional streak-free window cleaning for homes and businesses, leaving glass, frames and sills spotless inside and where safely accessible outside.",
     checklist: [
-      "Internal glass squeegee washing",
-      "Frame, sill, and track detailing",
-      "External window wash (where permitted)",
-      "Fully insured, streak-free guarantee"
+      "Internal Window Glass Cleaning",
+      "Frames, Sills & Window Tracks Cleaned",
+      "External Window Cleaning Available",
+      "Streak-Free Professional Finish"
     ],
     accentColor: "from-accent/20 to-primary/5",
-    iconColor: "text-accent"
+    iconColor: "text-accent",
+    bookingCta: "Book Window Cleaning Service"
   },
   {
     id: "waste-removal",
     category: "specialty",
     icon: Trash2,
     title: "Waste Removal",
-    description: "Safe, fully certified removal of domestic junk, clutter, and household waste items with eco-conscious disposal.",
+    description: "Safe and reliable household waste removal services with responsible disposal, helping you clear unwanted items quickly and efficiently.",
     checklist: [
-      "Certified household junk clearance",
-      "Eco-friendly disposal and recycling",
-      "Post-clearance swept clean check",
-      "Fully insured, background-checked staff"
+      "Household Waste & Junk Removal",
+      "Responsible Recycling & Disposal",
+      "Property Cleared & Tidied",
+      "Reliable & Fully Insured Team"
     ],
     accentColor: "from-primary/20 to-primary/5",
-    iconColor: "text-primary"
+    iconColor: "text-primary",
+    bookingCta: "Book Waste Removal Service"
   }
 ]
 
@@ -226,28 +237,28 @@ export default function ServicesClient() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      
+
       {/* 1. Hero Header */}
       <section className="relative overflow-hidden bg-background pt-12 pb-8 md:pt-16 md:pb-12 border-b border-border/40 dark:border-border/10">
         <div className="absolute top-[-10%] right-[-10%] -z-10 size-[300px] sm:size-[500px] rounded-full bg-primary/5 dark:bg-primary/10 blur-3xl" />
         <div className="absolute bottom-[-10%] left-[-10%] -z-10 size-[300px] sm:size-[500px] rounded-full bg-accent/5 dark:bg-accent/10 blur-3xl" />
-        
+
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-xs font-semibold text-primary dark:border-accent/30 dark:bg-accent/10 dark:text-accent shadow-sm">
               <Sparkles className="size-3.5 text-accent animate-pulse" />
-              <span>Full Service Catalog</span>
+              <span>Professional Cleaning Services</span>
             </div>
 
-            <h1 className="mt-6 text-4xl font-black tracking-tight text-foreground sm:text-5xl md:text-6xl font-heading leading-[1.1]">
-              Our Professional
+            <h1 className="mt-6 text-3xl font-black tracking-tight text-foreground sm:text-4xl md:text-5xl font-heading leading-[1.1]">
+              Professional Cleaning Services in
               <span className="block mt-2 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Cleaning Services
+                Willenhall & West Midlands
               </span>
             </h1>
 
             <p className="mt-6 text-lg sm:text-xl text-foreground/80 dark:text-foreground/90 leading-relaxed font-medium">
-              Explore our comprehensive range of cleaning options across the West Midlands. We offer bespoke checklists tailored for your household or commercial property.
+              Refuse Shine Cleaning LTD provides trusted residential and commercial cleaning services across Willenhall, Wolverhampton, Walsall, Dudley, West Bromwich, Cannock, Birmingham and surrounding West Midlands locations. From regular house cleaning to end of tenancy cleaning, deep cleaning, carpet cleaning and Airbnb cleaning, our fully insured team delivers spotless results every time.
             </p>
           </div>
         </div>
@@ -263,11 +274,10 @@ export default function ServicesClient() {
                 <button
                   key={cat.id}
                   onClick={() => setActiveFilter(cat.id)}
-                  className={`px-5 py-2 sm:px-6 sm:py-2.5 rounded-full text-base font-extrabold transition-all cursor-pointer border ${
-                    isActive
-                      ? "bg-primary text-white border-primary shadow-md"
-                      : "bg-background text-foreground/80 border-border/60 hover:bg-muted/50 dark:bg-card/40 dark:border-border/10"
-                  }`}
+                  className={`px-5 py-2 sm:px-6 sm:py-2.5 rounded-full text-base font-extrabold transition-all cursor-pointer border ${isActive
+                    ? "bg-primary text-white border-primary shadow-md"
+                    : "bg-background text-foreground/80 border-border/60 hover:bg-muted/50 dark:bg-card/40 dark:border-border/10"
+                    }`}
                 >
                   {cat.label}
                 </button>
@@ -329,8 +339,8 @@ export default function ServicesClient() {
                     <div className="mt-8 pt-4">
                       <Link href={`/book?service=${service.id}`} className="w-full">
                         <Button className="w-full h-11 bg-primary hover:bg-primary/95 text-primary-foreground font-bold rounded-xl shadow-md transition-all cursor-pointer flex items-center justify-center gap-1.5 group/card-btn">
-                           <span>Book This Service</span>
-                           <ArrowRight className="size-4 group-hover/card-btn:translate-x-1 transition-transform" />
+                          <span>{service.bookingCta || "Book This Service"}</span>
+                          <ArrowRight className="size-4 group-hover/card-btn:translate-x-1 transition-transform" />
                         </Button>
                       </Link>
                     </div>
@@ -348,25 +358,25 @@ export default function ServicesClient() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-black text-foreground sm:text-4xl font-heading leading-tight">
-              Need a Custom{" "}
+              Need a Tailored{" "}
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Cleaning Checklist?
+                Cleaning Service?
               </span>
             </h2>
             <p className="mt-4 text-base sm:text-lg text-foreground/80 dark:text-foreground/90 leading-relaxed font-medium">
-              We specialize in creating tailored plans matching your specific spaces and budget requirements. Let's arrange a package that fits you perfectly.
+              Every property is different. Whether you need a one-off deep clean, regular domestic cleaning or a customised commercial cleaning schedule, we'll create a cleaning plan that suits your requirements and budget.
             </p>
-            
+
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link href="/book">
                 <Button
                   className="h-12 bg-primary hover:bg-primary/95 dark:bg-primary dark:hover:bg-primary/90 text-primary-foreground font-bold rounded-xl px-8 shadow-lg shadow-primary/20 transition-all cursor-pointer flex items-center justify-center gap-2 group/btn"
                 >
-                  <span>Request Custom Quote</span>
+                  <span>Get Your Free Cleaning Quote</span>
                   <ArrowRight className="size-4 group-hover/btn:translate-x-1 transition-transform" />
                 </Button>
               </Link>
-              
+
               <Link href="/contact">
                 <Button
                   variant="outline"
