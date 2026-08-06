@@ -40,6 +40,103 @@ export const metadata: Metadata = {
   }
 };
 
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": "Refuse Shine Cleaning LTD",
+  "image": "https://www.refuseshinecleaningltd.co.uk/assets/logo/logo.jpeg",
+  "@id": "https://www.refuseshinecleaningltd.co.uk/#organization",
+  "url": "https://www.refuseshinecleaningltd.co.uk",
+  "telephone": "+44 7721 714435",
+  "email": "info@refuseshinecleaningltd.co.uk",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Flat 24 Lichfield House, 232 Lichfield Road",
+    "addressLocality": "Willenhall",
+    "addressRegion": "West Midlands",
+    "postalCode": "WV12 5AB",
+    "addressCountry": "GB"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 52.599042971987595,
+    "longitude": -2.0583594877717467
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "08:00",
+    "closes": "18:00"
+  },
+  "sameAs": [
+    "https://www.facebook.com/share/19PZ1ifR27/?mibextid=wwXIfr",
+    "https://www.instagram.com/refuseshinecleaningltd/"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "8"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "monisola Ololade"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "reviewBody": "Excellent experience from start to finish. Refuse Shine Cleaning Ltd provided a high-quality cleaning service with great attention to detail. The team was reliable, respectful of my home, and left everything looking immaculate."
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Mummy Agi"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "reviewBody": "I recently used Refuse Shine Cleaning Ltd for a deep clean of my property, and I couldn't be happier with the results. The team arrived on time, were polite and professional, and paid great attention to detail."
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Patrick Adjaye"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "reviewBody": "Honestly they went above and beyond expectations. I've been disappointed before by other cleaners but these guys did an outstanding job. Even areas that usually get overlooked were cleaned thoroughly."
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Mama Deboura"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "reviewBody": "Absolutely fantastic service from Refuse Shine Cleaning Ltd. The team was friendly, professional, and incredibly thorough. They transformed my home and paid attention to every detail."
+    }
+  ]
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -52,6 +149,10 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        />
         <ThemeProvider
           attribute="class"
           defaultTheme="light"

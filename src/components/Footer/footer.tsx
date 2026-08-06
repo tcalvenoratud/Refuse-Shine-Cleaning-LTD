@@ -180,7 +180,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.google.com/maps/dir/?api=1&destination=Flat+24+Lichfield+House,+232+Lighfield+Road,+Willenhall,+England,+WV12+5AB"
+                  href="https://www.google.com/maps/dir/?api=1&destination=Flat+24+Lichfield+House,+232+Lichfield+Road,+Willenhall,+England,+WV12+5AB"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-start gap-3 hover:text-white transition-colors cursor-pointer group text-sm text-white/90 font-medium"

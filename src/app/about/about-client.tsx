@@ -62,13 +62,13 @@ const statsData = [
 export default function AboutClient() {
   return (
     <div className="flex flex-col min-h-screen">
-      
+
       {/* 1. Header Hero Section */}
       <section className="relative overflow-hidden bg-background pt-12 pb-8 md:pt-16 md:pb-12 lg:pb-16 border-b border-border/40 dark:border-border/10">
         {/* Background glows */}
         <div className="absolute top-[-10%] right-[-10%] -z-10 size-[300px] sm:size-[500px] rounded-full bg-primary/5 dark:bg-primary/10 blur-3xl" />
         <div className="absolute bottom-[-10%] left-[-10%] -z-10 size-[300px] sm:size-[500px] rounded-full bg-accent/5 dark:bg-accent/10 blur-3xl" />
-        
+
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -84,15 +84,15 @@ export default function AboutClient() {
 
             {/* Title */}
             <h1 className="mt-6 text-4xl font-black tracking-tight text-foreground sm:text-5xl md:text-6xl font-heading leading-[1.1]">
-              Our Story, Our Mission &
+              Trusted Professional Cleaning Services in
               <span className="block mt-2 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Our Spotless Standards
+                West Midlands
               </span>
             </h1>
 
             {/* Subheading */}
             <p className="mt-6 text-lg sm:text-xl text-foreground/80 dark:text-foreground/90 leading-relaxed font-medium">
-              We are committed to delivering reliable, safe, and premium cleaning services across the West Midlands, tailored to your household and commercial needs.
+              Refuse Shine Cleaning LTD provides trusted residential and commercial cleaning services across Willenhall, Wolverhampton, Walsall, Dudley, Birmingham and surrounding West Midlands areas. Our fully insured, DBS-checked team is committed to delivering reliable, high-quality cleaning with outstanding customer care.
             </p>
           </motion.div>
         </div>
@@ -137,7 +137,7 @@ export default function AboutClient() {
       <section className="relative overflow-hidden bg-background pt-10 pb-8 md:pt-14 md:pb-12 lg:pb-16 border-b border-border/40 dark:border-border/10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-16 items-center">
-            
+
             {/* Left Column: Extensive, readable text details */}
             <motion.div
               className="flex flex-col lg:col-span-7 text-left"
@@ -160,13 +160,13 @@ export default function AboutClient() {
 
               <div className="mt-6 space-y-6 text-base sm:text-lg text-foreground/80 dark:text-foreground/90 font-medium leading-relaxed">
                 <p>
-                  Refuse Shine Cleaning LTD was founded with a clear vision: to provide premier cleaning services that go beyond surface-level sweeps. We understand that letting someone into your home or business requires immense trust. That is why we built our foundation on rigid safety vetting, complete liability insurance, and a team of patient, caring cleaners.
+                  Refuse Shine Cleaning LTD was founded with a simple mission—to provide reliable, professional cleaning services that people can genuinely trust. We know that inviting a cleaning team into your home or business requires confidence, which is why every member of our team is carefully vetted, fully insured, and committed to delivering exceptional service. From regular house cleaning to specialist deep cleaning, we focus on quality, reliability, and attention to detail in every visit.
                 </p>
                 <p>
-                  We are proud to serve the West Midlands, particularly helping busy families, short-let hosts, and older individuals who deserve a safe, sparkling space without lifting a finger. Our team takes special care when working with seniors, ensuring our cleanings are non-intrusive, patient, and focus on details like hard-to-reach dusting and eco-friendly products.
+                  Based in the West Midlands, we proudly serve homeowners, landlords, businesses, and Airbnb hosts across Willenhall, Wolverhampton, Walsall, Dudley, Birmingham, and surrounding areas. Whether it's a weekly domestic clean, an end of tenancy service, commercial cleaning, or a one-off deep clean, we tailor every service to meet the unique needs of our customers while maintaining consistently high standards.
                 </p>
                 <p>
-                  Whether you need scheduled weekly home visits, an intensive deep-clean check, or commercial contract services, Refuse Shine remains dedicated to spotless standards and complete peace of mind.
+                  Our goal is not simply to clean properties—it is to create healthier, more comfortable spaces where people can live and work with confidence. By combining experienced professionals, eco-friendly cleaning products, and a customer-first approach, Refuse Shine Cleaning LTD continues to build long-term relationships with clients who value dependable, high-quality cleaning services throughout the West Midlands.
                 </p>
               </div>
             </motion.div>
@@ -181,12 +181,12 @@ export default function AboutClient() {
             >
               <div className="p-8 rounded-3xl border border-border/60 bg-card/60 dark:border-border/10 dark:bg-card/40 backdrop-blur-sm shadow-md relative overflow-hidden group">
                 <div className="absolute top-0 right-0 -z-10 size-24 bg-gradient-to-br from-primary/5 to-accent/5 rounded-bl-full group-hover:scale-110 transition-transform duration-500" />
-                
+
                 <h3 className="text-xl font-extrabold text-foreground flex items-center gap-2">
                   <CheckCircle className="size-5.5 text-accent shrink-0" />
                   <span>Our Promise to You</span>
                 </h3>
-                
+
                 <ul className="mt-6 space-y-4">
                   <li className="flex items-start gap-3 text-base text-foreground/80 dark:text-foreground/90 font-semibold">
                     <div className="size-2 rounded-full bg-primary shrink-0 mt-2" />
@@ -220,7 +220,7 @@ export default function AboutClient() {
       {/* 4. Core Values Section */}
       <section className="relative overflow-hidden bg-card/40 dark:bg-secondary/10 pt-10 pb-8 md:pt-14 md:pb-12 lg:pb-16 border-b border-border/40 dark:border-border/10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          
+
           {/* Header */}
           <div className="text-center max-w-3xl mx-auto mb-16">
             <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-xs font-semibold text-primary dark:border-accent/30 dark:bg-accent/10 dark:text-accent shadow-sm">
@@ -316,15 +316,15 @@ export default function AboutClient() {
             className="max-w-3xl mx-auto"
           >
             <h2 className="text-3xl font-black text-foreground sm:text-4xl font-heading leading-tight">
-              Ready to Experience the{" "}
+              Looking for a Trusted {" "}
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Shine?
+                Cleaning Company?
               </span>
             </h2>
             <p className="mt-4 text-base sm:text-lg text-foreground/80 dark:text-foreground/90 leading-relaxed font-medium">
-              Join dozens of satisfied homes and businesses across the West Midlands. Book your vetted cleaner today!
+              Book your trusted, fully insured cleaning team today and discover why homeowners and businesses across the West Midlands choose Refuse Shine Cleaning LTD.
             </p>
-            
+
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link href="/book">
                 <Button
@@ -334,7 +334,7 @@ export default function AboutClient() {
                   <ArrowRight className="size-4 group-hover/btn:translate-x-1 transition-transform" />
                 </Button>
               </Link>
-              
+
               <Link href="/contact">
                 <Button
                   variant="outline"

@@ -125,18 +125,18 @@ export default function ContactClient() {
           <div className="max-w-3xl mx-auto">
             <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-xs font-semibold text-primary dark:border-accent/30 dark:bg-accent/10 dark:text-accent shadow-sm">
               <Sparkles className="size-3.5 text-accent animate-pulse" />
-              <span>Contact Us Today</span>
+              <span>Contact Refuse Shine Cleaning LTD</span>
             </div>
 
             <h1 className="mt-6 text-4xl font-black tracking-tight text-foreground sm:text-5xl md:text-6xl font-heading leading-[1.1]">
-              Get In Touch
+              Professional Cleaning Services Across
               <span className="block mt-2 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                With Our Friendly Team
+                the West Midlands
               </span>
             </h1>
 
             <p className="mt-6 text-lg sm:text-xl text-foreground/80 dark:text-foreground/90 leading-relaxed font-medium">
-              Have questions, need an estimate, or want to schedule a clean? Reach out using the details below or fill out the quick contact form. We're here to help!
+              Need a free cleaning quote or have questions about our services? Contact Refuse Shine Cleaning LTD today. We provide professional house cleaning, deep cleaning, end of tenancy cleaning and commercial cleaning services across Willenhall, Wolverhampton, Walsall, Dudley, Birmingham and surrounding West Midlands areas.
             </p>
           </div>
         </div>
@@ -233,10 +233,10 @@ export default function ContactClient() {
                 </div>
 
                 <h2 className="text-2xl sm:text-3xl font-black text-foreground tracking-tight flex items-center gap-2 mb-2">
-                  Send A Message
+                  Request Your Free Cleaning Quote
                 </h2>
                 <p className="text-base sm:text-lg text-foreground/80 dark:text-foreground/90 font-medium mb-6">
-                  Fill out the fields below, and our booking co-ordinator will reach out to organize your request.
+                  Complete the short form below and our team will contact you to discuss your cleaning requirements and provide a free, no-obligation quotation.
                 </p>
 
                 <AnimatePresence mode="wait">
@@ -253,7 +253,7 @@ export default function ContactClient() {
                       </div>
                       <h3 className="text-2xl font-black text-foreground">Message Sent Successfully!</h3>
                       <p className="mt-3 text-base sm:text-lg text-foreground/80 dark:text-foreground/90 leading-relaxed font-medium max-w-md mx-auto">
-                        Thank you for contacting Refuse Shine Cleaning LTD. Our team will review your submission details and reach back to you within 2 hours.
+                        Thank you for contacting Refuse Shine Cleaning LTD. One of our team members will contact you shortly to discuss your cleaning requirements and arrange your free quotation.
                       </p>
 
                       <div className="mt-8 p-4 bg-muted/30 dark:bg-muted/10 border border-border/40 dark:border-border/10 rounded-2xl text-left w-full max-w-sm">
@@ -366,7 +366,7 @@ export default function ContactClient() {
                             name="message"
                             required
                             rows={4}
-                            placeholder="Please tell us about your property size, requested dates, or special notes..."
+                            placeholder="Tell us about your property, preferred cleaning service, postcode, preferred date and any special requirements."
                             value={formData.message}
                             onChange={handleInputChange}
                             className="w-full rounded-xl border border-border/60 bg-background px-4 py-2.5 text-base sm:text-lg text-foreground placeholder-foreground/40 font-semibold focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent dark:border-border/10 dark:bg-muted/10 transition-all resize-y"
@@ -425,7 +425,7 @@ export default function ContactClient() {
                 <div className="mt-3 px-2 flex justify-between items-center">
                   <span className="text-sm font-bold text-foreground/70">Willenhall, England, WV12</span>
                   <a
-                    href="https://www.google.com/maps/dir/?api=1&destination=Flat+24+Lichfield+House,+232+Lighfield+Road,+Willenhall,+England,+WV12+5AB"
+                    href="https://www.google.com/maps/dir/?api=1&destination=Flat+24+Lichfield+House,+232+Lichfield+Road,+Willenhall,+England,+WV12+5AB"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm font-extrabold text-primary hover:text-primary/95 dark:text-accent dark:hover:text-accent/95 flex items-center gap-1 transition-colors cursor-pointer"
