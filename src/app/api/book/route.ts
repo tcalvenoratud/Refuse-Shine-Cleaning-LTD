@@ -6,6 +6,7 @@ const SERVICE_NAMES: Record<string, string> = {
   "regular-clean": "Regular Clean",
   "deep-clean": "Deep Clean",
   "end-of-tenancy": "End of Tenancy Clean",
+  "post-construction": "Post-Construction Clean",
   "office-clean": "Office Clean",
   "airbnb-clean": "Airbnb Clean"
 }

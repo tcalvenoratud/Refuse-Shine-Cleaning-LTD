@@ -16,7 +16,8 @@ import {
   Bath,
   Truck,
   Flame,
-  LayoutGrid
+  LayoutGrid,
+  Hammer
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
@@ -139,6 +140,22 @@ const SERVICES_PAGE_DATA = [
     accentColor: "from-primary/20 to-primary/5",
     iconColor: "text-primary",
     bookingCta: "Book Airbnb Cleaning Service"
+  },
+  {
+    id: "post-construction",
+    category: "property",
+    icon: Hammer,
+    title: "Post Construction Cleaning",
+    description: "Professional post-construction and after-builders cleaning to remove fine dust, plaster residue, paint splatters and construction debris, leaving your newly built or renovated space ready to enjoy.",
+    checklist: [
+      "Thorough Construction Dust & Debris Removal",
+      "Paint, Plaster & Adhesive Residue Cleanup",
+      "Deep Clean of Sills, Skirtings & Fixtures",
+      "Ready-to-Move-In Property Handover"
+    ],
+    accentColor: "from-accent/20 to-primary/5",
+    iconColor: "text-accent",
+    bookingCta: "Book Post-Construction Clean"
   },
   {
     id: "carpet-clean",

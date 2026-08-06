@@ -33,6 +33,7 @@ const SERVICES_CARDS = [
   { id: "regular-clean", label: "Regular Clean", desc: "Weekly or fortnightly scheduled sweep" },
   { id: "deep-clean", label: "Deep Clean", desc: "Intensive top-to-bottom sterilization" },
   { id: "end-of-tenancy", label: "End of Tenancy Clean", desc: "Move-out landlord checklist clean" },
+  { id: "post-construction", label: "Post-Construction Clean", desc: "After-builders dust & debris removal" },
   { id: "office-clean", label: "Office Clean", desc: "Commercial & corporate office sweep" },
   { id: "airbnb-clean", label: "Airbnb Clean", desc: "Guest turnaround staging & linen prep" }
 ]
