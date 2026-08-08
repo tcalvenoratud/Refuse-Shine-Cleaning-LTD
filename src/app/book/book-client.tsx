@@ -30,12 +30,19 @@ import { trackEvent } from "@/lib/gtag"
 // static datasets
 // ----------------------------------------------------
 const SERVICES_CARDS = [
-  { id: "regular-clean", label: "Regular Clean", desc: "Weekly or fortnightly scheduled sweep" },
-  { id: "deep-clean", label: "Deep Clean", desc: "Intensive top-to-bottom sterilization" },
-  { id: "end-of-tenancy", label: "End of Tenancy Clean", desc: "Move-out landlord checklist clean" },
-  { id: "post-construction", label: "Post-Construction Clean", desc: "After-builders dust & debris removal" },
-  { id: "office-clean", label: "Office Clean", desc: "Commercial & corporate office sweep" },
-  { id: "airbnb-clean", label: "Airbnb Clean", desc: "Guest turnaround staging & linen prep" }
+  { id: "regular-clean", label: "Regular House Cleaning", desc: "Weekly or fortnightly recurring home clean" },
+  { id: "deep-clean", label: "Deep Cleaning Services", desc: "Intensive room-by-room deep cleaning" },
+  { id: "kitchen-deep-clean", label: "Kitchen Deep Cleaning", desc: "Thorough kitchen degreasing & scrubbing" },
+  { id: "bathroom-clean", label: "Bathroom Cleaning", desc: "Scrubbing, descaling & sanitising washrooms" },
+  { id: "end-of-tenancy", label: "End of Tenancy Cleaning", desc: "Checkout inspection checklist clean" },
+  { id: "move-in-out", label: "Move-In / Move-Out Clean", desc: "Pre-move or post-move property cleaning" },
+  { id: "airbnb-clean", label: "Airbnb & Short Let Clean", desc: "Linen changeover & guest turnaround staging" },
+  { id: "post-construction", label: "Post Construction Clean", desc: "After-builders dust & plaster debris removal" },
+  { id: "carpet-clean", label: "Carpet Cleaning", desc: "Steam hot-water soil & stain extraction" },
+  { id: "appliance-clean", label: "Appliance Cleaning", desc: "Deep oven, fridge & microwave scrubbing" },
+  { id: "window-clean", label: "Window Cleaning", desc: "Streak-free internal & external glass detailing" },
+  { id: "waste-removal", label: "Waste Removal", desc: "Responsible household junk & rubbish disposal" },
+  { id: "office-clean", label: "Office & Commercial Clean", desc: "Scheduled workspace & office desk cleaning" }
 ]
 
 const FREQUENCY_OPTIONS = [

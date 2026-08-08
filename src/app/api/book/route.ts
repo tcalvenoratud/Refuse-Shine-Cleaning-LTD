@@ -3,12 +3,19 @@ import nodemailer from "nodemailer"
 
 // Map service IDs to readable titles
 const SERVICE_NAMES: Record<string, string> = {
-  "regular-clean": "Regular Clean",
-  "deep-clean": "Deep Clean",
-  "end-of-tenancy": "End of Tenancy Clean",
-  "post-construction": "Post-Construction Clean",
-  "office-clean": "Office Clean",
-  "airbnb-clean": "Airbnb Clean"
+  "regular-clean": "Regular House Cleaning",
+  "deep-clean": "Deep Cleaning Services",
+  "kitchen-deep-clean": "Kitchen Deep Cleaning",
+  "bathroom-clean": "Bathroom Cleaning",
+  "end-of-tenancy": "End of Tenancy Cleaning",
+  "move-in-out": "Move-In / Move-Out Clean",
+  "airbnb-clean": "Airbnb & Short Let Clean",
+  "post-construction": "Post Construction Clean",
+  "carpet-clean": "Carpet Cleaning",
+  "appliance-clean": "Appliance Cleaning",
+  "window-clean": "Window Cleaning",
+  "waste-removal": "Waste Removal",
+  "office-clean": "Office & Commercial Clean"
 }
 
 // Map frequency IDs to readable titles

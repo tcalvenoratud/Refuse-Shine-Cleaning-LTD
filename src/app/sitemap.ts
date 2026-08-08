@@ -1,9 +1,10 @@
 import { MetadataRoute } from "next";
+import { SERVICES_DATA } from "@/lib/services-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.refuseshinecleaningltd.co.uk";
 
-  return [
+  const staticRoutes: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
       lastModified: new Date(),
@@ -47,4 +48,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.5,
     },
   ];
+
+  const serviceRoutes = SERVICES_DATA.map((service) => ({
+    url: `${baseUrl}/services/${service.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.8,
+  }));
+
+  return [...staticRoutes, ...serviceRoutes];
 }

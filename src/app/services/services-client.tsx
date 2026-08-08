@@ -31,6 +31,7 @@ const CATEGORIES = [
 const SERVICES_PAGE_DATA = [
   {
     id: "regular-clean",
+    slug: "regular-house-cleaning",
     category: "house",
     icon: Home,
     title: "Regular House Cleaning",
@@ -47,6 +48,7 @@ const SERVICES_PAGE_DATA = [
   },
   {
     id: "deep-clean",
+    slug: "deep-cleaning",
     category: "house",
     icon: Sparkles,
     title: "Deep Cleaning",
@@ -63,6 +65,7 @@ const SERVICES_PAGE_DATA = [
   },
   {
     id: "kitchen-deep-clean",
+    slug: "kitchen-deep-cleaning",
     category: "house",
     icon: Utensils,
     title: "Kitchen Deep Cleaning",
@@ -79,6 +82,7 @@ const SERVICES_PAGE_DATA = [
   },
   {
     id: "bathroom-clean",
+    slug: "bathroom-cleaning",
     category: "house",
     icon: Bath,
     title: "Bathroom Cleaning",
@@ -95,6 +99,7 @@ const SERVICES_PAGE_DATA = [
   },
   {
     id: "end-of-tenancy",
+    slug: "end-of-tenancy-cleaning",
     category: "property",
     icon: Key,
     title: "End of Tenancy Cleaning",
@@ -333,7 +338,13 @@ export default function ServicesClient() {
 
                       {/* Title */}
                       <h2 className="text-[24px] font-extrabold text-foreground mt-4 group-hover:text-primary dark:group-hover:text-accent transition-colors">
-                        {service.title}
+                        {service.slug ? (
+                          <Link href={`/services/${service.slug}`} className="hover:underline">
+                            {service.title}
+                          </Link>
+                        ) : (
+                          service.title
+                        )}
                       </h2>
 
                       {/* Description */}
@@ -353,13 +364,29 @@ export default function ServicesClient() {
                     </div>
 
                     {/* Card Button */}
-                    <div className="mt-8 pt-4">
-                      <Link href={`/book?service=${service.id}`} className="w-full">
-                        <Button className="w-full h-11 bg-primary hover:bg-primary/95 text-primary-foreground font-bold rounded-xl shadow-md transition-all cursor-pointer flex items-center justify-center gap-1.5 group/card-btn">
-                          <span>{service.bookingCta || "Book This Service"}</span>
-                          <ArrowRight className="size-4 group-hover/card-btn:translate-x-1 transition-transform" />
-                        </Button>
-                      </Link>
+                    <div className="mt-8 pt-4 flex flex-col gap-2.5">
+                      {service.slug ? (
+                        <>
+                          <Link href={`/services/${service.slug}`} className="w-full">
+                            <Button className="w-full h-11 bg-primary hover:bg-primary/90 text-primary-foreground font-bold rounded-xl shadow-md transition-all cursor-pointer flex items-center justify-center gap-1.5">
+                              <span>View Service Details</span>
+                            </Button>
+                          </Link>
+                          <Link href={`/book?service=${service.id}`} className="w-full">
+                            <Button className="w-full h-11 bg-accent hover:bg-accent/90 text-white font-bold rounded-xl shadow-md transition-all cursor-pointer flex items-center justify-center gap-1.5 group/card-btn">
+                              <span>Book This Service</span>
+                              <ArrowRight className="size-4 group-hover/card-btn:translate-x-1 transition-transform" />
+                            </Button>
+                          </Link>
+                        </>
+                      ) : (
+                        <Link href={`/book?service=${service.id}`} className="w-full">
+                          <Button className="w-full h-11 bg-primary hover:bg-primary/95 text-primary-foreground font-bold rounded-xl shadow-md transition-all cursor-pointer flex items-center justify-center gap-1.5 group/card-btn">
+                            <span>{service.bookingCta || "Book This Service"}</span>
+                            <ArrowRight className="size-4 group-hover/card-btn:translate-x-1 transition-transform" />
+                          </Button>
+                        </Link>
+                      )}
                     </div>
 
                   </motion.div>
