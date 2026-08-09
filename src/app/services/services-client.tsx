@@ -116,6 +116,7 @@ const SERVICES_PAGE_DATA = [
   },
   {
     id: "move-in-out",
+    slug: "move-in-move-out-cleaning",
     category: "property",
     icon: Truck,
     title: "Move-In / Move-Out Cleaning",
@@ -132,6 +133,7 @@ const SERVICES_PAGE_DATA = [
   },
   {
     id: "airbnb-clean",
+    slug: "airbnb-short-let-cleaning",
     category: "property",
     icon: Calendar,
     title: "Airbnb & Short Let Cleaning",
@@ -148,6 +150,7 @@ const SERVICES_PAGE_DATA = [
   },
   {
     id: "post-construction",
+    slug: "post-construction-cleaning",
     category: "property",
     icon: Hammer,
     title: "Post Construction Cleaning",
@@ -164,6 +167,7 @@ const SERVICES_PAGE_DATA = [
   },
   {
     id: "carpet-clean",
+    slug: "carpet-cleaning",
     category: "specialty",
     icon: Layers,
     title: "Carpet Cleaning",
@@ -180,6 +184,7 @@ const SERVICES_PAGE_DATA = [
   },
   {
     id: "appliance-clean",
+    slug: "appliance-cleaning",
     category: "specialty",
     icon: Flame,
     title: "Appliance Cleaning",
@@ -196,6 +201,7 @@ const SERVICES_PAGE_DATA = [
   },
   {
     id: "window-clean",
+    slug: "window-cleaning",
     category: "specialty",
     icon: LayoutGrid,
     title: "Window Cleaning",
@@ -212,6 +218,7 @@ const SERVICES_PAGE_DATA = [
   },
   {
     id: "waste-removal",
+    slug: "waste-removal-services",
     category: "specialty",
     icon: Trash2,
     title: "Waste Removal",
