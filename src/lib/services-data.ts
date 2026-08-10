@@ -41,89 +41,137 @@ export const SERVICES_DATA: ServiceDetail[] = [
     id: "regular-clean",
     slug: "regular-house-cleaning",
     icon: Home,
+
     title: "Regular House Cleaning",
-    tagline: "Keep your home clean and tidy with our professional weekly or fortnightly recurring domestic cleaning services in Willenhall and Walsall.",
-    metaTitle: "Regular House Cleaning in Willenhall & West Midlands | Refuse Shine",
-    metaDescription: "Keep your home fresh with our weekly & fortnightly house cleaning in Willenhall, Walsall & surrounding areas. Reliable, vetted local cleaners. Get a free quote.",
+
+    tagline:
+      "Reliable regular house cleaning and domestic cleaning services in Willenhall, Walsall and surrounding West Midlands areas, with flexible weekly or fortnightly visits tailored to your home.",
+
+    metaTitle:
+      "Regular House Cleaning in Willenhall & West Midlands | Refuse Shine",
+
+    metaDescription:
+      "Professional regular house cleaning and domestic cleaning services in Willenhall, Walsall and the West Midlands. Weekly or fortnightly visits from vetted local cleaners. Get a free quote.",
+
     image: "/assets/services/regular-house-cleaning.png",
-    altText: "Professional house cleaner dusting and polishing surfaces in a tidy domestic living room",
-    introTitle: "Consistent, Reliable Domestic Cleaning Services",
-    introContent: "Refuse Shine Cleaning LTD provides dependable, recurring domestic house cleaning services tailored around your busy lifestyle. We understand that keeping a home fresh and organised is challenging when balancing work and family life. Operating across Willenhall, Walsall, and nearby West Midlands areas, our vetted and insured local cleaners handle all routine household chores. We focus on essential maintenance tasks, including dusting furniture, vacuuming carpets, mopping hard floors, and sanitising high-use kitchen and bathroom surfaces. By choosing our weekly or fortnightly recurring home cleaning, you ensure a consistently clean living space without losing your valuable weekends. Our friendly team works to a custom checklist to match your exact home preferences, offering the peace of mind that comes with a reliable, professional domestic cleaning service.",
-    includedTitle: "What is Included in Our Regular House Cleaning",
-    includedIntro: "Our recurring domestic cleaning checklist is designed to maintain high standards of hygiene and tidiness in your home with every visit:",
+
+    altText:
+      "Professional cleaner providing regular house cleaning in a tidy West Midlands home",
+
+    introTitle:
+      "Reliable Regular House Cleaning & Domestic Cleaning Services",
+
+    introContent:
+      "Refuse Shine Cleaning LTD provides professional regular house cleaning and domestic cleaning services for homeowners across Willenhall, Walsall and surrounding West Midlands areas. Our service is designed for busy households that want a consistently clean, fresh and comfortable home without spending their evenings and weekends on routine chores. We offer flexible weekly or fortnightly visits, with cleaning tailored to your property, priorities and preferred schedule. Our trained and vetted cleaners focus on the everyday tasks that keep your home looking its best, including dusting accessible surfaces, vacuuming carpets and rugs, mopping hard floors, cleaning kitchen surfaces and maintaining bathrooms. If you are looking for reliable house cleaning services from a local team, we provide a practical recurring cleaning solution with consistent standards and friendly service.",
+
+    includedTitle:
+      "What Is Included in Our Regular House Cleaning Service",
+
+    includedIntro:
+      "Our recurring domestic cleaning checklist covers the essential household tasks needed to maintain a clean, tidy and hygienic home between visits:",
+
     includedList: [
-      "Dusting and wiping furniture, shelves, ornaments, and accessible household surfaces",
-      "Vacuuming carpets, rugs, stairs, and accessible hard floor areas",
-      "Mopping hard floors with sanitising solutions to maintain freshness",
-      "Cleaning kitchen worktops, hobs, sink areas, and outer surfaces of appliances",
-      "Sanitising bathrooms, including scrubbing toilets, basins, and bath or shower fixtures",
-      "Emptying household waste bins and replacing bags for general tidying"
+      "Dusting and wiping furniture, shelves, ornaments and accessible household surfaces",
+      "Vacuuming carpets, rugs, stairs and accessible hard-floor areas",
+      "Mopping hard floors using suitable cleaning products for a fresh finish",
+      "Cleaning kitchen worktops, hobs, sink areas and accessible appliance surfaces",
+      "Cleaning and sanitising bathrooms, including toilets, basins, baths and shower fixtures",
+      "Emptying household waste bins, replacing bags and completing general light tidying"
     ],
-    forTitle: "Who This Service Is For",
-    forIntro: "Our recurring domestic cleaning is perfect for local households seeking a consistent cleaning schedule:",
+
+    forTitle:
+      "Who Is Our Regular House Cleaning Service For?",
+
+    forIntro:
+      "Our local house cleaning service is ideal for households that want dependable recurring cleaning without managing every chore themselves:",
+
     forList: [
-      "Busy professionals looking to reclaim their evenings and weekends",
-      "Families wanting to maintain a clean, tidy home environment for children",
-      "Elderly residents who need assistance with routine domestic chores",
-      "Pet owners seeking help with managing pet hair and dander build-up"
+      "Busy professionals who want to reclaim evenings and weekends",
+      "Families looking for consistent domestic cleaning around children and everyday routines",
+      "Elderly residents who need help with regular household cleaning tasks",
+      "Pet owners who want regular help managing everyday dust, pet hair and household dirt"
     ],
-    processTitle: "Our Regular Cleaning Process",
+
+    processTitle:
+      "Our Regular House Cleaning Process",
+
     processSteps: [
       {
         stepNumber: "01",
-        title: "Understand Your Cleaning Needs",
-        description: "We discuss your preferred schedule (weekly or fortnightly), home layout, and any specific chore priorities."
+        title: "Discuss Your Cleaning Needs",
+        description:
+          "We discuss your home, preferred weekly or fortnightly schedule, cleaning priorities and any specific areas you want us to focus on."
       },
       {
         stepNumber: "02",
         title: "Complete Your Scheduled Clean",
-        description: "Your regular cleaner arrives at the scheduled time to clean your home in accordance with your checklist."
+        description:
+          "Your assigned cleaner arrives at the agreed time and follows your personalised cleaning checklist to maintain your home to a consistent standard."
       },
       {
         stepNumber: "03",
-        title: "Maintain Your Recurring Routine",
-        description: "We keep your home clean with regular, dependable visits, adjusting our tasks whenever your needs change."
+        title: "Maintain Your Cleaning Routine",
+        description:
+          "We continue with dependable recurring visits, helping you maintain a consistently clean home while adjusting priorities when your household needs change."
       }
     ],
+
     whyChoose: [
       {
-        title: "Reliable Vetted Cleaners",
-        description: "All staff members are background checked and vetted for your complete security and peace of mind."
+        title: "Reliable Vetted Local Cleaners",
+        description:
+          "Our cleaners are trained, background checked and DBS vetted, giving local households greater confidence when welcoming a professional into their home."
       },
       {
-        title: "Flexible Recurring Plans",
-        description: "Easily adjust your cleaning visits, change priorities, or pause the service to match your schedule."
+        title: "Flexible Weekly or Fortnightly Cleaning",
+        description:
+          "Choose a recurring cleaning schedule that works around your household. We offer weekly and fortnightly visits with flexible cleaning priorities."
       },
       {
-        title: "Consistent Service Quality",
-        description: "We work to a detailed cleaning standard to ensure your property remains immaculate with every single visit."
+        title: "Consistent Cleaning Standards",
+        description:
+          "We work from a clear cleaning checklist so your regular house cleaning service remains consistent from visit to visit."
       }
     ],
-    areasContent: "We provide professional regular house cleaning services across Willenhall, Walsall, Wolverhampton, and surrounding West Midlands communities, helping local families maintain consistently clean homes.",
+
+    areasContent:
+      "We provide regular house cleaning and domestic cleaning services across Willenhall, Walsall, Wolverhampton, Dudley, West Bromwich, Birmingham and surrounding West Midlands communities. If you are searching for a local house cleaning service in your area, our team can arrange a recurring cleaning schedule based on your home and requirements.",
+
     faqs: [
       {
         question: "How often can I book regular house cleaning?",
-        answer: "Our domestic cleaning services can be booked weekly or fortnightly. We work with you to establish a regular day and time that fits seamlessly into your household routine."
+        answer:
+          "You can book our regular house cleaning service weekly or fortnightly. We can discuss your household routine, property size and cleaning priorities to help you choose a suitable schedule."
       },
       {
-        question: "Do you offer weekly and fortnightly cleaning?",
-        answer: "Yes, we offer both weekly and fortnightly options. A weekly clean is ideal for active households with children or pets, while fortnightly services work well for general maintenance."
+        question: "Do you offer weekly and fortnightly domestic cleaning?",
+        answer:
+          "Yes. We provide both weekly and fortnightly domestic cleaning services. Weekly cleaning is useful for busy households, families and homes with pets, while fortnightly cleaning can provide reliable ongoing maintenance."
       },
       {
         question: "What is included in regular house cleaning?",
-        answer: "Our regular service covers dusting accessible surfaces, vacuuming carpets, mopping hard floors, wiping kitchen countertops and hobs, scrubbing bathrooms, and light tidying."
+        answer:
+          "Our regular service includes dusting accessible surfaces, vacuuming carpets and rugs, mopping hard floors, cleaning kitchen surfaces, maintaining bathrooms, emptying household bins and light general tidying."
       },
       {
-        question: "Can I request the same cleaner?",
-        answer: "Yes, we always aim to assign the same regular cleaner to your property. This allows them to become familiar with your home layout, checklists, and personal preferences."
+        question: "Do you provide house cleaning services near me?",
+        answer:
+          "We provide local house cleaning services across Willenhall, Walsall, Wolverhampton, Dudley, West Bromwich, Birmingham and surrounding West Midlands areas. Contact us to confirm availability in your specific area."
       },
       {
-        question: "Can I change my cleaning schedule?",
-        answer: "Absolutely. If you need to skip a visit, change your regular day, or temporarily pause service, simply notify us at least 24 hours in advance and we will accommodate your request."
+        question: "Can I request the same cleaner for every visit?",
+        answer:
+          "We always aim to provide the same regular cleaner where availability allows. This helps your cleaner become familiar with your home, cleaning checklist and preferences."
+      },
+      {
+        question: "Can I change my regular cleaning schedule?",
+        answer:
+          "Yes. If you need to change your cleaning day, skip a visit or temporarily pause your recurring service, contact us as early as possible and we will do our best to accommodate your requirements."
       },
       {
         question: "Do you bring your own cleaning products?",
-        answer: "We supply our own high-quality cleaning sprays and microfibre cloths for regular cleaning. If you prefer us to use specific products on your floors or furniture, just let us know."
+        answer:
+          "We bring suitable professional cleaning products and microfibre cloths for regular domestic cleaning. If you prefer specific products to be used on certain surfaces, please let our team know before the visit."
       }
     ]
   },
