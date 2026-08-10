@@ -179,89 +179,137 @@ export const SERVICES_DATA: ServiceDetail[] = [
     id: "deep-clean",
     slug: "deep-cleaning",
     icon: Sparkles,
+
     title: "Deep Cleaning Services",
-    tagline: "Restore comfort and hygiene to your home or office with a thorough, detailed deep clean in Willenhall and surrounding areas.",
-    metaTitle: "Deep Cleaning Services in Willenhall & West Midlands | Refuse Shine",
-    metaDescription: "Restore hygiene with our intensive deep cleaning services in Willenhall, Wolverhampton & Dudley. Vetted team, detailed checklist. Call for a free quote.",
+
+    tagline:
+      "Professional deep cleaning services for homes and businesses in Willenhall, Walsall and surrounding West Midlands areas, providing a detailed top-to-bottom clean for a fresher, healthier space.",
+
+    metaTitle:
+      "Deep Cleaning Services in Willenhall & West Midlands | Refuse Shine",
+
+    metaDescription:
+      "Professional deep cleaning services in Willenhall, Walsall and the West Midlands. Detailed house deep cleaning from vetted local cleaners. Get a free quote.",
+
     image: "/assets/services/deep-cleaning.png",
-    altText: "Professional cleaner cleaning doors and polishing surfaces during an intensive house deep clean",
-    introTitle: "Intensive Room-by-Room Deep Cleaning Services",
-    introContent: "While regular cleaning keeps your home tidy, dirt, dust, and limescale can build up over time in hard-to-reach areas. Our deep cleaning service is a comprehensive, room-by-room clean designed to thoroughly refresh every corner of your property. We pay close attention to kitchens, bathrooms, woodwork, and areas under movable furniture, leaving your living space clean and comfortable. Serving homeowners and business managers in Willenhall, Dudley, and across the West Midlands, our professional cleaners target these accumulations using safe, pet-friendly products. Whether you are arranging a seasonal spring clean, preparing your house for a family event, or resetting a newly renovated property, we supply all required materials and equipment.",
-    includedTitle: "What is Cleaned During Our Deep Cleaning Service",
-    includedIntro: "Our deep cleaning service is extensive, taking care of areas that are often missed during standard cleans:",
+
+    altText:
+      "Professional cleaner providing deep cleaning in a West Midlands home",
+
+    introTitle:
+      "Professional Deep Cleaning for a Fresher, Healthier Home",
+
+    introContent:
+      "Refuse Shine Cleaning LTD provides professional deep cleaning services for homes and businesses across Willenhall, Walsall and surrounding West Midlands areas. Unlike regular cleaning, a deep clean focuses on built-up dust, dirt, grease, limescale and hard-to-reach areas that may be missed during routine cleaning. Our detailed house deep cleaning service works systematically through each room, including kitchens, bathrooms, living areas, woodwork and accessible areas around furniture. Whether you need a one-off deep clean before hosting guests, a seasonal home refresh, cleaning after renovations, or a thorough reset before moving into a property, our trained and vetted cleaners use professional equipment and suitable cleaning products to deliver a detailed and consistent clean.",
+
+    includedTitle:
+      "What Is Included in Our Deep Cleaning Service",
+
+    includedIntro:
+      "Our professional deep cleaning service follows a detailed checklist designed to tackle areas that are often missed during standard household cleaning:",
+
     includedList: [
-      "Thorough cleaning and descaling of bathrooms, shower screens, wall tiles, and fixtures",
-      "Deep cleaning of kitchen worktops, splashbacks, sink areas, and exterior cabinets",
-      "Removal of built-up dust and dirt from skirting boards, doors, door frames, and light switches",
-      "Vacuuming under and behind furniture (where accessible), rugs, and detailed floor cleaning",
-      "Dusting all high-level areas, light fittings, air vents, and picture frames",
-      "Cleaning internal windows, sills, and window frames to remove dirt"
+      "Thorough cleaning and descaling of bathrooms, shower screens, wall tiles and fixtures",
+      "Deep cleaning and degreasing of kitchen worktops, splashbacks, sink areas and accessible cabinet surfaces",
+      "Removal of built-up dust and dirt from skirting boards, doors, door frames and light switches",
+      "Vacuuming under and behind accessible furniture, rugs and detailed floor cleaning",
+      "Dusting high-level areas, light fittings, air vents, picture frames and accessible surfaces",
+      "Cleaning internal windows, sills and window frames to remove accumulated dirt and dust"
     ],
-    forTitle: "Who This Service Is For",
-    forIntro: "A deep clean is recommended periodically to keep your living or working environment in top shape:",
+
+    forTitle:
+      "Who Is Our Deep Cleaning Service For?",
+
+    forIntro:
+      "Our deep house cleaning service is ideal for homeowners, families and property occupants who need a more detailed clean than regular household maintenance:",
+
     forList: [
       "Homeowners planning a thorough seasonal or spring cleaning reset",
-      "Hosts preparing their homes for hosting guests, parties, or family events",
-      "New buyers wanting a clean start before moving into a pre-owned home",
-      "Residents requiring a detailed clean after home renovations or minor repairs"
+      "Families preparing their home for guests, parties or special occasions",
+      "New homeowners wanting a detailed clean before moving into a property",
+      "Residents needing a professional deep clean after renovations or minor building work"
     ],
-    processTitle: "Our Deep Cleaning Process",
+
+    processTitle:
+      "Our Professional Deep Cleaning Process",
+
     processSteps: [
       {
         stepNumber: "01",
-        title: "Property Inspection & Focus",
-        description: "We walk through your property with you to identify key areas of built-up dirt, dust, and special cleaning priorities."
+        title: "Assess Your Cleaning Needs",
+        description:
+          "We discuss your property, identify areas requiring extra attention and agree on the cleaning priorities for your deep clean."
       },
       {
         stepNumber: "02",
-        title: "High-to-Low Deep Clean",
-        description: "Our team cleans systematically from ceiling cobwebs and light fittings down to skirting boards, detailing every room."
+        title: "Complete the Deep Clean",
+        description:
+          "Our team works systematically from high-level areas down to floors, tackling built-up dust, dirt, grease and grime throughout the property."
       },
       {
         stepNumber: "03",
-        title: "Detailed Quality Assessment",
-        description: "We review the completed work against our rigorous deep clean checklist to verify that all surfaces meet our high standards."
+        title: "Final Quality Check",
+        description:
+          "We review the completed work against our detailed cleaning checklist to make sure the agreed areas have received thorough attention."
       }
     ],
+
     whyChoose: [
       {
-        title: "Deep Dirt & Grime Specialists",
-        description: "We are equipped to tackle heavy dust, grease, and built-up scale that regular cleaning cannot remove."
+        title: "Professional Deep Cleaning Team",
+        description:
+          "Our trained and vetted cleaners use professional equipment and detailed cleaning methods to tackle built-up dirt, dust, grease and grime."
       },
       {
-        title: "Hard-to-Reach Area Focus",
-        description: "We clean inside and behind accessible furniture, frames, vents, and detailed trim boards."
+        title: "Detailed Room-by-Room Cleaning",
+        description:
+          "We focus on the areas that are commonly missed during regular cleaning, including skirting boards, doors, frames, vents and accessible areas behind furniture."
       },
       {
-        title: "Revitalising Home Treatment",
-        description: "We leave your home noticeably fresher, healthier, and fully sanitised for your household or staff."
+        title: "A Fresher, More Hygienic Space",
+        description:
+          "Our thorough deep cleaning helps refresh your property and create a noticeably cleaner and more comfortable environment for your household, guests or staff."
       }
     ],
-    areasContent: "Our team offers detailed deep cleaning services throughout Willenhall, Walsall, Dudley, and surrounding West Midlands areas, restoring comfort and hygiene to homes and commercial spaces.",
+
+    areasContent:
+      "We provide professional deep cleaning services across Willenhall, Walsall, Wolverhampton, Dudley, West Bromwich, Birmingham and surrounding West Midlands areas. If you are looking for a local deep cleaning service for your home or business, our team can arrange a detailed clean based on your property and requirements.",
+
     faqs: [
       {
-        question: "What is included in a deep clean?",
-        answer: "A deep clean is a thorough top-to-bottom service. It includes descaling bathroom tiles and fixtures, degreasing kitchen surfaces, cleaning skirting boards, doors, switches, frames, internal window frames, and vacuuming edges."
+        question: "What is included in a deep cleaning service?",
+        answer:
+          "Our deep cleaning service is a thorough top-to-bottom clean covering bathrooms, kitchen surfaces, skirting boards, doors, door frames, light switches, internal windows, accessible areas behind furniture and detailed floor cleaning."
       },
       {
         question: "How long does a deep cleaning service take?",
-        answer: "Depending on the size of your property and the amount of built-up dust, a deep clean typically takes between 4 to 8 hours. We assign a team size to complete it efficiently."
+        answer:
+          "The time required depends on the size and condition of the property and the amount of built-up dirt. During your booking, we can discuss the property and cleaning requirements so the appropriate time and team size can be arranged."
       },
       {
-        question: "Is deep cleaning available as a one-off service?",
-        answer: "Yes. Our deep cleaning is most commonly booked as a one-off service. It is popular for spring cleans, before moving into a new house, or after building work."
+        question: "Do you offer one-off deep cleaning?",
+        answer:
+          "Yes. Our deep cleaning service is commonly booked as a one-off clean for seasonal cleaning, preparing for guests, moving into a property or refreshing a home after renovation work."
       },
       {
-        question: "Do you clean behind furniture?",
-        answer: "We vacuum and clean behind and under furniture, provided the items are light enough to be safely moved by our team without risking damage to the flooring."
+        question: "Do you provide deep cleaning services near me?",
+        answer:
+          "We provide deep cleaning services across Willenhall, Walsall, Wolverhampton, Dudley, West Bromwich, Birmingham and surrounding West Midlands areas. Contact us to confirm availability in your specific location."
       },
       {
-        question: "Do you bring cleaning products?",
-        answer: "Yes, we bring all professional-grade cleaning products, vacuum cleaners, and fresh microfibre cloths needed to complete the deep clean."
+        question: "Do you clean behind and under furniture?",
+        answer:
+          "Yes, where furniture can be moved safely without risking damage to the property or flooring, we can clean accessible areas behind and underneath furniture as part of the deep cleaning service."
+      },
+      {
+        question: "Do you bring your own cleaning products and equipment?",
+        answer:
+          "Yes. We bring professional cleaning products, suitable equipment and fresh microfibre cloths required for the agreed deep cleaning service. If you have specific product preferences, please let us know before the appointment."
       },
       {
         question: "What is the difference between regular and deep cleaning?",
-        answer: "Regular cleaning maintains general tidiness and surface cleanliness on a recurring basis. Deep cleaning focuses on built-up grime, lime, and detailed cleaning of woodwork."
+        answer:
+          "Regular house cleaning is designed to maintain everyday cleanliness through recurring visits. Deep cleaning is a more intensive service that focuses on built-up dirt, grime, limescale and detailed areas that may not be covered during routine cleaning."
       }
     ]
   },
