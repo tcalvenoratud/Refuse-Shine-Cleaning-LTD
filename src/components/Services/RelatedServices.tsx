@@ -11,8 +11,23 @@ interface RelatedServicesProps {
 }
 
 export function RelatedServices({ currentSlug }: RelatedServicesProps) {
-  // Filter out the current service and limit to 3 related services
-  const related = SERVICES_DATA.filter((s) => s.slug !== currentSlug).slice(0, 3);
+  // Filter out the current service
+  const filtered = SERVICES_DATA.filter((s) => s.slug !== currentSlug);
+
+  // Generate a deterministic hash of the currentSlug
+  let hash = 0;
+  for (let i = 0; i < currentSlug.length; i++) {
+    hash = currentSlug.charCodeAt(i) + ((hash << 5) - hash);
+  }
+
+  // Use the hash to select a starting point for rotation
+  const startIndex = Math.abs(hash) % filtered.length;
+
+  // Rotate the list and take the first 3 services
+  const related = [
+    ...filtered.slice(startIndex),
+    ...filtered.slice(0, startIndex)
+  ].slice(0, 3);
 
   return (
     <section className="relative overflow-hidden bg-background pt-12 pb-10 border-b border-border/40 dark:border-border/10">
@@ -34,7 +49,7 @@ export function RelatedServices({ currentSlug }: RelatedServicesProps) {
         </div>
 
         {/* Services List Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto">
           {related.map((service, index) => {
             const Icon = service.icon;
             return (

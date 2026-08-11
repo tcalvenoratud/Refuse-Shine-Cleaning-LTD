@@ -317,182 +317,278 @@ export const SERVICES_DATA: ServiceDetail[] = [
     id: "kitchen-deep-clean",
     slug: "kitchen-deep-cleaning",
     icon: Utensils,
+
     title: "Kitchen Deep Cleaning",
-    tagline: "Remove built-up grease, grease splatters, and food residues with our detailed kitchen deep cleaning services in Willenhall.",
-    metaTitle: "Kitchen Deep Cleaning in Willenhall & West Midlands | Refuse Shine",
-    metaDescription: "Restore a hygienic, fresh and sparkling finish to your kitchen with kitchen deep cleaning in Willenhall & West Bromwich. We remove stubborn grease, scale & carbon build-up. Request a free quote.",
+
+    tagline:
+      "Professional kitchen deep cleaning services in Willenhall, Walsall and surrounding West Midlands areas, removing built-up grease, food residue and grime for a cleaner, fresher kitchen.",
+
+    metaTitle:
+      "Kitchen Deep Cleaning in Willenhall & West Midlands | Refuse Shine",
+
+    metaDescription:
+      "Professional kitchen deep cleaning services in Willenhall, Walsall and the West Midlands. Remove built-up grease, grime and food residue with a detailed kitchen deep clean. Get a free quote.",
+
     image: "/assets/services/kitchen-deep-cleaning.png",
-    altText: "A professionally cleaned domestic kitchen showing degreased splashbacks and shiny chrome sink fittings",
-    introTitle: "Professional Degreasing & Kitchen Sanitisation",
-    introContent: "Kitchens are subject to daily wear, grease buildup, and food splashes that are hard to clean during routine tidying. Our kitchen deep cleaning service is designed to tackle these stubborn deposits and restore a hygienic environment. Refuse Shine Cleaning LTD helps residential households and rental property owners in Willenhall, West Bromwich, and surrounding West Midlands communities maintain clean cooking environments. We scrub tiled splashbacks, degrease extraction hoods, clean countertops, and clean the exterior casings of major appliances. Our team also washes sink basins, polishes chrome fittings, and cleans inside empty cupboards. This service is ideal for keeping food preparation zones hygienic, eliminating sticky grease deposits, and maintaining kitchen surfaces in top condition.",
-    includedTitle: "What is Cleaned During Kitchen Deep Cleaning",
-    includedIntro: "Our targeted kitchen deep clean focuses on areas prone to heavy grease and bacterial buildup:",
+
+    altText:
+      "Professional cleaner providing kitchen deep cleaning in a clean domestic kitchen",
+
+    introTitle:
+      "Professional Kitchen Deep Cleaning Services",
+
+    introContent:
+      "Refuse Shine Cleaning LTD provides professional kitchen deep cleaning services for households across Willenhall, Walsall and surrounding West Midlands areas. Kitchens can quickly develop built-up grease, food residue, limescale and grime around worktops, splashbacks, cupboards, sinks and cooking areas that are difficult to remove during routine cleaning. Our kitchen deep cleaning service provides a detailed clean of the areas that need extra attention, helping restore a fresher and more hygienic cooking environment. We clean and degrease kitchen surfaces, splashbacks, sinks, taps, accessible cupboard interiors, extractor hood exteriors and kitchen floors. Whether you need a one-off kitchen deep clean after heavy use, a seasonal refresh or professional cleaning before a property inspection, our trained team works through a detailed checklist to deliver a thorough and consistent result.",
+
+    includedTitle:
+      "What Is Included in Our Kitchen Deep Cleaning Service",
+
+    includedIntro:
+      "Our kitchen deep clean focuses on areas that commonly collect grease, food residue, dust and grime during everyday cooking:",
+
     includedList: [
-      "Degreasing and sanitising kitchen worktops, counters, and splashbacks",
-      "Scrubbing and descaling sinks, taps, drains, and polishing metal fittings",
-      "Cleaning cupboard exteriors and wiping out internal drawers and shelving",
-      "Detailed cleaning of cooker hood exteriors, filters, and extractor casing",
-      "Sanitising high-touch kitchen surfaces and dining countertops",
-      "Sweeping, sanitising, and deep mopping kitchen floor tiles"
+      "Deep cleaning and degreasing of kitchen worktops, counters and tiled splashbacks",
+      "Scrubbing and descaling sinks, taps, drains and accessible metal fittings",
+      "Cleaning cupboard exteriors and wiping internal drawers and shelving when emptied",
+      "Detailed cleaning of cooker hood exteriors, accessible filters and extractor casings",
+      "Sanitising high-touch kitchen surfaces, food preparation areas and dining countertops",
+      "Sweeping, sanitising and deep mopping kitchen floors and tiles"
     ],
-    forTitle: "Who This Service Is For",
-    forIntro: "This targeted cleaning service is designed for households and properties requiring high-hygiene kitchen maintenance:",
+
+    forTitle:
+      "Who Is Our Kitchen Deep Cleaning Service For?",
+
+    forIntro:
+      "Our professional kitchen cleaning service is suitable for households and properties that need a more detailed clean than everyday kitchen maintenance:",
+
     forList: [
-      "Households who cook frequently and need a deep degreasing reset",
-      "Families wishing to ensure sanitary food preparation zones to prevent bacteria",
-      "Landlords prepping a property to look attractive to new prospective tenants",
-      "Tenants wanting to clean a greasy kitchen before checkout inspections"
+      "Households that cook frequently and need a thorough grease and grime reset",
+      "Families wanting cleaner and more hygienic food preparation areas",
+      "Landlords preparing a kitchen for new tenants or property inspections",
+      "Tenants who need a detailed kitchen clean before moving out or handing back a property"
     ],
-    processTitle: "Our Kitchen Deep Cleaning Process",
+
+    processTitle:
+      "Our Kitchen Deep Cleaning Process",
+
     processSteps: [
       {
         stepNumber: "01",
-        title: "Kitchen Inspection",
-        description: "We assess grease buildup on walls, cupboards, and cookers to plan our targeted degreasing approach."
+        title: "Inspect Your Kitchen",
+        description:
+          "We assess the condition of your kitchen and identify areas with built-up grease, food residue, limescale and dirt that require detailed attention."
       },
       {
         stepNumber: "02",
-        title: "Degreasing & Detailed Cleaning",
-        description: "We apply safe, professional degreasing agents to loosen carbon and oils, scrubbing splashbacks, counters, and extraction hoods."
+        title: "Deep Clean & Degrease",
+        description:
+          "Our team works through the kitchen cleaning checklist, degreasing surfaces, cleaning splashbacks, cupboards, sinks and accessible extractor areas."
       },
       {
         stepNumber: "03",
-        title: "Sanitisation & Final Polish",
-        description: "We wipe down prep surfaces with suitable cleaning products, polish chrome fixtures, and wash down the flooring."
+        title: "Sanitise & Final Check",
+        description:
+          "We sanitise suitable food preparation surfaces, clean the kitchen floor and complete a final check to make sure the agreed areas have received thorough attention."
       }
     ],
+
     whyChoose: [
       {
-        title: "Professional Grease Removal",
-        description: "We use effective, non-abrasive degreasing agents to break down heavy carbon and oil build-up safely."
+        title: "Professional Kitchen Cleaning",
+        description:
+          "Our trained cleaners use suitable professional cleaning products and detailed cleaning methods to tackle everyday grease, grime and food residue."
       },
       {
-        title: "Detailed Appliance & Surface Cleaning",
-        description: "We clean hobs, hoods, splashbacks, and outer casings, extending the appeal of your kitchen space."
+        title: "Detailed Surface & Appliance Cleaning",
+        description:
+          "We focus on worktops, splashbacks, sinks, cupboards, cooker hood exteriors and other accessible kitchen surfaces that are often missed during routine cleaning."
       },
       {
-        title: "Hygienic Food Preparation Areas",
-        description: "We sanitise high-touch surfaces, cupboards, and sinks to eliminate bacteria and cross-contamination."
+        title: "Cleaner Food Preparation Areas",
+        description:
+          "We pay close attention to high-touch and food preparation areas to help create a fresher, cleaner and more hygienic kitchen environment."
       }
     ],
-    areasContent: "We deliver specialised kitchen deep cleaning and degreasing services in Willenhall, West Bromwich, and other West Midlands towns, helping households maintain sanitary cooking spaces.",
+
+    areasContent:
+      "We provide kitchen deep cleaning services across Willenhall, Walsall, Wolverhampton, Dudley, West Bromwich, Birmingham and surrounding West Midlands areas. If you are looking for a professional kitchen cleaning service in your local area, contact our team to discuss your kitchen and cleaning requirements.",
+
     faqs: [
       {
         question: "What does kitchen deep cleaning include?",
-        answer: "It includes deep cleaning of worktops, splashbacks, descaling the sink and taps, degreasing extraction hoods, wiping cooker surfaces, cleaning cabinet exteriors, and sanitising internal shelves."
+        answer:
+          "Our kitchen deep cleaning service includes degreasing worktops and splashbacks, cleaning and descaling sinks and taps, cleaning cupboard exteriors and accessible interiors, detailing cooker hood exteriors, sanitising food preparation surfaces and deep cleaning kitchen floors."
       },
       {
         question: "Do you remove built-up kitchen grease?",
-        answer: "Yes, we specialise in removing built-up grease and sticky oils from kitchen splashbacks, cooker hoods, countertops, and cupboards using professional degreasing agents."
+        answer:
+          "Yes. Our kitchen deep clean focuses on removing built-up grease, food residue and grime from suitable kitchen surfaces such as splashbacks, worktops, cupboard surfaces and cooker hood exteriors."
       },
       {
-        question: "Do you clean inside cupboards?",
-        answer: "Yes, we wipe down and clean inside all kitchen cupboards, drawers, and shelving, provided they are completely emptied before our team begins."
+        question: "Do you clean inside kitchen cupboards?",
+        answer:
+          "Yes. We can clean inside kitchen cupboards, drawers and shelving when they are completely emptied before our team begins the cleaning."
       },
       {
-        question: "Do you clean splashbacks and tiles?",
-        answer: "Yes. Tiled splashbacks and grout lines near hobs collect significant grease. We scrub and degrease these areas to restore hygiene and appearance."
+        question: "Do you clean kitchen splashbacks and tiles?",
+        answer:
+          "Yes. We clean and degrease kitchen splashbacks and suitable tiled areas, helping remove accumulated grease, food residue and everyday grime."
       },
       {
-        question: "Can oven cleaning be added?",
-        answer: "Yes. While we clean appliance exteriors in the standard kitchen deep clean, a full internal oven clean can be added as an optional extra."
+        question: "Can oven cleaning be added to a kitchen deep clean?",
+        answer:
+          "Yes. A full internal oven clean can be requested as an additional service. Our standard kitchen deep cleaning service focuses on the agreed kitchen surfaces and accessible appliance exteriors."
       },
       {
-        question: "How long does a kitchen deep clean take?",
-        answer: "A standard domestic kitchen deep clean typically takes between 2 to 4 hours, depending on the size and amount of grease build-up."
+        question: "How long does a kitchen deep cleaning service take?",
+        answer:
+          "The time required depends on the size of the kitchen and the level of grease and built-up dirt. We can provide a more accurate estimate after discussing your kitchen and cleaning requirements."
+      },
+      {
+        question: "Do you provide professional kitchen cleaning near me?",
+        answer:
+          "We provide professional kitchen cleaning services across Willenhall, Walsall and surrounding West Midlands areas. Contact us with your location to confirm whether our team covers your area."
       }
     ]
   },
   {
-    id: "bathroom-clean",
-    slug: "bathroom-cleaning",
-    icon: Bath,
-    title: "Bathroom Cleaning",
-    tagline: "Tackle tough limescale, soap scum, and water spots with our detailed bathroom cleaning services in Willenhall and surrounding areas.",
-    metaTitle: "Bathroom Cleaning in Willenhall & West Midlands | Refuse Shine",
-    metaDescription: "Professional bathroom cleaning & detailed limescale removal in Willenhall, Walsall & Birmingham. Stubborn tile & screen cleaning. Get your free quote.",
-    image: "/assets/services/bathroom-cleaning.png",
-    altText: "A sanitised and clean bathroom shower cubicle with polished chrome shower heads and faucets",
-    introTitle: "Detailed Descaling & Bathroom Sanitisation",
-    introContent: "Bathrooms require regular detailed cleaning due to moisture buildup, which leads to limescale, soap scum, and tile discolouration. Our bathroom cleaning service focuses on deep cleaning and descaling toilets, washbasins, bathtubs, shower enclosures, glass screens, and wall tiles. We scrub fittings and clean grout lines to leave your bathroom fresh and hygienic. Serving Willenhall, Walsall, and Birmingham, our local cleaning team delivers detailed scrubbing and polishing, keeping your high-moisture rooms fresh, free of limescale, and fully sanitised.",
-    includedTitle: "What is Included in Our Bathroom Cleaning Service",
-    includedIntro: "Our detailed bathroom cleaning checklist ensures every corner of your bathroom is scrubbed and sanitised:",
-    includedList: [
-      "Thorough scrubbing and sanitisation of toilet bowls, seats, and flush handles",
-      "Scrubbing basins, bathtubs, and shower trays to remove soap scum",
-      "Descaling shower heads, taps, and polishing chrome fittings",
-      "Detailed scrubbing of bathroom wall tiles and accessible grout lines",
-      "Polishing mirrors and glass shower screens to a streak-free finish",
-      "Wiping bathroom cabinets and sanitising the floor surfaces"
-    ],
-    forTitle: "Who This Service Is For",
-    forIntro: "This focused service is designed for households needing a professional sanitisation of their high-moisture rooms:",
-    forList: [
-      "Homeowners dealing with stubborn limescale deposits and water marks",
-      "Families wanting to eliminate bacteria and sanitise their daily washrooms",
-      "Property owners looking to refresh discoloured bathroom tiles and fittings",
-      "Busy individuals who dislike scrubbing tiles, grout, and shower screens"
-    ],
-    processTitle: "Our Bathroom Cleaning Process",
-    processSteps: [
-      {
-        stepNumber: "01",
-        title: "Pre-Treatment & Descaling",
-        description: "We apply descaling agents to chrome fixtures, glass screens, and tiled borders to break down hard water deposits."
-      },
-      {
-        stepNumber: "02",
-        title: "Detailed Scrubbing",
-        description: "We scrub the toilet, shower tray, bathtub, washbasin, and wall tiles to remove soap scum, grime, and mildew."
-      },
-      {
-        stepNumber: "03",
-        title: "Sanitisation & Final Finish",
-        description: "We sanitise high-touch surfaces, polish glass mirrors and screens, and mop floor surfaces with sanitising wash."
-      }
-    ],
-    whyChoose: [
-      {
-        title: "Limescale & Soap Scum Removal",
-        description: "We use professional products to safely lift stubborn water scale from chrome taps, shower heads, and glass."
-      },
-      {
-        title: "Detailed Tile & Fixture Cleaning",
-        description: "We scrub tiled walls, grout lines, and corners where moisture-related mould and residues build up."
-      },
-      {
-        title: "Hygienic Bathroom Finish",
-        description: "We disinfect toilets, sinks, and tubs, leaving your bathroom fresh, clean, and sanitised."
-      }
-    ],
-    areasContent: "We offer professional bathroom scrubbing and descaling services across Willenhall, Walsall, Birmingham, and the wider West Midlands, keeping washrooms hygienic and free of limescale.",
-    faqs: [
-      {
-        question: "Does bathroom cleaning include limescale removal?",
-        answer: "Yes, we apply specialised descaling products to help dissolve and remove built-up limescale on taps, shower screens, and basins."
-      },
-      {
-        question: "Do you clean shower screens?",
-        answer: "Yes. Shower screens gather significant soap scum and water spots. We scrub and polish screens to restore a clean, streak-free glass finish."
-      },
-      {
-        question: "Do you clean bathroom tiles and grout?",
-        answer: "Yes. We scrub bathroom wall tiles and accessible grout lines to remove moisture-related residues, soap scum, and light discolouration."
-      },
-      {
-        question: "What areas of the bathroom are sanitised?",
-        answer: "We thoroughly sanitise high-touch areas, including toilet seats, flush buttons, basins, taps, handles, and bath/shower fixtures."
-      },
-      {
-        question: "How long does bathroom cleaning take?",
-        answer: "A detailed bathroom cleaning usually takes between 1.5 to 3 hours, depending on the size of the room and level of limescale present."
-      },
-      {
-        question: "Do you bring your own descaling products?",
-        answer: "Yes, we supply all descaling and sanitising products, scrubbing brushes, and fresh cloths needed to clean your bathroom."
-      }
-    ]
-  },
+  id: "bathroom-clean",
+  slug: "bathroom-cleaning",
+  icon: Bath,
+
+  title: "Bathroom Cleaning",
+
+  tagline:
+    "Professional bathroom cleaning services in Willenhall, Walsall and surrounding West Midlands areas, removing limescale, soap scum and everyday bathroom grime for a fresh, hygienic finish.",
+
+  metaTitle:
+    "Bathroom Cleaning Services in Willenhall & West Midlands | Refuse Shine",
+
+  metaDescription:
+    "Professional bathroom cleaning services in Willenhall, Walsall & the West Midlands. Detailed bathroom deep cleaning, limescale removal and sanitisation. Get a free quote.",
+
+  image: "/assets/services/bathroom-cleaning.png",
+
+  altText:
+    "Professional bathroom cleaning service leaving a shower cubicle and chrome fixtures clean and sanitised",
+
+  introTitle:
+    "Professional Bathroom Cleaning Services",
+
+  introContent:
+    "Refuse Shine Cleaning LTD provides professional bathroom cleaning services for homes across Willenhall, Walsall and surrounding West Midlands areas. Bathrooms can quickly develop limescale, soap scum, water marks and moisture-related grime, particularly around shower screens, taps, tiles, toilets and other high-use surfaces. Our bathroom cleaning service provides detailed scrubbing, descaling and sanitisation to refresh these areas and maintain a cleaner, more hygienic bathroom. We clean shower enclosures, glass screens, baths, washbasins, toilets, wall tiles, accessible grout and chrome fittings, paying close attention to areas that are often missed during routine cleaning. Whether you need regular bathroom maintenance or a more detailed bathroom deep cleaning service, our trained local team works through a clear cleaning checklist to deliver a fresh and consistent finish.",
+
+  includedTitle:
+    "What Is Included in Our Bathroom Cleaning Service",
+
+  includedIntro:
+    "Our detailed bathroom cleaning checklist focuses on the surfaces and fixtures that commonly collect limescale, soap scum, water marks and everyday grime:",
+
+  includedList: [
+    "Thorough scrubbing and sanitisation of toilet bowls, seats and flush handles",
+    "Cleaning and scrubbing basins, bathtubs, shower trays and other bathroom surfaces",
+    "Descaling shower heads, taps and suitable chrome fittings",
+    "Detailed cleaning of bathroom wall tiles and accessible grout lines",
+    "Polishing mirrors and glass shower screens for a clean, streak-free finish",
+    "Wiping bathroom cabinets and sanitising suitable floor surfaces"
+  ],
+
+  forTitle:
+    "Who Is Our Bathroom Cleaning Service For?",
+
+  forIntro:
+    "Our professional bathroom cleaning service is suitable for households that want a cleaner, fresher and more hygienic bathroom without spending time tackling stubborn buildup themselves:",
+
+  forList: [
+    "Homeowners dealing with stubborn limescale, soap scum and water marks",
+    "Families wanting cleaner and more hygienic everyday washrooms",
+    "Property owners looking to refresh bathroom tiles, fixtures and fittings",
+    "Busy households and individuals who need help maintaining bathroom surfaces and shower areas"
+  ],
+
+  processTitle:
+    "Our Professional Bathroom Cleaning Process",
+
+  processSteps: [
+    {
+      stepNumber: "01",
+      title: "Assess & Pre-Treat",
+      description:
+        "We assess the bathroom and identify areas affected by limescale, soap scum, water marks and built-up grime before applying suitable cleaning treatments."
+    },
+    {
+      stepNumber: "02",
+      title: "Detailed Bathroom Cleaning",
+      description:
+        "We thoroughly clean toilets, shower areas, baths, basins, tiles, fittings and other agreed surfaces, focusing on areas that require extra attention."
+    },
+    {
+      stepNumber: "03",
+      title: "Sanitise & Final Finish",
+      description:
+        "We sanitise suitable high-touch surfaces, polish mirrors and shower screens, and complete the bathroom floor cleaning before carrying out a final quality check."
+    }
+  ],
+
+  whyChoose: [
+    {
+      title: "Professional Bathroom Cleaning",
+      description:
+        "Our trained cleaners use suitable professional cleaning products and detailed methods to tackle everyday bathroom grime, soap scum and limescale."
+    },
+    {
+      title: "Detailed Tile & Fixture Cleaning",
+      description:
+        "We pay close attention to tiles, accessible grout, shower screens, taps, basins and other areas where moisture-related residue can build up."
+    },
+    {
+      title: "Fresh & Hygienic Bathroom Finish",
+      description:
+        "We sanitise suitable high-touch surfaces and leave your bathroom cleaner, fresher and more comfortable for everyday use."
+    }
+  ],
+
+  areasContent:
+    "We provide professional bathroom cleaning services across Willenhall, Walsall, Wolverhampton, Dudley, West Bromwich, Birmingham and surrounding West Midlands areas. If you are looking for a local bathroom cleaning service, our team can discuss your requirements and confirm availability in your area.",
+
+  faqs: [
+    {
+      question: "Does bathroom cleaning include limescale removal?",
+      answer:
+        "Yes. Our bathroom cleaning service includes suitable descaling of limescale buildup on taps, shower heads, basins, shower screens and other appropriate bathroom surfaces."
+    },
+    {
+      question: "Do you provide bathroom deep cleaning?",
+      answer:
+        "Yes. We can provide a more detailed bathroom deep cleaning service when your bathroom needs extra attention to limescale, soap scum, tiles, fixtures, shower areas and built-up grime."
+    },
+    {
+      question: "Do you clean shower screens?",
+      answer:
+        "Yes. We clean and polish shower screens to help remove soap scum, water marks and everyday buildup, leaving the glass with a cleaner, streak-free finish."
+    },
+    {
+      question: "Do you clean bathroom tiles and grout?",
+      answer:
+        "Yes. We clean bathroom wall tiles and accessible grout lines to remove suitable moisture-related residues, soap scum and light discolouration."
+    },
+    {
+      question: "What areas of the bathroom are sanitised?",
+      answer:
+        "We focus on suitable high-touch areas such as toilet seats, flush handles, basins, taps, handles and bath or shower fixtures as part of the agreed bathroom cleaning service."
+    },
+    {
+      question: "How long does bathroom cleaning take?",
+      answer:
+        "The time required depends on the size and condition of the bathroom and the level of limescale, soap scum and buildup present. We can discuss your requirements and provide an appropriate estimate."
+    },
+    {
+      question: "Do you bring your own cleaning and descaling products?",
+      answer:
+        "Yes. We bring suitable professional cleaning and descaling products, cleaning equipment and fresh cloths required for the agreed bathroom cleaning service."
+    }
+  ]
+},
   {
     id: "end-of-tenancy",
     slug: "end-of-tenancy-cleaning",
