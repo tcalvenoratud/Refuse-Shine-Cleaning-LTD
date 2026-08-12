@@ -452,230 +452,283 @@ export const SERVICES_DATA: ServiceDetail[] = [
     ]
   },
   {
-  id: "bathroom-clean",
-  slug: "bathroom-cleaning",
-  icon: Bath,
+    id: "bathroom-clean",
+    slug: "bathroom-cleaning",
+    icon: Bath,
 
-  title: "Bathroom Cleaning",
+    title: "Bathroom Cleaning",
 
-  tagline:
-    "Professional bathroom cleaning services in Willenhall, Walsall and surrounding West Midlands areas, removing limescale, soap scum and everyday bathroom grime for a fresh, hygienic finish.",
+    tagline:
+      "Professional bathroom cleaning services in Willenhall, Walsall and surrounding West Midlands areas, removing limescale, soap scum and everyday bathroom grime for a fresh, hygienic finish.",
 
-  metaTitle:
-    "Bathroom Cleaning Services in Willenhall & West Midlands | Refuse Shine",
+    metaTitle:
+      "Bathroom Cleaning Services in Willenhall & West Midlands | Refuse Shine",
 
-  metaDescription:
-    "Professional bathroom cleaning services in Willenhall, Walsall & the West Midlands. Detailed bathroom deep cleaning, limescale removal and sanitisation. Get a free quote.",
+    metaDescription:
+      "Professional bathroom cleaning services in Willenhall, Walsall & the West Midlands. Detailed bathroom deep cleaning, limescale removal and sanitisation. Get a free quote.",
 
-  image: "/assets/services/bathroom-cleaning.png",
+    image: "/assets/services/bathroom-cleaning.png",
 
-  altText:
-    "Professional bathroom cleaning service leaving a shower cubicle and chrome fixtures clean and sanitised",
+    altText:
+      "Professional bathroom cleaning service leaving a shower cubicle and chrome fixtures clean and sanitised",
 
-  introTitle:
-    "Professional Bathroom Cleaning Services",
+    introTitle:
+      "Professional Bathroom Cleaning Services",
 
-  introContent:
-    "Refuse Shine Cleaning LTD provides professional bathroom cleaning services for homes across Willenhall, Walsall and surrounding West Midlands areas. Bathrooms can quickly develop limescale, soap scum, water marks and moisture-related grime, particularly around shower screens, taps, tiles, toilets and other high-use surfaces. Our bathroom cleaning service provides detailed scrubbing, descaling and sanitisation to refresh these areas and maintain a cleaner, more hygienic bathroom. We clean shower enclosures, glass screens, baths, washbasins, toilets, wall tiles, accessible grout and chrome fittings, paying close attention to areas that are often missed during routine cleaning. Whether you need regular bathroom maintenance or a more detailed bathroom deep cleaning service, our trained local team works through a clear cleaning checklist to deliver a fresh and consistent finish.",
+    introContent:
+      "Refuse Shine Cleaning LTD provides professional bathroom cleaning services for homes across Willenhall, Walsall and surrounding West Midlands areas. Bathrooms can quickly develop limescale, soap scum, water marks and moisture-related grime, particularly around shower screens, taps, tiles, toilets and other high-use surfaces. Our bathroom cleaning service provides detailed scrubbing, descaling and sanitisation to refresh these areas and maintain a cleaner, more hygienic bathroom. We clean shower enclosures, glass screens, baths, washbasins, toilets, wall tiles, accessible grout and chrome fittings, paying close attention to areas that are often missed during routine cleaning. Whether you need regular bathroom maintenance or a more detailed bathroom deep cleaning service, our trained local team works through a clear cleaning checklist to deliver a fresh and consistent finish.",
 
-  includedTitle:
-    "What Is Included in Our Bathroom Cleaning Service",
+    includedTitle:
+      "What Is Included in Our Bathroom Cleaning Service",
 
-  includedIntro:
-    "Our detailed bathroom cleaning checklist focuses on the surfaces and fixtures that commonly collect limescale, soap scum, water marks and everyday grime:",
+    includedIntro:
+      "Our detailed bathroom cleaning checklist focuses on the surfaces and fixtures that commonly collect limescale, soap scum, water marks and everyday grime:",
 
-  includedList: [
-    "Thorough scrubbing and sanitisation of toilet bowls, seats and flush handles",
-    "Cleaning and scrubbing basins, bathtubs, shower trays and other bathroom surfaces",
-    "Descaling shower heads, taps and suitable chrome fittings",
-    "Detailed cleaning of bathroom wall tiles and accessible grout lines",
-    "Polishing mirrors and glass shower screens for a clean, streak-free finish",
-    "Wiping bathroom cabinets and sanitising suitable floor surfaces"
-  ],
+    includedList: [
+      "Thorough scrubbing and sanitisation of toilet bowls, seats and flush handles",
+      "Cleaning and scrubbing basins, bathtubs, shower trays and other bathroom surfaces",
+      "Descaling shower heads, taps and suitable chrome fittings",
+      "Detailed cleaning of bathroom wall tiles and accessible grout lines",
+      "Polishing mirrors and glass shower screens for a clean, streak-free finish",
+      "Wiping bathroom cabinets and sanitising suitable floor surfaces"
+    ],
 
-  forTitle:
-    "Who Is Our Bathroom Cleaning Service For?",
+    forTitle:
+      "Who Is Our Bathroom Cleaning Service For?",
 
-  forIntro:
-    "Our professional bathroom cleaning service is suitable for households that want a cleaner, fresher and more hygienic bathroom without spending time tackling stubborn buildup themselves:",
+    forIntro:
+      "Our professional bathroom cleaning service is suitable for households that want a cleaner, fresher and more hygienic bathroom without spending time tackling stubborn buildup themselves:",
 
-  forList: [
-    "Homeowners dealing with stubborn limescale, soap scum and water marks",
-    "Families wanting cleaner and more hygienic everyday washrooms",
-    "Property owners looking to refresh bathroom tiles, fixtures and fittings",
-    "Busy households and individuals who need help maintaining bathroom surfaces and shower areas"
-  ],
+    forList: [
+      "Homeowners dealing with stubborn limescale, soap scum and water marks",
+      "Families wanting cleaner and more hygienic everyday washrooms",
+      "Property owners looking to refresh bathroom tiles, fixtures and fittings",
+      "Busy households and individuals who need help maintaining bathroom surfaces and shower areas"
+    ],
 
-  processTitle:
-    "Our Professional Bathroom Cleaning Process",
+    processTitle:
+      "Our Professional Bathroom Cleaning Process",
 
-  processSteps: [
-    {
-      stepNumber: "01",
-      title: "Assess & Pre-Treat",
-      description:
-        "We assess the bathroom and identify areas affected by limescale, soap scum, water marks and built-up grime before applying suitable cleaning treatments."
-    },
-    {
-      stepNumber: "02",
-      title: "Detailed Bathroom Cleaning",
-      description:
-        "We thoroughly clean toilets, shower areas, baths, basins, tiles, fittings and other agreed surfaces, focusing on areas that require extra attention."
-    },
-    {
-      stepNumber: "03",
-      title: "Sanitise & Final Finish",
-      description:
-        "We sanitise suitable high-touch surfaces, polish mirrors and shower screens, and complete the bathroom floor cleaning before carrying out a final quality check."
-    }
-  ],
+    processSteps: [
+      {
+        stepNumber: "01",
+        title: "Assess & Pre-Treat",
+        description:
+          "We assess the bathroom and identify areas affected by limescale, soap scum, water marks and built-up grime before applying suitable cleaning treatments."
+      },
+      {
+        stepNumber: "02",
+        title: "Detailed Bathroom Cleaning",
+        description:
+          "We thoroughly clean toilets, shower areas, baths, basins, tiles, fittings and other agreed surfaces, focusing on areas that require extra attention."
+      },
+      {
+        stepNumber: "03",
+        title: "Sanitise & Final Finish",
+        description:
+          "We sanitise suitable high-touch surfaces, polish mirrors and shower screens, and complete the bathroom floor cleaning before carrying out a final quality check."
+      }
+    ],
 
-  whyChoose: [
-    {
-      title: "Professional Bathroom Cleaning",
-      description:
-        "Our trained cleaners use suitable professional cleaning products and detailed methods to tackle everyday bathroom grime, soap scum and limescale."
-    },
-    {
-      title: "Detailed Tile & Fixture Cleaning",
-      description:
-        "We pay close attention to tiles, accessible grout, shower screens, taps, basins and other areas where moisture-related residue can build up."
-    },
-    {
-      title: "Fresh & Hygienic Bathroom Finish",
-      description:
-        "We sanitise suitable high-touch surfaces and leave your bathroom cleaner, fresher and more comfortable for everyday use."
-    }
-  ],
+    whyChoose: [
+      {
+        title: "Professional Bathroom Cleaning",
+        description:
+          "Our trained cleaners use suitable professional cleaning products and detailed methods to tackle everyday bathroom grime, soap scum and limescale."
+      },
+      {
+        title: "Detailed Tile & Fixture Cleaning",
+        description:
+          "We pay close attention to tiles, accessible grout, shower screens, taps, basins and other areas where moisture-related residue can build up."
+      },
+      {
+        title: "Fresh & Hygienic Bathroom Finish",
+        description:
+          "We sanitise suitable high-touch surfaces and leave your bathroom cleaner, fresher and more comfortable for everyday use."
+      }
+    ],
 
-  areasContent:
-    "We provide professional bathroom cleaning services across Willenhall, Walsall, Wolverhampton, Dudley, West Bromwich, Birmingham and surrounding West Midlands areas. If you are looking for a local bathroom cleaning service, our team can discuss your requirements and confirm availability in your area.",
+    areasContent:
+      "We provide professional bathroom cleaning services across Willenhall, Walsall, Wolverhampton, Dudley, West Bromwich, Birmingham and surrounding West Midlands areas. If you are looking for a local bathroom cleaning service, our team can discuss your requirements and confirm availability in your area.",
 
-  faqs: [
-    {
-      question: "Does bathroom cleaning include limescale removal?",
-      answer:
-        "Yes. Our bathroom cleaning service includes suitable descaling of limescale buildup on taps, shower heads, basins, shower screens and other appropriate bathroom surfaces."
-    },
-    {
-      question: "Do you provide bathroom deep cleaning?",
-      answer:
-        "Yes. We can provide a more detailed bathroom deep cleaning service when your bathroom needs extra attention to limescale, soap scum, tiles, fixtures, shower areas and built-up grime."
-    },
-    {
-      question: "Do you clean shower screens?",
-      answer:
-        "Yes. We clean and polish shower screens to help remove soap scum, water marks and everyday buildup, leaving the glass with a cleaner, streak-free finish."
-    },
-    {
-      question: "Do you clean bathroom tiles and grout?",
-      answer:
-        "Yes. We clean bathroom wall tiles and accessible grout lines to remove suitable moisture-related residues, soap scum and light discolouration."
-    },
-    {
-      question: "What areas of the bathroom are sanitised?",
-      answer:
-        "We focus on suitable high-touch areas such as toilet seats, flush handles, basins, taps, handles and bath or shower fixtures as part of the agreed bathroom cleaning service."
-    },
-    {
-      question: "How long does bathroom cleaning take?",
-      answer:
-        "The time required depends on the size and condition of the bathroom and the level of limescale, soap scum and buildup present. We can discuss your requirements and provide an appropriate estimate."
-    },
-    {
-      question: "Do you bring your own cleaning and descaling products?",
-      answer:
-        "Yes. We bring suitable professional cleaning and descaling products, cleaning equipment and fresh cloths required for the agreed bathroom cleaning service."
-    }
-  ]
-},
+    faqs: [
+      {
+        question: "Does bathroom cleaning include limescale removal?",
+        answer:
+          "Yes. Our bathroom cleaning service includes suitable descaling of limescale buildup on taps, shower heads, basins, shower screens and other appropriate bathroom surfaces."
+      },
+      {
+        question: "Do you provide bathroom deep cleaning?",
+        answer:
+          "Yes. We can provide a more detailed bathroom deep cleaning service when your bathroom needs extra attention to limescale, soap scum, tiles, fixtures, shower areas and built-up grime."
+      },
+      {
+        question: "Do you clean shower screens?",
+        answer:
+          "Yes. We clean and polish shower screens to help remove soap scum, water marks and everyday buildup, leaving the glass with a cleaner, streak-free finish."
+      },
+      {
+        question: "Do you clean bathroom tiles and grout?",
+        answer:
+          "Yes. We clean bathroom wall tiles and accessible grout lines to remove suitable moisture-related residues, soap scum and light discolouration."
+      },
+      {
+        question: "What areas of the bathroom are sanitised?",
+        answer:
+          "We focus on suitable high-touch areas such as toilet seats, flush handles, basins, taps, handles and bath or shower fixtures as part of the agreed bathroom cleaning service."
+      },
+      {
+        question: "How long does bathroom cleaning take?",
+        answer:
+          "The time required depends on the size and condition of the bathroom and the level of limescale, soap scum and buildup present. We can discuss your requirements and provide an appropriate estimate."
+      },
+      {
+        question: "Do you bring your own cleaning and descaling products?",
+        answer:
+          "Yes. We bring suitable professional cleaning and descaling products, cleaning equipment and fresh cloths required for the agreed bathroom cleaning service."
+      }
+    ]
+  },
   {
     id: "end-of-tenancy",
     slug: "end-of-tenancy-cleaning",
     icon: Key,
+
     title: "End of Tenancy Cleaning",
-    tagline: "Prepare your rental property for inventory checks with detailed, checklist-based end of tenancy cleaning services in Willenhall and surrounding areas.",
-    metaTitle: "End of Tenancy Cleaning in Willenhall & West Midlands | Refuse Shine",
-    metaDescription: "Detailed move-out cleaning in Willenhall & West Midlands. Help meet letting agent checklist standards & ease your property handover. Request a free quote.",
+
+    tagline:
+      "Professional end of tenancy cleaning services in Willenhall, Walsall and surrounding West Midlands areas, helping tenants, landlords and letting agents prepare rental properties for a thorough checkout clean.",
+
+    metaTitle:
+      "End of Tenancy Cleaning in Willenhall & West Midlands | Refuse Shine",
+
+    metaDescription:
+      "Professional end of tenancy cleaning in Willenhall, Walsall & the West Midlands. Detailed move-out cleaning for kitchens, bathrooms, floors, windows and more. Get a free quote.",
+
     image: "/assets/services/end-of-tenancy-cleaning.png",
-    altText: "An empty clean apartment room prepared for checkout inspection in the West Midlands",
-    introTitle: "Comprehensive Move-Out Cleaning",
-    introContent: "Moving home is a busy process, and leaving a rental property clean is essential for a smooth handover. Refuse Shine Cleaning LTD provides comprehensive end of tenancy cleaning across Willenhall, Walsall, Wolverhampton, and the wider West Midlands. We work to a detailed checkout checklist that covers all key areas letting agents and landlords inspect, including deep cleaning bathrooms, kitchens, cupboards inside and out, internal windows, sills, and woodwork. This clean helps tenants meet their contractual obligations and allows landlords or letting agents to market their empty properties immediately.",
-    includedTitle: "What is Cleaned During Our End of Tenancy Clean",
-    includedIntro: "Our end of tenancy clean is a deep clean that follows standard estate agency checklists:",
+
+    altText:
+      "Professional end of tenancy cleaner preparing an empty rental property for checkout inspection",
+
+    introTitle:
+      "Professional End of Tenancy & Move-Out Cleaning",
+
+    introContent:
+      "Moving out of a rental property can be stressful, especially when every room needs to be cleaned before the final inspection. Refuse Shine Cleaning LTD provides professional end of tenancy cleaning services across Willenhall, Walsall, Wolverhampton and surrounding West Midlands areas. Our detailed move-out cleaning service focuses on the areas commonly checked during property handovers, including kitchens, bathrooms, cupboards, internal windows, floors, doors, skirting boards and woodwork. We work through a structured cleaning checklist to help leave the property clean, fresh and ready for inspection. Whether you are a tenant moving out, a landlord preparing for new occupants or a letting agent arranging a property changeover, our trained cleaning team can provide a thorough end of tenancy clean tailored to the property.",
+
+    includedTitle:
+      "What Is Included in Our End of Tenancy Cleaning Service",
+
+    includedIntro:
+      "Our end of tenancy clean follows a detailed property-wide checklist covering the key areas that require attention before a rental property handover:",
+
     includedList: [
-      "Deep cleaning all kitchen cupboards, drawers, and worktops inside and out",
-      "Scrubbing and descaling bathroom toilets, baths, showers, and wall tiles",
-      "Cleaning internal window glass, frames, and windowsills throughout the property",
-      "Wiping down doors, frames, skirting boards, sockets, and light switches in every room",
+      "Deep cleaning kitchen cupboards, drawers, worktops and accessible surfaces inside and out",
+      "Scrubbing and descaling bathroom toilets, baths, showers, basins and wall tiles",
+      "Cleaning internal window glass, frames and windowsills throughout the property",
+      "Wiping doors, door frames, skirting boards, sockets and light switches",
       "Thorough vacuuming of carpets and mopping hard floor surfaces",
-      "Dusting light fittings, removing cobwebs, and wiping wardrobes inside and out"
+      "Dusting light fittings, removing cobwebs and cleaning wardrobes and accessible storage areas"
     ],
-    forTitle: "Who This Service Is For",
-    forIntro: "Our move-out property cleaning is designed for anyone transitioning in or out of a rental property:",
+
+    forTitle:
+      "Who Is Our End of Tenancy Cleaning Service For?",
+
+    forIntro:
+      "Our professional move-out cleaning service is suitable for anyone preparing a rental or residential property for a handover, inspection or new occupant:",
+
     forList: [
-      "Tenants wanting to leave the rental property clean for inspection checkouts",
-      "Landlords wanting to present a spotless property to attract high-quality renters",
-      "Letting agents seeking a reliable cleaning partner for end-of-tenancy changeovers",
-      "Home buyers or sellers wanting a complete property clean before moving day"
+      "Tenants who need a detailed clean before moving out and completing their checkout inspection",
+      "Landlords preparing a property for new tenants",
+      "Letting agents needing a reliable cleaning service for rental property changeovers",
+      "Homeowners who want a thorough move-out clean before handing over or moving into a property"
     ],
-    processTitle: "Our End of Tenancy Cleaning Process",
+
+    processTitle:
+      "Our End of Tenancy Cleaning Process",
+
     processSteps: [
       {
         stepNumber: "01",
-        title: "Property Assessment",
-        description: "We review your rental agreement clauses and key priorities to ensure we align with your letting agent's requirements."
+        title: "Assess the Property",
+        description:
+          "We review the property and discuss the main cleaning priorities so our team can work through the appropriate end of tenancy checklist."
       },
       {
         stepNumber: "02",
-        title: "Room-by-Room Deep Clean",
-        description: "Our cleaners deep clean every room of the property from top to bottom, including cupboards, trim work, and windows."
+        title: "Complete the Move-Out Clean",
+        description:
+          "Our cleaners work room by room, tackling kitchens, bathrooms, floors, windows, cupboards, doors, skirting boards and other agreed areas."
       },
       {
         stepNumber: "03",
-        title: "Final Handover Check",
-        description: "We conduct a final inspection review to ensure the property is fully prepared for landlord checkout viewings."
+        title: "Final Cleaning Check",
+        description:
+          "We review the completed clean against the agreed checklist to make sure the property is left tidy, fresh and prepared for the next stage of the handover."
       }
     ],
+
     whyChoose: [
       {
-        title: "Detailed Property-Wide Checklist",
-        description: "We follow a detailed, checkout-focused checklist to ensure all key areas, including cupboards and window frames, are cleaned thoroughly."
+        title: "Detailed End of Tenancy Checklist",
+        description:
+          "We follow a structured property-wide checklist covering kitchens, bathrooms, floors, cupboards, windows, doors, skirting boards and other important areas."
       },
       {
-        title: "Tenant, Landlord & Letting Agent Friendly",
-        description: "We help make property handovers smoother for everyone involved by delivering reliable cleanliness."
+        title: "Professional Move-Out Cleaning",
+        description:
+          "Our trained cleaners provide a thorough move-out cleaning service designed around the condition and requirements of your rental property."
       },
       {
-        title: "Inspection-Ready Finish",
-        description: "We detail trim work, fixtures, and appliances, ensuring the property looks well-maintained for checkouts."
+        title: "Suitable for Tenants & Property Professionals",
+        description:
+          "We work with tenants, landlords and letting agents who need a reliable cleaning service before property inspections, handovers or new tenancies."
       }
     ],
-    areasContent: "We provide checklist-based end of tenancy cleaning services in Willenhall, Walsall, Wolverhampton, and surrounding West Midlands locations, helping prepare properties for immediate inspection.",
+
+    areasContent:
+      "We provide end of tenancy cleaning services across Willenhall, Walsall, Wolverhampton, Dudley, West Bromwich, Birmingham and surrounding West Midlands areas. If you need a professional move-out cleaning service for a rental or residential property, contact our team to discuss your location and cleaning requirements.",
+
     faqs: [
       {
         question: "What is included in end of tenancy cleaning?",
-        answer: "Our tenancy clean covers all kitchen cupboards (inside/out), descaling bathrooms, internal windows and sills, wiping skirting boards, doors, switches, frames, and vacuuming and mopping floors."
+        answer:
+          "Our end of tenancy cleaning service covers kitchens, bathrooms, internal windows, cupboards, wardrobes, doors, skirting boards, light switches, floors and other agreed areas throughout the property."
+      },
+      {
+        question: "Do you provide move-out cleaning services?",
+        answer:
+          "Yes. Our move-out cleaning service is designed for tenants, landlords and property professionals who need a detailed clean before a property handover, inspection or new tenancy."
       },
       {
         question: "Do you clean inside cupboards and wardrobes?",
-        answer: "Yes. We clean inside all kitchen cabinets, drawers, bathroom cupboards, and bedroom wardrobes, provided they are empty before we arrive."
-      },
-      {
-        question: "Can tenants and landlords book the service?",
-        answer: "Yes. We are regularly booked by tenants moving out, landlords preparing for new tenancies, letting agents, and homeowners moving into new properties."
+        answer:
+          "Yes. We clean inside kitchen cupboards, drawers and accessible wardrobes when they have been completely emptied before our team arrives."
       },
       {
         question: "Do you clean internal windows?",
-        answer: "Yes, we clean internal window glass, frames, and windowsills throughout the property as part of our standard end of tenancy checklist."
+        answer:
+          "Yes. Internal window glass, frames and windowsills can be cleaned as part of our standard end of tenancy cleaning checklist."
+      },
+      {
+        question: "Can tenants, landlords and letting agents book the service?",
+        answer:
+          "Yes. Our end of tenancy cleaning service can be booked by tenants moving out, landlords preparing properties for new occupants and letting agents arranging rental property changeovers."
       },
       {
         question: "How should I prepare my property before the cleaner arrives?",
-        answer: "The property must be completely empty of personal belongings, rubbish, and food. Cupboards and wardrobes must be cleared so our team can access and clean the interiors."
+        answer:
+          "Where possible, the property should be cleared of personal belongings, rubbish and food. Cupboards and wardrobes should also be emptied if you want their interiors cleaned."
       },
       {
-        question: "Does this service guarantee my deposit return?",
-        answer: "Our detailed cleaning is designed to help the property meet standard checkout cleanliness guidelines. However, deposit returns depend entirely on your tenancy agreement, property damage, and your landlord or letting agent's final inspection decision."
+        question: "Does end of tenancy cleaning guarantee my deposit return?",
+        answer:
+          "No cleaning company can guarantee a deposit return because the final outcome depends on your tenancy agreement, property condition, damage and the landlord or letting agent's inspection. Our detailed cleaning is intended to help the property meet expected cleanliness standards."
+      },
+      {
+        question: "How much does end of tenancy cleaning cost?",
+        answer:
+          "The cost depends on factors such as property size, number of rooms, condition and the cleaning requirements. Contact us with your property details so we can discuss your requirements and provide a quote."
       }
     ]
   },
