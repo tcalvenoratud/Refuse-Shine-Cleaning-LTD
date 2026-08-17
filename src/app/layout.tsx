@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.refuseshinecleaningltd.co.uk"),
   title: {
     default: "Refuse Shine Cleaning LTD | Professional Cleaning Services",
-    template: "%s | Refuse Shine Cleaning LTD",
+    template: "%s ",
   },
   description: "Professional cleaning services across Willenhall, Wolverhampton, Walsall, Dudley, Birmingham and the West Midlands.",
   alternates: {
