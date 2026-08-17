@@ -48,7 +48,7 @@ export const SERVICES_DATA: ServiceDetail[] = [
       "Reliable regular house cleaning and domestic cleaning services in Willenhall, Walsall and surrounding West Midlands areas, with flexible weekly or fortnightly visits tailored to your home.",
 
     metaTitle:
-      "Regular House Cleaning in Willenhall & West Midlands | Refuse Shine",
+      "Regular House Cleaning in Willenhall & West Midlands",
 
     metaDescription:
       "Professional regular house cleaning and domestic cleaning services in Willenhall, Walsall and the West Midlands. Weekly or fortnightly visits from vetted local cleaners. Get a free quote.",
@@ -186,7 +186,7 @@ export const SERVICES_DATA: ServiceDetail[] = [
       "Professional deep cleaning services for homes and businesses in Willenhall, Walsall and surrounding West Midlands areas, providing a detailed top-to-bottom clean for a fresher, healthier space.",
 
     metaTitle:
-      "Deep Cleaning Services in Willenhall & West Midlands | Refuse Shine",
+      "Deep Cleaning Services in Willenhall & West Midlands",
 
     metaDescription:
       "Professional deep cleaning services in Willenhall, Walsall and the West Midlands. Detailed house deep cleaning from vetted local cleaners. Get a free quote.",
@@ -324,7 +324,7 @@ export const SERVICES_DATA: ServiceDetail[] = [
       "Professional kitchen deep cleaning services in Willenhall, Walsall and surrounding West Midlands areas, removing built-up grease, food residue and grime for a cleaner, fresher kitchen.",
 
     metaTitle:
-      "Kitchen Deep Cleaning in Willenhall & West Midlands | Refuse Shine",
+      "Kitchen Deep Cleaning in Willenhall & West Midlands",
 
     metaDescription:
       "Professional kitchen deep cleaning services in Willenhall, Walsall and the West Midlands. Remove built-up grease, grime and food residue with a detailed kitchen deep clean. Get a free quote.",
@@ -462,7 +462,7 @@ export const SERVICES_DATA: ServiceDetail[] = [
       "Professional bathroom cleaning services in Willenhall, Walsall and surrounding West Midlands areas, removing limescale, soap scum and everyday bathroom grime for a fresh, hygienic finish.",
 
     metaTitle:
-      "Bathroom Cleaning Services in Willenhall & West Midlands | Refuse Shine",
+      "Bathroom Cleaning Services in Willenhall & West Midlands",
 
     metaDescription:
       "Professional bathroom cleaning services in Willenhall, Walsall & the West Midlands. Detailed bathroom deep cleaning, limescale removal and sanitisation. Get a free quote.",
@@ -743,7 +743,7 @@ export const SERVICES_DATA: ServiceDetail[] = [
       "Professional move-in and move-out cleaning services in Walsall, Wolverhampton, Dudley and surrounding West Midlands areas, helping you start fresh or leave your property clean and ready for its next occupants.",
 
     metaTitle:
-      "Move In & Move Out Cleaning in Walsall & West Midlands | Refuse Shine",
+      "Move In & Move Out Cleaning in Walsall & West Midlands",
 
     metaDescription:
       "Professional move-in and move-out cleaning services in Walsall, Wolverhampton & the West Midlands. Detailed empty-property cleaning for a fresh start or clean handover. Get a free quote.",
@@ -881,7 +881,7 @@ export const SERVICES_DATA: ServiceDetail[] = [
     icon: Calendar,
     title: "Airbnb & Short Let Cleaning",
     tagline: "Maintain five-star guest reviews with our professional Airbnb turnarounds, laundry, and short-let cleaning services in Walsall, Birmingham & West Midlands.",
-    metaTitle: "Airbnb & Short Let Cleaning in Walsall & Birmingham | Refuse Shine",
+    metaTitle: "Airbnb & Short Let Cleaning in Walsall & Birmingham",
     metaDescription: "Reliable Airbnb turnarounds & guest changeover cleaning in Walsall, Birmingham & Wolverhampton. Linen prep & sanitisation. Keep your guest reviews spotless.",
     image: "/assets/services/airbnb-short-let-cleaning.png",
     altText: "Prism hotel-styled bedroom with fresh linens and folded towels on the bed",
@@ -967,7 +967,7 @@ export const SERVICES_DATA: ServiceDetail[] = [
     icon: Hammer,
     title: "Post Construction Cleaning",
     tagline: "Remove fine dust, paint splatters, plaster residue, and builders' debris from your newly built or renovated space in Dudley & West Midlands.",
-    metaTitle: "Post Construction Cleaning in Dudley & Wolverhampton | Refuse Shine",
+    metaTitle: "Post Construction Cleaning in Dudley & Wolverhampton",
     metaDescription: "Professional after-builders & post-construction cleaning in Dudley, Wolverhampton & Walsall. Thorough dust removal. Fully insured team. Get a free quote.",
     image: "/assets/services/post-construction-cleaning.png",
     altText: "Newly renovated home interior being detailed by a professional cleaner",
@@ -1053,7 +1053,7 @@ export const SERVICES_DATA: ServiceDetail[] = [
     icon: Layers,
     title: "Carpet Cleaning",
     tagline: "Revitalise your home or office carpets, remove stubborn stains, and eliminate deep-seated odours with our professional hot water extraction carpet cleaning in Willenhall.",
-    metaTitle: "Carpet Cleaning Services in Willenhall & Walsall | Refuse Shine",
+    metaTitle: "Carpet Cleaning Services in Willenhall & Walsall",
     metaDescription: "Professional hot water extraction carpet cleaning in Willenhall, Walsall & Cannock. Deep stain & odour removal. Pet-safe treatments. Get a free quote.",
     image: "/assets/services/carpet-cleaning.png",
     altText: "Professional steam carpet cleaning wand showing a clean path on plush carpet",
@@ -1139,7 +1139,7 @@ export const SERVICES_DATA: ServiceDetail[] = [
     icon: Flame,
     title: "Appliance Cleaning",
     tagline: "Restore a hygienic finish to your ovens, fridges, and microwaves with detailed appliance cleaning services in West Bromwich and surrounding areas.",
-    metaTitle: "Appliance & Oven Cleaning in West Bromwich & Willenhall | Refuse Shine",
+    metaTitle: "Appliance & Oven Cleaning in West Bromwich & Willenhall",
     metaDescription: "Professional oven & kitchen appliance deep cleaning in West Bromwich, Willenhall & Dudley. We scrub grease, carbon & burnt food. Request a free quote.",
     image: "/assets/services/appliance-cleaning.png",
     altText: "Spotless, clean interior of a modern double oven with wire racks",
@@ -1225,7 +1225,7 @@ export const SERVICES_DATA: ServiceDetail[] = [
     icon: LayoutGrid,
     title: "Window Cleaning",
     tagline: "Bring natural light back into your property with streak-free interior and exterior window cleaning services in Willenhall and Walsall.",
-    metaTitle: "Window Cleaning Services in Willenhall & Walsall | Refuse Shine",
+    metaTitle: "Window Cleaning Services in Willenhall & Walsall",
     metaDescription: "Streak-free window cleaning in Willenhall, Walsall & Wolverhampton. Internal glass, frames, sills & window tracks detailed. Request a free quote.",
     image: "/assets/services/window-cleaning.png",
     altText: "A window squeegee cleaning a glass window pane to a streak-free finish",
@@ -1311,7 +1311,7 @@ export const SERVICES_DATA: ServiceDetail[] = [
     icon: Trash2,
     title: "Waste Removal",
     tagline: "Clear household rubbish, garden waste, and unwanted furniture quickly and responsibly with our licensed waste removal services in Walsall & West Midlands.",
-    metaTitle: "Waste Removal & House Clearance in Walsall & Willenhall | Refuse Shine",
+    metaTitle: "Waste Removal & House Clearance in Walsall & Willenhall",
     metaDescription: "Licensed house clearance & domestic waste removal services in Walsall, Willenhall & West Midlands. Responsible recycling. Fast, reliable rubbish clearance.",
     image: "/assets/services/waste-removal-services.png",
     altText: "A clean waste collection van parked near a house with sorted recycling boxes",

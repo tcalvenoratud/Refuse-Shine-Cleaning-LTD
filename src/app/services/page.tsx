@@ -2,7 +2,7 @@ import ServicesClient from "./services-client";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Professional Cleaning Services in the West Midlands | Refuse Shine Cleaning LTD",
+  title: "Cleaning Services in West Midlands | Refuse Shine",
   description: "Professional house cleaning, deep cleaning, carpet cleaning, window cleaning, end of tenancy cleaning and more across the West Midlands.",
   alternates: {
     canonical: "/services",
