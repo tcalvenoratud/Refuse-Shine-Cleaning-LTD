@@ -82,7 +82,7 @@ export default async function ServicePage({ params }: PageProps) {
       "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Flat 24 Lichfield House, 232 Lichfield Road",
+        "streetAddress": "Flat 23 Lichfield House, 232 Lichfield Road",
         "addressLocality": "Willenhall",
         "addressRegion": "West Midlands",
         "postalCode": "WV12 5AB",

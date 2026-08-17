@@ -211,7 +211,7 @@ export default function ContactClient() {
               <div>
                 <h3 className="text-lg font-extrabold text-foreground">Our Location</h3>
                 <p className="mt-2 text-base text-foreground/80 dark:text-foreground/90 font-medium leading-relaxed">
-                  Flat 24 Lichfield House, 232 Lichfield Road,<br />
+                  Flat 23 Lichfield House, 232 Lichfield Road,<br />
                   Willenhall, England, WV12 5AB
                 </p>
               </div>

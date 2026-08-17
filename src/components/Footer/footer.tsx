@@ -186,7 +186,7 @@ export function Footer() {
                   className="flex items-start gap-3 hover:text-white transition-colors cursor-pointer group text-sm text-white/90 font-medium"
                 >
                   <MapPin className="size-4.5 text-[#459B4A] group-hover:scale-110 transition-transform shrink-0 mt-0.5" />
-                  <span>Flat 24 Lichfield House, 232 Lichfield Road, Willenhall, WV12 5AB</span>
+                  <span>Flat 23 Lichfield House, 232 Lichfield Road, Willenhall, WV12 5AB</span>
                 </a>
               </li>
             </ul>

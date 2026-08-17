@@ -928,7 +928,7 @@ function BookingWizardContent() {
                               type="text"
                               id="cAddress"
                               required
-                              placeholder="e.g. Flat 24 Lichfield House, 232 Lichfield Road, Willenhall, England, WV12 5AB"
+                              placeholder="e.g. Flat 23 Lichfield House, 232 Lichfield Road, Willenhall, England, WV12 5AB"
                               value={clientAddress}
                               onChange={(e) => setClientAddress(e.target.value)}
                               className="w-full h-12 rounded-xl border border-border/60 bg-background px-4 py-2 text-base sm:text-lg text-foreground placeholder-foreground/40 font-semibold focus:outline-none focus:ring-2 focus:ring-primary dark:border-border/10 dark:bg-muted/10 transition-all"

@@ -266,7 +266,7 @@ export default function TermsClient() {
                     <div className="flex items-start gap-3">
                       <MapPin className="size-5 text-primary mt-0.5 shrink-0" />
                       <span className="text-base text-foreground/80 dark:text-foreground/90 font-semibold">
-                        Flat 24 Lichfield House, 232 Lichfield Road, Willenhall, England, WV12 5AB
+                        Flat 23 Lichfield House, 232 Lichfield Road, Willenhall, England, WV12 5AB
                       </span>
                     </div>
 

@@ -736,85 +736,142 @@ export const SERVICES_DATA: ServiceDetail[] = [
     id: "move-in-out",
     slug: "move-in-move-out-cleaning",
     icon: Truck,
+
     title: "Move-In / Move-Out Cleaning",
-    tagline: "Ensure a fresh start in your new home or leave your old property spotless for incoming residents with our move-in/move-out cleaning services in Walsall & West Midlands.",
-    metaTitle: "Move In & Move Out Cleaning in Walsall & Wolverhampton | Refuse Shine",
-    metaDescription: "Stress-free move-in & move-out cleaning services in Walsall, Wolverhampton & Dudley. Detailed top-to-bottom clean. Fully insured team. Get a free quote.",
+
+    tagline:
+      "Professional move-in and move-out cleaning services in Walsall, Wolverhampton, Dudley and surrounding West Midlands areas, helping you start fresh or leave your property clean and ready for its next occupants.",
+
+    metaTitle:
+      "Move In & Move Out Cleaning in Walsall & West Midlands | Refuse Shine",
+
+    metaDescription:
+      "Professional move-in and move-out cleaning services in Walsall, Wolverhampton & the West Midlands. Detailed empty-property cleaning for a fresh start or clean handover. Get a free quote.",
+
     image: "/assets/services/move-in-move-out-cleaning.png",
-    altText: "Bright empty modern living room cleaned and ready for moving in",
-    introTitle: "Bespoke Move-In & Move-Out Cleaning Services",
-    introContent: "Moving into a new house or preparing to leave your current property is one of life's most demanding transitions. At Refuse Shine Cleaning LTD, we make the process smoother by providing intensive move-in and move-out cleaning services across Walsall, Wolverhampton, Dudley, and the wider West Midlands. Our dedicated team performs a comprehensive top-to-bottom sanitisation of empty properties, ensuring a clean slate for new occupants. Whether you are a buyer wanting to ensure your new home is sanitised before unpacking, or a seller wishing to present your property in the best possible light to attract buyers, we customize our checklists to meet your requirements. We deep clean kitchens, scrub bathrooms, detail woodwork, wash interior windows, and refresh floors, saving you valuable hours during your relocation.",
-    includedTitle: "What is Included in Our Move-In / Move-Out Clean",
-    includedIntro: "Our move-in and move-out cleaning checklist is designed to cover every detail of an empty property:",
+
+    altText:
+      "Professional move-in and move-out cleaning of an empty home ready for new occupants",
+
+    introTitle:
+      "Professional Move-In & Move-Out Cleaning Services",
+
+    introContent:
+      "Moving into a new property or leaving your current home can be a busy and demanding process. Refuse Shine Cleaning LTD provides professional move-in and move-out cleaning services across Walsall, Wolverhampton, Dudley and surrounding West Midlands areas, helping make property transitions easier. Our detailed cleaning service is designed for empty or mostly empty properties and covers kitchens, bathrooms, floors, internal windows, cupboards, doors, skirting boards and other accessible areas. Whether you are a home buyer wanting a fresh and hygienic space before unpacking, a seller preparing a property for viewings, a tenant moving between homes or a landlord preparing an empty property, our trained team works through a structured checklist to provide a thorough clean before the next stage of your move.",
+
+    includedTitle:
+      "What Is Included in Our Move-In / Move-Out Cleaning",
+
+    includedIntro:
+      "Our move-in and move-out cleaning checklist is designed to provide a detailed clean throughout an empty property:",
+
     includedList: [
-      "Deep cleaning and sanitisation of kitchen worktops, sinks, splashbacks, and cupboard interiors/exteriors",
-      "Scrubbing and descaling baths, showers, shower screens, basins, and toilets",
-      "Wiping down internal windows, window frames, and windowsills in all rooms",
-      "Cleaning baseboards, doors, door frames, light switches, and power sockets to remove dust and fingerprints",
-      "Vacuuming all carpets, rugs, edges, and mopping hard floor surfaces",
-      "Removing cobwebs from high ceilings, corners, and dusting light fittings"
+      "Deep cleaning and sanitisation of kitchen worktops, sinks, splashbacks and accessible cupboard interiors and exteriors",
+      "Scrubbing and descaling baths, showers, shower screens, basins and toilets",
+      "Cleaning internal windows, window frames and windowsills throughout the property",
+      "Cleaning skirting boards, doors, door frames, light switches and accessible power sockets",
+      "Vacuuming carpets, rugs and edges and mopping hard floor surfaces",
+      "Removing cobwebs from ceilings and corners and dusting accessible light fittings"
     ],
-    forTitle: "Who This Service Is For",
-    forIntro: "This service is tailored for households and property owners experiencing property handovers:",
+
+    forTitle:
+      "Who Is Our Move-In / Move-Out Cleaning Service For?",
+
+    forIntro:
+      "Our professional moving cleaning service is suitable for households and property owners preparing to leave, enter or hand over a property:",
+
     forList: [
-      "Home buyers wanting a fully sanitised and clean environment before moving their furniture in",
-      "Home sellers aiming to maximise their property's market value and appeal during viewings",
-      "Tenants requiring a detailed transition clean between properties",
-      "Landlords preparing an empty flat or house for immediate rental listing"
+      "Home buyers wanting a clean and hygienic property before moving furniture in",
+      "Home sellers preparing their property for viewings or handover",
+      "Tenants requiring a detailed clean when moving between properties",
+      "Landlords preparing an empty house or flat for new occupants"
     ],
-    processTitle: "Our Move-In / Move-Out Cleaning Process",
+
+    processTitle:
+      "Our Move-In / Move-Out Cleaning Process",
+
     processSteps: [
       {
         stepNumber: "01",
-        title: "Schedule & Requirements",
-        description: "We confirm your moving dates, property size, key focus areas, and any appliance cleaning additions."
+        title: "Confirm Your Moving Requirements",
+        description:
+          "We discuss your moving date, property size, access arrangements and key cleaning priorities before scheduling the service."
       },
       {
         stepNumber: "02",
-        title: "Intensive Empty-Property Clean",
-        description: "Our team cleans systematically through the vacant rooms, executing our detailed moving checklist."
+        title: "Complete the Move-In / Move-Out Clean",
+        description:
+          "Our team works systematically through the property, cleaning kitchens, bathrooms, floors, windows, cupboards and other agreed areas."
       },
       {
         stepNumber: "03",
-        title: "Ready for Handover",
-        description: "We review the final result, leaving the property spotless and prepared for the arrival of furniture or inspector walkthroughs."
+        title: "Final Property Check",
+        description:
+          "We review the completed cleaning work to make sure the property is left clean, fresh and ready for moving in, handing over or the next occupants."
       }
     ],
+
     whyChoose: [
       {
-        title: "Hassle-Free Relocation",
-        description: "We take care of the heavy cleaning so you can focus entirely on packing, moving logistics, and settling in."
+        title: "Professional Move-In & Move-Out Cleaning",
+        description:
+          "Our trained team provides a detailed property-wide clean so you can focus on packing, moving and settling into your next home."
       },
       {
-        title: "Property-Wide Sanitisation",
-        description: "We sanitise high-touch surfaces, cupboards, and bathroom areas to provide a safe, healthy environment."
+        title: "Detailed Empty-Property Cleaning",
+        description:
+          "With furniture and belongings removed, we can focus on accessible floors, cupboards, skirting boards, doors, bathrooms and other key areas."
       },
       {
-        title: "Insured Cleaning Specialists",
-        description: "Our team is fully insured and experienced in managing moving-day cleanups efficiently and safely."
+        title: "Reliable & Insured Cleaning Team",
+        description:
+          "Our fully insured team provides professional cleaning services with a structured checklist and clear focus on your moving requirements."
       }
     ],
-    areasContent: "We deliver professional move-in and move-out cleaning services throughout Walsall, Wolverhampton, Dudley, West Bromwich, and adjacent West Midlands districts, ensuring clean property handovers.",
+
+    areasContent:
+      "We provide professional move-in and move-out cleaning services across Walsall, Wolverhampton, Dudley, West Bromwich, Birmingham and surrounding West Midlands areas. If you need a detailed moving clean for a property you are leaving or moving into, contact our team to discuss your requirements.",
+
     faqs: [
       {
-        question: "What is move-in / move-out cleaning?",
-        answer: "It is an intensive, top-to-bottom deep clean of a vacant property. It covers all internal rooms, inside/outside of empty cupboards, baseboards, doors, internal windows, and sanitisation of kitchens and bathrooms."
+        question: "What is move-in and move-out cleaning?",
+        answer:
+          "Move-in and move-out cleaning is a detailed clean of a property before you move in or after you move out. It can include kitchens, bathrooms, floors, internal windows, cupboards, skirting boards, doors and other agreed internal areas."
       },
       {
-        question: "Must the property be empty before cleaning?",
-        answer: "Yes, for the best results, the property should be empty of all personal belongings and furniture. This allows our cleaners to access every corner, baseboard, and cupboard shelf easily."
+        question: "Do you provide move-out cleaning services?",
+        answer:
+          "Yes. Our move-out cleaning service is designed to help tenants, homeowners and property owners leave a property clean and ready for handover, viewings or its next occupants."
       },
       {
-        question: "Do you clean appliances like ovens?",
-        answer: "Wiping the exterior of major kitchen appliances is included. Internal deep cleaning of ovens, fridges, or washing machines can be added as optional extras when booking."
+        question: "Do you provide move-in cleaning services?",
+        answer:
+          "Yes. Our move-in cleaning service helps prepare a new home or property before you bring in furniture and personal belongings, giving you a cleaner and fresher space from the start."
       },
       {
-        question: "How long does a moving clean take?",
-        answer: "A typical move-in or move-out clean takes between 4 to 8 hours depending on the size of the house and its overall condition."
+        question: "Does the property need to be empty before cleaning?",
+        answer:
+          "For the best results, we recommend removing furniture and personal belongings where possible. An empty property allows our cleaners to access more floors, cupboards, skirting boards and other areas."
       },
       {
-        question: "Do you supply cleaning products and tools?",
-        answer: "Yes, our team brings all professional-grade cleaning products, vacuum cleaners, mops, and cloths needed to perform the clean."
+        question: "Do you clean appliances such as ovens?",
+        answer:
+          "Cleaning accessible exterior surfaces of major kitchen appliances can be included. Internal oven, fridge or washing machine cleaning can be requested as an additional service when booking."
+      },
+      {
+        question: "How long does a move-in or move-out clean take?",
+        answer:
+          "The time depends on the property's size, condition and cleaning requirements. Larger or more heavily soiled properties may require additional time. We can discuss your property details and provide an appropriate estimate."
+      },
+      {
+        question: "Do you supply cleaning products and equipment?",
+        answer:
+          "Yes. Our team brings the professional cleaning products, vacuum cleaners, mops, cloths and other standard equipment required for the agreed cleaning service."
+      },
+      {
+        question: "Do you offer move-in and move-out cleaning near me?",
+        answer:
+          "We provide move-in and move-out cleaning services across Walsall, Wolverhampton, Dudley, West Bromwich, Birmingham and surrounding West Midlands areas. Contact us with your location to confirm availability."
       }
     ]
   },
