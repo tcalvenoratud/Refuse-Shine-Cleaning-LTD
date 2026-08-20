@@ -425,7 +425,7 @@ export default function ContactClient() {
                 <div className="mt-3 px-2 flex justify-between items-center">
                   <span className="text-sm font-bold text-foreground/70">Willenhall, England, WV12</span>
                   <a
-                    href="https://www.google.com/maps/dir/?api=1&destination=Flat+24+Lichfield+House,+232+Lichfield+Road,+Willenhall,+England,+WV12+5AB"
+                    href="https://www.google.com/maps/dir/?api=1&destination=Flat+23+Lichfield+House,+232+Lichfield+Road,+Willenhall,+England,+WV12+5AB"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm font-extrabold text-primary hover:text-primary/95 dark:text-accent dark:hover:text-accent/95 flex items-center gap-1 transition-colors cursor-pointer"
