@@ -879,85 +879,149 @@ export const SERVICES_DATA: ServiceDetail[] = [
     id: "airbnb-clean",
     slug: "airbnb-short-let-cleaning",
     icon: Calendar,
+
     title: "Airbnb & Short Let Cleaning",
-    tagline: "Maintain five-star guest reviews with our professional Airbnb turnarounds, laundry, and short-let cleaning services in Walsall, Birmingham & West Midlands.",
-    metaTitle: "Airbnb & Short Let Cleaning in Walsall & Birmingham | Refuse Shine",
-    metaDescription: "Reliable Airbnb turnarounds & guest changeover cleaning in Walsall, Birmingham & Wolverhampton. Linen prep & sanitisation. Keep your guest reviews spotless.",
+
+    tagline:
+      "Reliable Airbnb cleaning and short-let changeover services for hosts and property managers in Willenhall, Walsall and the West Midlands.",
+
+    metaTitle:
+      "Airbnb & Short Let Cleaning in Willenhall | Refuse Shine",
+
+    metaDescription:
+      "Professional Airbnb cleaning services and short-let changeovers in Willenhall, Walsall & West Midlands. Reliable guest-ready cleaning. Get a free quote.",
+
     image: "/assets/services/airbnb-short-let-cleaning.png",
-    altText: "Prism hotel-styled bedroom with fresh linens and folded towels on the bed",
-    introTitle: "Five-Star Short-Term Rental Cleaning & Guest Turnarounds",
-    introContent: "In the short-term rental market, cleanliness directly influences your ratings, booking numbers, and revenue. Refuse Shine Cleaning LTD provides dependable Airbnb and short-let cleaning services across Walsall, Birmingham, Wolverhampton, and surrounding West Midlands areas. We understand that checkout schedules are tight, which is why our team operates with speed and precision during the critical turnaround window. We clean and sanitise kitchens and bathrooms, restock guest essentials, arrange fresh bed linen, and set up towels to present your property beautifully. Our cleaners work to a checklist customised to your property, ensuring every new guest walks into a spotless, welcoming space that smells fresh and looks immaculate.",
-    includedTitle: "What is Included in Our Airbnb Cleaning Checklist",
-    includedIntro: "Our changeover cleaning checklist is designed to match high hospitality standards with every single visit:",
+
+    altText:
+      "Freshly cleaned short-let bedroom with crisp white bed linen and neatly arranged towels",
+
+    introTitle:
+      "Professional Airbnb Cleaning & Short Let Changeovers",
+
+    introContent:
+      "In the short-term rental market, consistent cleanliness can make a major difference to the guest experience. Refuse Shine Cleaning LTD provides reliable Airbnb cleaning services and short-let cleaning across Willenhall, Walsall, Wolverhampton, West Bromwich, Birmingham and surrounding West Midlands areas. We understand that hosts often work within tight checkout and check-in windows, so our team follows a clear cleaning checklist for every property. We clean and sanitise kitchens and bathrooms, prepare beds with fresh linen, arrange towels, remove guest waste and leave the property looking fresh and welcoming for the next arrival. Whether you manage one Airbnb property or multiple short-let properties, our cleaning service is designed to help maintain a consistent guest-ready standard.",
+
+    includedTitle:
+      "What is Included in Our Airbnb Cleaning Service",
+
+    includedIntro:
+      "Our Airbnb and short-let cleaning checklist focuses on the areas guests notice most, helping prepare your property for the next stay:",
+
     includedList: [
-      "Stripping dirty bed sheets and towels, and dressing beds with fresh, crisp linen",
-      "Deep cleaning and sanitising high-use zones, including kitchen worktops, basins, and appliances",
-      "Scrubbing bathrooms, polishing shower glass, and sanitising toilets to a pristine standard",
-      "Emptying trash bins, replacing bags, and disposing of any food items left behind by previous guests",
-      "Vacuuming carpets, wiping down tables, and sanitising hard floors to remove foot traffic dirt",
-      "Arranging pillows, cushions, toiletries, and checking for property damage or left-behind guest belongings"
+      "Stripping used bed sheets and towels and dressing beds with fresh linen",
+      "Deep cleaning and sanitising kitchen worktops, sinks, appliances and other high-use surfaces",
+      "Cleaning bathrooms, including toilets, basins, shower areas and glass screens",
+      "Emptying guest waste bins, replacing bags and removing food or rubbish left behind",
+      "Vacuuming carpets and rugs, wiping furniture and mopping hard floor surfaces",
+      "Arranging pillows, cushions, towels and guest essentials for a clean, welcoming presentation"
     ],
-    forTitle: "Who This Service Is For",
-    forIntro: "Our guest turnaround service is tailored for busy property hosts and operators:",
+
+    forTitle:
+      "Who Our Airbnb & Short Let Cleaning Service Is For",
+
+    forIntro:
+      "Our Airbnb cleaning service is designed for hosts and property operators who need reliable guest-ready cleaning between stays:",
+
     forList: [
-      "Airbnb hosts wanting to automate their turnaround cleaning and guest changeovers",
-      "Short-let landlords aiming to maintain high cleanliness ratings on booking platforms",
-      "Property management companies seeking a reliable local cleaning partner in the West Midlands",
-      "Second-home owners who need a trusted team to prepare their property for guest check-ins"
+      "Airbnb hosts who need reliable cleaning between guest check-outs and check-ins",
+      "Short-let landlords who want to maintain consistent cleaning standards for guests",
+      "Property management companies looking for a dependable local cleaning partner",
+      "Second-home owners who need a trusted team to prepare their property for guest arrivals"
     ],
-    processTitle: "Our Airbnb Cleaning Process",
+
+    processTitle:
+      "Our Airbnb Cleaning & Short Let Changeover Process",
+
     processSteps: [
       {
         stepNumber: "01",
-        title: "Booking Synchronization",
-        description: "We align our cleaning visits with your booking calendars, checkout times, and check-in schedules."
+        title: "Schedule & Cleaning Requirements",
+        description:
+          "We confirm your property requirements, preferred cleaning schedule, checkout times and any specific guest-ready checklist priorities."
       },
       {
         stepNumber: "02",
-        title: "Rapid Changeover Clean",
-        description: "Our team cleans the property, makes beds, prepares towels, and checks for left-behind items or damage."
+        title: "Airbnb Turnaround Cleaning",
+        description:
+          "Our team cleans and sanitises the property, changes bed linen and towels, removes waste and prepares each room for the next guest."
       },
       {
         stepNumber: "03",
-        title: "Guest-Ready Checklist",
-        description: "We verify the visual appeal of the rooms and restock guest essentials, leaving the property clean, presentable and ready for the next guest"
+        title: "Guest-Ready Final Check",
+        description:
+          "We review the property against the agreed checklist and make sure rooms, bathrooms, kitchen areas and guest essentials are presented ready for check-in."
       }
     ],
+
     whyChoose: [
       {
-        title: "Fast Turnaround Speeds",
-        description: "We work efficiently around guest check-out and check-in times to help keep your property ready for the next stay."
+        title: "Reliable Airbnb Cleaning",
+        description:
+          "We follow a consistent property-specific checklist to help ensure your Airbnb or short-let property is ready for every guest arrival."
       },
       {
-        title: "Five-Star Cleaning Quality",
-        description: "We focus on details like shiny chrome, hair-free bathrooms, and fresh smells to ensure positive reviews."
+        title: "Fast Guest Turnaround",
+        description:
+          "We work efficiently around your checkout and check-in schedule to help keep your property ready for the next stay."
       },
       {
         title: "Host Peace of Mind",
-        description: "We act as your eyes on the ground, reporting any guest damage or maintenance issues immediately after checkout."
+        description:
+          "Our team can identify visible damage, breakages or belongings left behind during the cleaning visit and notify you promptly."
       }
     ],
-    areasContent: "We offer hospitality-grade short-let turnarounds and Airbnb cleaning services across Walsall, Birmingham, Wolverhampton, West Bromwich, and nearby West Midlands areas.",
+
+    areasContent:
+      "We provide Airbnb cleaning and short-let changeover services across Willenhall, Walsall, Wolverhampton, West Bromwich, Birmingham and surrounding West Midlands areas, helping hosts keep their properties clean and guest-ready.",
+
     faqs: [
       {
-        question: "How quickly can you complete an Airbnb turnaround?",
-        answer: "Our team typically completes standard guest changeovers in 2 to 4 hours, depending on the property size. We schedule visits between guest check-out and next check-in."
+        question:
+          "What does an Airbnb cleaning service include?",
+
+        answer:
+          "Our Airbnb cleaning service includes changing used bed linen and towels, cleaning and sanitising kitchens and bathrooms, vacuuming carpets and rugs, mopping hard floors, emptying bins and preparing rooms for the next guest."
       },
+
       {
-        question: "Do you handle guest linen and towels?",
-        answer: "Yes, we strip bed linens and towels and replace them with fresh ones supplied by the host or property owner."
+        question:
+          "Do you provide Airbnb and short-let changeover cleaning?",
+
+        answer:
+          "Yes. We provide Airbnb cleaning and short-let changeover services designed to prepare properties between guest stays and help ensure they are ready for the next check-in."
       },
+
       {
-        question: "Do you report property damage?",
-        answer: "Absolutely. If our cleaning team spots any damage, breakages, or items left behind by previous guests, we document it and notify you immediately."
+        question:
+          "Do you handle guest linen and towels?",
+
+        answer:
+          "Yes. We can strip used bed linen and towels and replace them with fresh linen supplied by the host or property owner."
       },
+
       {
-        question: "Do you restock guest amenities?",
-        answer: "Yes. We can restock hand soaps, toilet rolls, tea, coffee, and other host-provided guest essentials during our visit."
+        question:
+          "Do you report property damage or items left behind?",
+
+        answer:
+          "Yes. If our team notices visible damage, breakages or belongings left behind by previous guests during the cleaning visit, we can document the issue and notify you."
       },
+
       {
-        question: "Are your cleaners insured?",
-        answer: "Yes, all our cleaners are background-checked, trained in short-let cleaning standards, and fully insured for your safety."
+        question:
+          "Can you restock guest essentials?",
+
+        answer:
+          "Yes. We can help arrange and restock host-provided guest essentials such as hand soap, toilet rolls, tea and coffee as part of the agreed cleaning requirements."
+      },
+
+      {
+        question:
+          "Are your Airbnb cleaners insured?",
+
+        answer:
+          "Yes. Our cleaning team is trained for domestic and short-let cleaning requirements and fully insured for your peace of mind."
       }
     ]
   },
@@ -965,85 +1029,149 @@ export const SERVICES_DATA: ServiceDetail[] = [
     id: "post-construction",
     slug: "post-construction-cleaning",
     icon: Hammer,
+
     title: "Post Construction Cleaning",
-    tagline: "Remove fine dust, paint splatters, plaster residue, and builders' debris from your newly built or renovated space in Dudley & West Midlands.",
-    metaTitle: "Post Construction Cleaning in Dudley & West Midlands | Refuse Shine",
-    metaDescription: "Professional after-builders & post-construction cleaning in Dudley, Wolverhampton & Walsall. Thorough dust removal. Fully insured team. Get a free quote.",
+
+    tagline:
+      "Remove fine construction dust, paint splatters, plaster residue, and builders' debris with professional after-builders cleaning in Dudley and across the West Midlands.",
+
+    metaTitle:
+      "After Builders Cleaning in Dudley & West Midlands | Refuse Shine",
+
+    metaDescription:
+      "Professional after builders and post construction cleaning in Dudley, Wolverhampton & Walsall. Detailed dust, paint & plaster removal. Get a free quote.",
+
     image: "/assets/services/post-construction-cleaning.png",
-    altText: "Newly renovated home interior being detailed by a professional cleaner",
-    introTitle: "Thorough After-Builders & Renovation Cleanup Services",
-    introContent: "Building work and home renovations generate significant amounts of fine white dust, plaster splatters, and paint drops that settle on every surface. Our post-construction cleaning service is designed to tackle this heavy mess and make your newly built or renovated property clean and livable. Serving building contractors, property developers, and homeowners in Dudley, Wolverhampton, Walsall, and adjacent West Midlands locations, Refuse Shine Cleaning LTD provides deep cleaning solutions for post-renovation spaces. Our experienced cleaners use advanced tools and filtration vacuums to capture fine airborne dust, scrape paint drops off window glass, scrub plaster from tiles, and detail skirting boards, leaving your space clean, healthy, and ready for use.",
-    includedTitle: "What is Cleaned During Post-Construction Cleaning",
-    includedIntro: "Our after-builders cleaning checklist focuses on eliminating stubborn dust, paint, and construction debris:",
+
+    altText:
+      "Professional cleaner detailing a newly renovated home after construction work",
+
+    introTitle:
+      "Professional After Builders & Post Construction Cleaning",
+
+    introContent:
+      "Building work and home renovations can leave behind fine construction dust, plaster residue, paint splatters, adhesive marks, and builders' debris that ordinary cleaning cannot fully remove. Refuse Shine Cleaning LTD provides professional after builders cleaning and post construction cleaning services for newly built and renovated properties across Dudley, Wolverhampton, Walsall and the wider West Midlands. Our team works through the property systematically, removing fine dust from surfaces, detailing windows and frames, cleaning kitchens and bathrooms, and tackling construction-related marks where safely accessible. Whether you are a homeowner completing a renovation, a contractor preparing a project for handover, or a property developer getting a new property ready for use, our detailed cleaning service helps leave the space clean, presentable, and ready for the next stage.",
+
+    includedTitle:
+      "What is Included in Our After Builders Cleaning Service",
+
+    includedIntro:
+      "Our after builders cleaning checklist focuses on the dust, residue and surface marks commonly left behind after construction or renovation work:",
+
     includedList: [
-      "Thorough extraction of fine construction dust from walls, ceilings, light fixtures, and vents",
-      "Cleaning internal windows, frames, tracks, and scraping off paint, plaster, or tape adhesive residues",
-      "Deep cleaning and sanitising bathrooms, removing grout haze, and polishing fixtures",
-      "Wiping kitchen worktops, appliances, and cleaning dust out of cupboards inside and out",
-      "Cleaning baseboards, doors, door frames, power sockets, and light switches",
-      "Industrial vacuuming of all carpets, edges, and detailed scrubbing of hard floor surfaces"
+      "Thorough removal of fine construction dust from walls, ceilings, light fittings, vents, and accessible surfaces",
+      "Cleaning internal windows, frames, tracks, and safely removing accessible paint, plaster, or adhesive residue",
+      "Deep cleaning and sanitising bathrooms, including removing grout residue and polishing fixtures",
+      "Cleaning kitchen worktops, appliances, and cupboard interiors and exteriors to remove construction dust",
+      "Wiping skirting boards, doors, door frames, sockets, and light switches",
+      "Detailed vacuuming of carpets, edges, and hard floors followed by thorough mopping"
     ],
-    forTitle: "Who This Service Is For",
-    forIntro: "This heavy-duty cleaning is ideal for projects transitioning from building work to occupancy:",
+
+    forTitle:
+      "Who Our Post Construction Cleaning Service Is For",
+
+    forIntro:
+      "Our specialist after builders cleaning service is suitable for properties moving from construction or renovation into final use:",
+
     forList: [
-      "Property developers preparing newly built houses or commercial units for handovers",
-      "Homeowners who have completed extensions, loft conversions, or room renovations",
-      "Building contractors looking for a reliable team to handle final handover cleaning",
-      "Interior designers preparing a newly fitted property for client viewings"
+      "Property developers preparing newly built homes or commercial units for handover",
+      "Homeowners completing extensions, loft conversions, or renovation projects",
+      "Building contractors looking for reliable final cleaning before project handover",
+      "Interior designers preparing newly fitted properties for client viewings or occupancy"
     ],
-    processTitle: "Our Post-Construction Cleaning Process",
+
+    processTitle:
+      "Our After Builders Cleaning Process",
+
     processSteps: [
       {
         stepNumber: "01",
-        title: "Site Assessment & Safety",
-        description: "We inspect the renovated areas to determine dust levels, adhesive residues, and check safety guidelines."
+        title: "Site Assessment & Cleaning Plan",
+        description:
+          "We assess the property to identify construction dust, plaster residue, paint marks, adhesive residue, and the areas requiring detailed cleaning."
       },
       {
         stepNumber: "02",
-        title: "Multi-Stage Dust Extraction",
-        description: "We clean from top to bottom, using high-filtration vacuums, damp wiping walls, and detailed scraping of paint or plaster."
+        title: "Post Construction Deep Clean",
+        description:
+          "We work systematically from high to low, removing fine dust, cleaning surfaces, detailing windows, and tackling accessible construction-related residue."
       },
       {
         stepNumber: "03",
-        title: "Detailing & Final Shine",
-        description: "We polish fixtures, clean windows, and execute final surface wipes to deliver a clean, move-in-ready finish."
+        title: "Final Detailing & Handover Check",
+        description:
+          "We complete final surface checks, polish suitable fixtures, review the cleaned areas, and leave the property ready for handover, viewing, or occupancy."
       }
     ],
+
     whyChoose: [
       {
-        title: "Fine Dust Extraction Experts",
-        description: "We use industrial cleaning methods to capture fine plaster and drywall dust that standard home vacuums cannot handle."
+        title: "Specialist Fine Dust Removal",
+        description:
+          "We focus on the fine dust and residue commonly left after building and renovation work, including hard-to-reach accessible surfaces."
       },
       {
-        title: "Paint & Adhesive Removal",
-        description: "Our team is trained to safely scrape paint splatters, plaster, and tape residues from glass and frames without scratching."
+        title: "Detailed Construction Cleanup",
+        description:
+          "Our checklist covers windows, frames, skirting boards, kitchens, bathrooms, floors, and other areas affected by construction work."
       },
       {
-        title: "Reliable Handover Partners",
-        description: "We work around your construction schedules to help you meet developer handover deadlines and inspections."
+        title: "Reliable Handover Cleaning",
+        description:
+          "We work around project schedules to help contractors, developers, homeowners, and designers prepare properties for their next stage."
       }
     ],
-    areasContent: "We provide specialised post-construction and after-builders cleaning services in Dudley, Wolverhampton, Walsall, West Bromwich, Cannock, and across the West Midlands.",
+
+    areasContent:
+      "We provide professional post construction and after builders cleaning services in Dudley, Wolverhampton, Walsall, West Bromwich, Cannock, and surrounding West Midlands areas.",
+
     faqs: [
       {
-        question: "What is post-construction cleaning?",
-        answer: "It is an intensive, multi-stage deep clean designed to remove fine construction dust, plaster residue, paint splatters, adhesive tape, and builders' debris from a renovated or newly built property."
+        question:
+          "What is included in post construction cleaning?",
+
+        answer:
+          "Post construction cleaning is a detailed clean designed to remove fine construction dust, plaster residue, paint splatters, adhesive residue, and builders' debris from newly built or renovated properties."
       },
+
       {
-        question: "How does after-builders cleaning differ from a standard deep clean?",
-        answer: "After-builders cleaning targets construction-specific issues like fine gypsum dust, grout haze on tiles, paint splatters on glass, and adhesive labels on new sanitaryware, requiring specialised tools and scraping techniques."
+        question:
+          "What is after builders cleaning?",
+
+        answer:
+          "After builders cleaning focuses on cleaning and detailing a property after building or renovation work. It targets construction dust, plaster residue, paint marks, adhesive residue, windows, floors, kitchens, bathrooms, and other affected surfaces."
       },
+
       {
-        question: "Does post-construction cleaning include waste disposal?",
-        answer: "Our service focuses on deep cleaning and surface detailing. While we collect and bag construction dust and light debris, the disposal of major construction waste should be arranged separately."
+        question:
+          "How is after builders cleaning different from a standard deep clean?",
+
+        answer:
+          "After builders cleaning focuses specifically on construction-related dust and residue, such as fine plaster dust, grout residue, paint splatters, and adhesive marks, rather than only routine household dirt."
       },
+
       {
-        question: "When should after-builders cleaning be scheduled?",
-        answer: "It should be booked after all building work, plumbing, painting, and snagging are completed, and all tools have been removed from the site, preventing dust from resettling."
+        question:
+          "Does post construction cleaning include construction waste disposal?",
+
+        answer:
+          "Our service focuses on detailed cleaning and surface preparation. We can collect and bag light construction dust and debris, but major construction waste disposal should be arranged separately."
       },
+
       {
-        question: "Are your cleaners trained for safety?",
-        answer: "Yes, our cleaners are trained to work safely in post-construction environments and wear appropriate personal protective equipment (PPE)."
+        question:
+          "When should after builders cleaning be booked?",
+
+        answer:
+          "After builders cleaning is best scheduled once the main building, plumbing, painting, and snagging work has been completed and tools and major construction materials have been removed from the property."
+      },
+
+      {
+        question:
+          "Are your cleaners trained to work in post construction environments?",
+
+        answer:
+          "Our cleaners are trained to work safely in post construction cleaning environments and follow appropriate safety procedures when carrying out detailed cleaning work."
       }
     ]
   },
@@ -1051,85 +1179,135 @@ export const SERVICES_DATA: ServiceDetail[] = [
     id: "carpet-clean",
     slug: "carpet-cleaning",
     icon: Layers,
+
     title: "Carpet Cleaning",
-    tagline: "Revitalise your home or office carpets, remove stubborn stains, and eliminate deep-seated odours with our professional hot water extraction carpet cleaning in Willenhall.",
-    metaTitle: "Carpet Cleaning Services in Willenhall & West Midlands | Refuse Shine",
-    metaDescription: "Professional hot water extraction carpet cleaning in Willenhall, Walsall & Cannock. Deep stain & odour removal. Pet-safe treatments. Get a free quote.",
+
+    tagline:
+      "Revitalise your home or office carpets, remove stubborn stains, and tackle deep-seated odours with professional carpet cleaning in Willenhall and across the West Midlands.",
+
+    metaTitle:
+      "Carpet Cleaning Services in Willenhall & West Midlands | Refuse Shine",
+
+    metaDescription:
+      "Professional carpet cleaning in Willenhall, Walsall & Wolverhampton. Deep stain, dirt & odour removal using hot water extraction. Get a free quote.",
+
     image: "/assets/services/carpet-cleaning.png",
-    altText: "Professional steam carpet cleaning wand showing a clean path on plush carpet",
-    introTitle: "Deep Steam Carpet Cleaning & Stain Removal",
-    introContent: "Carpets act as filters in our homes, trapping dirt, dust mites, pet dander, and allergens deep within their fibres over time. Vacuuming alone cannot remove these deep-seated deposits. Refuse Shine Cleaning LTD offers professional hot water extraction carpet cleaning services in Willenhall, Walsall, Cannock, and across the West Midlands. We use advanced steam cleaning equipment that injects hot water and eco-friendly cleaning agents deep into the carpet pile, breaking down dirt, oils, and bacteria. The system then extracts the liquid along with the grime, leaving your carpets clean, smelling fresh, and feeling soft. Whether you are dealing with beverage spills, pet stains, high-traffic walkway discolouration, or simply want to refresh your rooms, our experienced technicians deliver high-quality results safe for children and pets.",
-    includedTitle: "What is Included in Our Carpet Cleaning Service",
-    includedIntro: "Our multi-stage carpet cleaning process is designed to achieve maximum dirt and stain extraction:",
+
+    altText:
+      "Professional carpet cleaner using hot water extraction equipment on a domestic carpet",
+
+    introTitle:
+      "Professional Carpet Cleaning & Deep Stain Removal",
+
+    introContent:
+      "Carpets can trap dirt, dust, pet hair, everyday allergens, and odours deep within their fibres over time. Regular vacuuming helps remove surface debris but cannot provide the same level of deep cleaning. Refuse Shine Cleaning LTD provides professional carpet cleaning services in Willenhall, Walsall, Wolverhampton, Cannock, and surrounding West Midlands areas. We use hot water extraction cleaning to loosen embedded dirt, oils, and stains before extracting the moisture and loosened debris from the carpet fibres. Whether you need a routine carpet clean, help with stubborn stains and pet odours, or a professional clean for a rental property or office, our team works carefully to refresh your carpets and leave them clean and fresh.",
+
+    includedTitle:
+      "What is Included in Our Carpet Cleaning Service",
+
+    includedIntro:
+      "Our professional carpet cleaning process combines preparation, targeted stain treatment, deep extraction, and finishing to clean the carpet thoroughly:",
+
     includedList: [
-      "Thorough dry vacuuming of the carpet to remove loose surface dirt and hair",
-      "Targeted pre-treatment of stubborn spots, stains, grease, and high-traffic lanes",
-      "Applying pre-spray cleaning agents to loosen deep-seated soil within carpet fibres",
-      "High-pressure hot water extraction cleaning to deep clean and sanitise the carpet pile",
-      "Extracting excess water to ensure fast drying times and prevent damp smells",
-      "Deodorising the carpet to leave rooms smelling clean and fresh"
+      "Thorough dry vacuuming to remove loose surface dirt, dust, and hair",
+      "Targeted pre-treatment of stubborn spots, stains, grease, and high-traffic areas",
+      "Application of suitable cleaning agents to loosen embedded soil within carpet fibres",
+      "Hot water extraction cleaning to remove loosened dirt and residue from the carpet pile",
+      "Extraction of excess moisture to support faster drying and reduce the risk of damp smells",
+      "Final deodorising treatment to leave carpets feeling fresh and clean"
     ],
-    forTitle: "Who This Service Is For",
-    forIntro: "Professional carpet cleaning is recommended once or twice a year for households and offices:",
+
+    forTitle: "Who Our Carpet Cleaning Service Is For",
+
+    forIntro:
+      "Our carpet cleaning service is suitable for homes, rental properties, and commercial spaces that need a deeper clean than routine vacuuming can provide:",
+
     forList: [
-      "Pet owners needing to remove muddy paw stains, pet accidents, hair, and pet odours",
-      "Allergy sufferers wanting to help remove embedded dust, pet hair and everyday allergens from carpet fibres",
-      "Tenants needing a professional carpet clean receipt for tenancy deposit returns",
-      "Commercial business owners wanting to maintain clean carpets in offices or waiting rooms"
+      "Pet owners needing help with muddy paw marks, pet hair, accidents, and unwanted odours",
+      "Households wanting to refresh carpets affected by everyday dirt, dust, and high foot traffic",
+      "Tenants requiring professional carpet cleaning before a property inspection or tenancy handover",
+      "Commercial businesses wanting to maintain clean carpets in offices, reception areas, and waiting rooms"
     ],
+
     processTitle: "Our Carpet Cleaning Process",
+
     processSteps: [
       {
         stepNumber: "01",
-        title: "Inspection & Spot Testing",
-        description: "We identify carpet fiber types, locate stubborn stains, and select suitable cleaning agents."
+        title: "Carpet Inspection & Spot Testing",
+        description:
+          "We inspect the carpet fibres, identify visible stains and high-traffic areas, and select suitable cleaning treatments."
       },
       {
         stepNumber: "02",
-        title: "Pre-Spray & Extraction",
-        description: "We apply pre-treatments to stains and high-traffic areas, followed by high-pressure steam extraction cleaning."
+        title: "Pre-Treatment & Deep Extraction",
+        description:
+          "We apply suitable pre-treatments to stains and heavily soiled areas before carrying out professional hot water extraction cleaning."
       },
       {
         stepNumber: "03",
-        title: "Drying & Grooming",
-        description: "We extract maximum moisture to ensure carpets dry within hours, leaving them fresh and smelling clean."
+        title: "Moisture Extraction & Final Finish",
+        description:
+          "We extract excess moisture, complete the final treatment where required, and leave the carpet fresh and ready to dry."
       }
     ],
+
     whyChoose: [
       {
-        title: "Hot Water Extraction Power",
-        description: "We use professional steam extraction methods to draw out deep-seated dirt from the base of carpet fibres."
+        title: "Professional Hot Water Extraction",
+        description:
+          "Our hot water extraction method helps loosen and remove embedded dirt, oils, and everyday soil from carpet fibres."
       },
       {
-        title: "Stain & Odour Treatments",
-        description: "We treat tough beverage stains, pet marks, and mud, neutralizing odours at the source."
+        title: "Stain & Odour Treatment",
+        description:
+          "We target suitable stains, high-traffic marks, pet-related mess, and unwanted odours using appropriate cleaning treatments."
       },
       {
-        title: "Child & Pet Safe Products",
-        description: "We use non-toxic, eco-friendly cleaning formulas that are safe for your children and household pets."
+        title: "Local Carpet Cleaning Service",
+        description:
+          "We provide professional carpet cleaning for homes, rental properties, and businesses across Willenhall, Walsall, Wolverhampton, and surrounding West Midlands areas."
       }
     ],
-    areasContent: "We provide professional hot water extraction carpet cleaning across Willenhall, Walsall, Wolverhampton, Dudley, Cannock, and surrounding West Midlands communities.",
+
+    areasContent:
+      "We provide professional carpet cleaning services across Willenhall, Walsall, Wolverhampton, Dudley, Cannock, and surrounding West Midlands communities, helping local homes and businesses maintain clean, fresh carpets.",
+
     faqs: [
       {
         question: "What carpet cleaning method do you use?",
-        answer: "We primarily use hot water extraction (often referred to as steam cleaning). This method is widely recommended by carpet manufacturers as it deep cleans and sanitises the pile."
+        answer:
+          "We primarily use hot water extraction, a deep carpet cleaning method that uses a suitable cleaning solution and extraction process to loosen and remove dirt from carpet fibres."
       },
+
       {
-        question: "How long do carpets take to dry?",
-        answer: "Typically, carpets dry within 4 to 8 hours depending on ventilation, room temperature, and carpet thickness. We extract maximum moisture to speed up drying."
+        question: "How long do carpets take to dry after cleaning?",
+        answer:
+          "Drying time varies depending on ventilation, room temperature, carpet thickness, and the amount of moisture extracted. We remove as much excess moisture as practical to support faster drying."
       },
+
       {
         question: "Can you remove all stains from my carpet?",
-        answer: "While we have high success rates removing grease, mud, coffee, and pet stains, some substances (like dye, bleach, or older stains) can permanently discolour carpet fibres. We always test and do our best to lift them."
+        answer:
+          "We can treat many common stains including grease, mud, coffee, and some pet-related marks. However, certain substances such as bleach, dyes, or old permanent stains may have caused lasting fibre discolouration. We assess stains before treatment and do our best to improve their appearance."
       },
+
       {
-        question: "Do I need to move my furniture?",
-        answer: "We ask that you move small items like toys, plants, and side tables before we arrive. We can clean around heavier furniture like wardrobes and sofas."
+        question: "Do I need to move my furniture before carpet cleaning?",
+        answer:
+          "We ask customers to remove small items such as toys, plants, and lightweight side tables before we arrive. We can generally clean around heavier furniture such as wardrobes and sofas."
       },
+
       {
-        question: "Is your carpet cleaning safe for pets and children?",
-        answer: "Yes, We use professional cleaning products selected with households, children and pets in mind. Customers should follow the product guidance regarding drying and re-entry."
+        question: "Is professional carpet cleaning safe for pets and children?",
+        answer:
+          "We use professional cleaning products selected with households, children, and pets in mind. Customers should follow the product guidance regarding drying and when the carpet is suitable for normal use again."
+      },
+
+      {
+        question: "Do you provide carpet cleaning in Walsall and Wolverhampton?",
+        answer:
+          "Yes. We provide professional carpet cleaning across Willenhall, Walsall, Wolverhampton, Dudley, Cannock, and surrounding West Midlands areas."
       }
     ]
   },
