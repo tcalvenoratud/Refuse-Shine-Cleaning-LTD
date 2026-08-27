@@ -1315,85 +1315,148 @@ export const SERVICES_DATA: ServiceDetail[] = [
     id: "appliance-clean",
     slug: "appliance-cleaning",
     icon: Flame,
+
     title: "Appliance Cleaning",
-    tagline: "Restore a hygienic finish to your ovens, fridges, and microwaves with detailed appliance cleaning services in West Bromwich and surrounding areas.",
-    metaTitle: "Appliance & Oven Cleaning in West Bromwich & Willenhall",
-    metaDescription: "Professional oven & kitchen appliance deep cleaning in West Bromwich, Willenhall & Dudley. We scrub grease, carbon & burnt food. Request a free quote.",
+
+    tagline:
+      "Restore a hygienic finish to your ovens, fridges, hobs, and microwaves with professional appliance cleaning services in West Bromwich and surrounding areas.",
+
+    metaTitle:
+      "Appliance Cleaning Services in West Bromwich & Willenhall | Refuse Shine",
+
+    metaDescription:
+      "Professional appliance cleaning services in West Bromwich, Willenhall & Dudley. Deep cleaning for ovens, hobs, fridges & microwaves. Get a free quote.",
+
     image: "/assets/services/appliance-cleaning.png",
-    altText: "Spotless, clean interior of a modern double oven with wire racks",
-    introTitle: "Detailed Kitchen Appliance Deep Cleaning",
-    introContent: "Kitchen appliances, especially ovens, gather layers of baked-on grease, carbon deposits, and food spills over months of use. Cleaning these yourself requires harsh chemicals and hours of scrubbing. Refuse Shine Cleaning LTD provides specialised appliance cleaning services in West Bromwich, Willenhall, Dudley, and across the West Midlands. Our team deep cleans domestic ovens, extractors, hobs, refrigerators, and microwaves. We use safe, bio-degradable cleaning agents to dissolve tough carbon build-up and grease, cleaning every corner of your cookers. We clean wire racks, glass doors, and burner elements, restoring a hygienic finish that improves appliance efficiency and eliminates unpleasant burnt smells during cooking.",
-    includedTitle: "What is Cleaned During Our Appliance Cleaning",
-    includedIntro: "Our appliance cleaning checklist focuses on removing grease, carbon, and built-up food residues:",
+
+    altText:
+      "Spotless clean interior of a modern double oven with wire racks",
+
+    introTitle:
+      "Professional Kitchen Appliance Cleaning Service",
+
+    introContent:
+      "Kitchen appliances, especially ovens, can gather layers of baked-on grease, carbon deposits, and food spills over time. Cleaning these thoroughly can require significant time and effort. Refuse Shine Cleaning LTD provides professional appliance cleaning services in West Bromwich, Willenhall, Dudley, and across the West Midlands. Our team provides detailed cleaning for domestic ovens, extractors, hobs, refrigerators, and microwaves. We use suitable biodegradable cleaning products to help loosen tough grease and built-up food residue while caring for appliance surfaces. From oven racks and glass doors to fridge shelves and microwave interiors, our appliance cleaning service is designed to restore a clean and hygienic finish to frequently used kitchen appliances.",
+
+    includedTitle:
+      "What is Included in Our Appliance Cleaning Service",
+
+    includedIntro:
+      "Our appliance cleaning checklist focuses on removing grease, carbon, food residue, and everyday build-up from commonly used kitchen appliances:",
+
     includedList: [
-      "Deep cleaning and degreasing of internal oven cavities, walls, and fan covers",
+      "Deep cleaning and degreasing of internal oven cavities, walls, and accessible fan covers",
       "Soaking and scrubbing wire oven racks, grill trays, and side support brackets",
-      "Polishing internal and external oven glass doors to a streak-free, clear finish",
+      "Cleaning internal and external oven glass doors to a clear, streak-free finish",
       "Degreasing gas hobs, electric hotplates, knobs, and extractor fan filters",
-      "Thorough sanitisation of refrigerator interiors, door seals, shelves, and drawers",
+      "Thorough cleaning of refrigerator interiors, door seals, shelves, and drawers",
       "Cleaning and deodorising microwave interiors, turntables, and outer housings"
     ],
-    forTitle: "Who This Service Is For",
-    forIntro: "This deep cleaning service is designed for households wanting to restore their cooking equipment:",
+
+    forTitle: "Who Our Appliance Cleaning Service Is For",
+
+    forIntro:
+      "Our kitchen appliance cleaning service is designed for households and rental properties that need their cooking and food-storage appliances thoroughly cleaned:",
+
     forList: [
-      "Home cooks wishing to eliminate burnt smoke smells and improve oven performance",
-      "Tenants preparing for checkout inspections to avoid tenancy deposit deductions",
+      "Home cooks wanting to remove baked-on grease, food residue, and unwanted cooking odours",
+      "Tenants preparing kitchen appliances for checkout or tenancy handover",
       "Landlords wanting to present clean appliances to incoming tenants",
-      "Busy families who want to avoid scrubbing greasy ovens and hobs"
+      "Busy households looking for a professional alternative to cleaning heavily soiled appliances themselves"
     ],
+
     processTitle: "Our Appliance Cleaning Process",
+
     processSteps: [
       {
         stepNumber: "01",
-        title: "Inspection & Dismantling",
-        description: "We test the appliance, remove oven racks, trays, glass door panels, and filter meshes for detailing."
+        title: "Appliance Inspection & Preparation",
+        description:
+          "We inspect the appliance and identify areas of grease, carbon, food residue, and build-up before preparing suitable components for detailed cleaning."
       },
       {
         stepNumber: "02",
-        title: "Grease & Carbon Scrubbing",
-        description: "We treat the appliance interior with biodegradable cleaning products, scrubbing carbon build-up and grease deposits."
+        title: "Deep Appliance Cleaning",
+        description:
+          "We apply suitable cleaning products and carefully clean appliance interiors, racks, trays, glass, filters, shelves, and other accessible components."
       },
       {
         stepNumber: "03",
-        title: "Reassembly & Polish",
-        description: "We polish chrome racks and glass doors, reassemble the parts, and wipe down external casings to leave a shiny finish."
+        title: "Final Cleaning & Finish",
+        description:
+          "We complete the final wipe-down, clean accessible external surfaces, polish suitable fittings, and check the appliance for a clean finished appearance."
       }
     ],
+
     whyChoose: [
       {
-        title: "Tough Carbon & Grease Removal",
-        description: "We use effective, non-caustic cleaning agents to break down stubborn, baked-on carbon deposits safely."
+        title: "Tough Grease & Residue Removal",
+        description:
+          "We use suitable cleaning products and detailed techniques to help remove stubborn grease, carbon deposits, and baked-on food residue."
       },
       {
-        title: "Improved Oven Performance",
-        description: "Removing grease and carbon build-up from heating elements helps your oven heat evenly and run efficiently."
+        title: "Detailed Kitchen Appliance Cleaning",
+        description:
+          "Our service covers commonly used appliances including ovens, hobs, extractor filters, refrigerators, and microwaves."
       },
       {
-        title: "Biodegradable Cleaning Products",
-        description: "We use suitable biodegradable cleaning products to help break down grease and baked-on residue while caring for appliance surfaces."
+        title: "Suitable Cleaning Products",
+        description:
+          "We use suitable biodegradable cleaning products to help break down grease and food residue while caring for appliance surfaces."
       }
     ],
-    areasContent: "We provide professional cooker, hob, fridge, and oven cleaning services in West Bromwich, Willenhall, Dudley, Walsall, Wolverhampton, and across the West Midlands.",
+
+    areasContent:
+      "We provide professional appliance cleaning services in West Bromwich, Willenhall, Dudley, Walsall, Wolverhampton, and surrounding West Midlands areas, helping households maintain clean and hygienic kitchen appliances.",
+
     faqs: [
       {
         question: "What appliances do you clean?",
-        answer: "We deep clean domestic ovens (single, double, and ranges), gas and electric hobs, cooker hoods, extractor filters, microwave ovens, and household refrigerators."
+
+        answer:
+          "We provide appliance cleaning for domestic ovens, single and double ovens, range cookers, gas and electric hobs, cooker hoods, extractor filters, microwave ovens, and household refrigerators."
       },
+
+      {
+        question: "What does your appliance cleaning service include?",
+
+        answer:
+          "Our appliance cleaning service includes detailed cleaning of suitable appliance interiors and accessible surfaces, including oven cavities, racks, trays, glass doors, hobs, extractor filters, refrigerator shelves and microwave interiors."
+      },
+
+      {
+        question: "Do you provide kitchen appliance cleaning?",
+
+        answer:
+          "Yes. Our kitchen appliance cleaning service covers commonly used appliances such as ovens, hobs, extractor filters, refrigerators, and microwaves."
+      },
+
       {
         question: "Do you use caustic chemicals?",
-        answer: "No. We use bio-degradable, non-caustic, and non-toxic cleaning products. This protects your appliance surfaces and ensures there are no harsh chemical fumes in your home."
+
+        answer:
+          "We use suitable biodegradable cleaning products selected for the appliance and the cleaning task. Product selection depends on the surface and type of residue being treated."
       },
+
       {
         question: "Can I use my oven immediately after cleaning?",
-        answer: "Yes, absolutely. Because we use safe, non-toxic products, you can turn on and use your oven for cooking immediately after we complete the service."
+
+        answer:
+          "Once the cleaning has been completed and the appliance surfaces are dry, follow the product guidance and our team's instructions before using the appliance."
       },
+
       {
-        question: "Do you clean the glass door panels?",
-        answer: "Yes, Where the appliance design allows safe access, we clean accessible areas around and between oven door glass panels."
+        question: "Do you clean oven glass door panels?",
+
+        answer:
+          "Yes. Where the appliance design allows safe access, we clean accessible areas around and between oven door glass panels."
       },
+
       {
         question: "How long does an oven clean take?",
-        answer: "A standard single oven deep clean takes approximately 1.5 to 2 hours. A double oven or range cooker takes 2 to 3.5 hours depending on size and condition."
+
+        answer:
+          "A standard single oven deep clean typically takes approximately 1.5 to 2 hours. A double oven or range cooker can take longer depending on its size and condition."
       }
     ]
   },
@@ -1401,85 +1464,137 @@ export const SERVICES_DATA: ServiceDetail[] = [
     id: "window-clean",
     slug: "window-cleaning",
     icon: LayoutGrid,
+
     title: "Window Cleaning",
-    tagline: "Bring natural light back into your property with streak-free interior and exterior window cleaning services in Willenhall and Walsall.",
-    metaTitle: "Window Cleaning Services in Willenhall & Walsall | Refuse Shine",
-    metaDescription: "Streak-free window cleaning in Willenhall, Walsall & Wolverhampton. Internal glass, frames, sills & window tracks detailed. Request a free quote.",
+
+    tagline:
+      "Bring natural light back into your property with professional interior and exterior window cleaning services in Willenhall, Walsall and the surrounding West Midlands.",
+
+    metaTitle:
+      "Window Cleaning Services in Willenhall & Walsall | Refuse Shine",
+
+    metaDescription:
+      "Professional window cleaning in Willenhall, Walsall & Wolverhampton. Streak-free glass, frames, sills and tracks for homes and businesses. Get a free quote.",
+
     image: "/assets/services/window-cleaning.png",
-    altText: "A window squeegee cleaning a glass window pane to a streak-free finish",
-    introTitle: "Streak-Free Window Cleaning & Detailing",
-    introContent: "Clean windows let in natural light, making your rooms feel brighter and more spacious. Over time, window glass accumulates rain spots, dust, pollen, and inside finger marks. Refuse Shine Cleaning LTD provides professional window cleaning services for residential homes and commercial offices across Willenhall, Walsall, Wolverhampton, and the West Midlands. We clean internal glass panes, frames, tracks, and sills, and can clean external ground-floor windows. Our cleaners use specialist squeegees, glass cleaning products, and microfibre cloths to remove dirt without leaving soapy residue, streaks, or water spots, ensuring a crystal-clear finish.",
-    includedTitle: "What is Included in Our Window Cleaning Service",
-    includedIntro: "Our detailed window cleaning checklist ensures a complete clean of your glass and frames:",
+
+    altText:
+      "Professional window cleaner using a squeegee to achieve a streak-free finish on glass",
+
+    introTitle:
+      "Professional Window Cleaning & Streak-Free Glass",
+
+    introContent:
+      "Clean windows help bring more natural light into your property while creating a brighter, fresher appearance. Over time, window glass can collect rain marks, dust, pollen, fingerprints, and everyday dirt. Refuse Shine Cleaning LTD provides professional window cleaning services for residential homes and commercial properties across Willenhall, Walsall, Wolverhampton, and the wider West Midlands. Our window cleaners clean internal glass panes, frames, tracks, and sills, with ground-floor exterior windows cleaned where safely accessible. We use specialist squeegees, suitable glass-cleaning products, and microfibre cloths to remove dirt and marks while working towards a clear, streak-free finish.",
+
+    includedTitle:
+      "What is Included in Our Window Cleaning Service",
+
+    includedIntro:
+      "Our window cleaning checklist covers the glass and accessible surrounding areas for a more complete finish:",
+
     includedList: [
-      "Thorough cleaning of interior window glass panes to remove smudges and film",
-      "Wiping down window frames, sills, and cleaning dust from window tracks",
-      "Cleaning of ground-floor exterior window glass (where safely accessible)",
-      "Wiping down window handles, locks, and hinges to remove dust",
-      "Detailing sash and bay windows with special care for wood or uPVC frames",
-      "Polishing glass surfaces to a clear, streak-free finish"
+      "Thorough cleaning of interior window glass panes to remove smudges, dust, and surface film",
+      "Wiping window frames, sills, and accessible window tracks to remove accumulated dust and debris",
+      "Cleaning ground-floor exterior window glass where it can be safely accessed",
+      "Wiping window handles, locks, and hinges to remove everyday dust and marks",
+      "Detailed cleaning of sash and bay windows with appropriate care for wood and uPVC frames",
+      "Polishing glass surfaces with professional squeegees and microfibre cloths for a clear, streak-free finish"
     ],
-    forTitle: "Who This Service Is For",
-    forIntro: "Window cleaning is a popular addition to regular or seasonal property resets:",
+
+    forTitle:
+      "Who Our Window Cleaning Service Is For",
+
+    forIntro:
+      "Our local window cleaning service is suitable for homes, rental properties, and businesses that want clean, presentable windows:",
+
     forList: [
-      "Homeowners wanting to maximise natural daylight and improve curb appeal",
-      "Tenants needing window cleaning to meet move-out rental agreement clauses",
-      "Local business offices needing clean windows to present a professional look",
-      "Home buyers wanting clean windows before moving into a pre-owned house"
+      "Homeowners wanting cleaner glass, brighter rooms, and improved property presentation",
+      "Tenants needing professional window cleaning before a rental property handover",
+      "Local businesses and offices wanting clean windows and a professional appearance",
+      "Home buyers wanting windows cleaned before moving into a pre-owned property"
     ],
-    processTitle: "Our Window Cleaning Process",
+
+    processTitle:
+      "Our Window Cleaning Process",
+
     processSteps: [
       {
         stepNumber: "01",
-        title: "Frame & Sill Wiped",
-        description: "We wipe down frames, sills, and tracks first to remove loose dust and debris."
+        title: "Frames, Sills & Tracks",
+        description:
+          "We first wipe accessible frames, sills, and tracks to remove loose dust and debris before cleaning the glass."
       },
       {
         stepNumber: "02",
-        title: "Glass Washing",
-        description: "We apply specialised glass cleaner to break down rain marks, pollen, and finger smudges."
+        title: "Professional Glass Cleaning",
+        description:
+          "We apply suitable glass-cleaning products to help loosen rain marks, pollen, fingerprints, and everyday surface dirt."
       },
       {
         stepNumber: "03",
-        title: "Squeegee & Detailing",
-        description: "We use a squeegee for a streak-free dry, then use microfibre cloths to detail corners and edges."
+        title: "Squeegee & Final Detailing",
+        description:
+          "We use professional squeegees to clean the glass and finish corners and edges with microfibre cloths for a clear, streak-free result."
       }
     ],
+
     whyChoose: [
       {
-        title: "Streak-Free Guarantee",
-        description: "We detail all edges and corners using professional squeegees to ensure clear window glass."
+        title: "Professional Window Cleaning",
+        description:
+          "We use specialist glass-cleaning tools and techniques to remove everyday dirt and leave windows with a clear, fresh finish."
       },
       {
-        title: "Frames & Sills Cleaned",
-        description: "We clean the surrounding uPVC or wood frames, sills, and tracks, not just the glass panes."
+        title: "Frames, Sills & Tracks Included",
+        description:
+          "Our service goes beyond the glass by also cleaning accessible frames, sills, handles, and window tracks."
       },
       {
-        title: "Reliable Scheduling",
-        description: "Book window cleaning as a one-off service or add it to your recurring house cleaning routine."
+        title: "Local & Flexible Service",
+        description:
+          "Our local window cleaners provide one-off window cleaning or can add the service to suitable recurring domestic cleaning visits."
       }
     ],
-    areasContent: "We offer professional interior and exterior window cleaning services across Willenhall, Walsall, Wolverhampton, Dudley, and surrounding West Midlands areas.",
+
+    areasContent:
+      "We provide professional window cleaning services across Willenhall, Walsall, Wolverhampton, Dudley, and surrounding West Midlands areas, helping local homes and businesses keep their windows clean and presentable.",
+
     faqs: [
       {
         question: "Do you clean window frames and sills?",
-        answer: "Yes. Our standard window cleaning includes wiping down window frames, sills, handles, and clearing dust from tracks, ensuring a complete clean."
+        answer:
+          "Yes. Our standard window cleaning service includes wiping accessible window frames, sills, handles, and tracks so the surrounding areas are cleaned alongside the glass."
       },
+
       {
         question: "Do you clean exterior windows?",
-        answer: "We clean ground-floor exterior windows where they can be safely accessed. High-reach exterior window cleaning is currently not offered."
+        answer:
+          "We clean ground-floor exterior windows where they can be safely accessed. High-reach exterior window cleaning is currently not offered."
       },
+
       {
         question: "Do you clean window tracks and grooves?",
-        answer: "Yes, we wipe inside window tracks to remove accumulated dust, insects, and condensation dirt during our visit."
+        answer:
+          "Yes. We wipe accessible window tracks and grooves to remove accumulated dust, insects, and everyday condensation-related dirt."
       },
+
       {
         question: "How often should windows be cleaned?",
-        answer: "For general domestic properties, window cleaning every 4 to 8 weeks keeps glass clean and prevents hard-water spots from etching."
+        answer:
+          "Cleaning frequency depends on the property, surrounding environment, and personal preference. Regular cleaning can help prevent dirt and marks from building up on the glass."
       },
+
       {
         question: "Can window cleaning be added to a deep clean?",
-        answer: "Yes. Internal window cleaning is included in our deep cleaning and end-of-tenancy checklists. You can also add it as an extra to regular house cleans."
+        answer:
+          "Yes. Internal window cleaning is included in our deep cleaning and end-of-tenancy checklists. It can also be added to suitable regular house cleaning visits."
+      },
+
+      {
+        question: "Do you provide domestic and commercial window cleaning?",
+        answer:
+          "Yes. We provide window cleaning for residential homes as well as local commercial properties and offices across our service areas."
       }
     ]
   },
@@ -1487,85 +1602,143 @@ export const SERVICES_DATA: ServiceDetail[] = [
     id: "waste-removal",
     slug: "waste-removal-services",
     icon: Trash2,
+
     title: "Waste Removal",
-    tagline: "Clear household rubbish, garden waste, and unwanted furniture quickly and responsibly with our licensed waste removal services in Walsall & West Midlands.",
-    metaTitle: "Waste Removal & House Clearance in Walsall & Willenhall | Refuse Shine",
-    metaDescription: "Licensed house clearance & domestic waste removal services in Walsall, Willenhall & West Midlands. Responsible recycling. Fast, reliable rubbish clearance.",
+
+    tagline:
+      "Clear household rubbish, garden waste, and unwanted furniture quickly and responsibly with our professional waste removal services in Walsall and the West Midlands.",
+
+    metaTitle:
+      "Waste Removal & House Clearance in Walsall & Willenhall | Refuse Shine",
+
+    metaDescription:
+      "Professional waste removal, house clearance & garden waste removal in Walsall, Willenhall & West Midlands. Reliable collection and responsible disposal. Get a free quote.",
+
     image: "/assets/services/waste-removal-services.png",
-    altText: "A clean waste collection van parked near a house with sorted recycling boxes",
-    introTitle: "Licensed Rubbish Clearance & House Clearance Services",
-    introContent: "De-cluttering a home, clearing a garage, or cleaning out a garden generates piles of rubbish that are difficult to transport to local recycling centres. Refuse Shine Cleaning LTD provides licensed house clearance and waste removal services across Walsall, Willenhall, Wolverhampton, and the West Midlands. We help homeowners, tenants, and business managers clear out unwanted furniture, garden waste, cardboard, and general household items. Our team handles the heavy lifting, loading, and cleanup of cleared areas. As a responsible service provider, we sort through all collected waste to ensure items are recycled or disposed of at licensed transfer stations in compliance with local environmental guidelines.",
-    includedTitle: "What is Included in Our Waste Removal Service",
-    includedIntro: "Our domestic waste removal and property clearance service covers loading, sorting, and disposal:",
+
+    altText:
+      "Waste removal van collecting household rubbish and sorted recyclable items from a property",
+
+    introTitle:
+      "Professional Waste Removal & House Clearance Services",
+
+    introContent:
+      "Decluttering a home, clearing a garage, or cleaning out a garden can generate piles of rubbish that are difficult to transport yourself. Refuse Shine Cleaning LTD provides professional waste removal and waste clearance services across Walsall, Willenhall, Wolverhampton, and the wider West Midlands. We help homeowners, tenants, landlords, and business managers clear unwanted furniture, garden waste, cardboard, and general household items. Our team handles the heavy lifting, loading, sorting, and cleanup of cleared areas. Where appropriate, collected materials are separated for recycling or taken to suitable waste facilities, helping make the clearance process straightforward and responsible.",
+
+    includedTitle:
+      "What is Included in Our Waste Removal Service",
+
+    includedIntro:
+      "Our waste removal and property clearance service covers the collection, loading, sorting, and appropriate disposal of common household and garden waste:",
+
     includedList: [
       "Clearing unwanted furniture, mattresses, beds, and household appliances",
-      "Bagging and loading general rubbish, cardboard, and domestic clutter",
-      "Clearing garden trimmings, leaves, branches, and light green waste",
-      "Sweeping and tidying the yard, garage, or rooms after items are cleared",
-      "Sorting waste items to separate recyclable cardboard, metals, and plastics",
-      "Transporting materials to licensed West Midlands waste transfer facilities"
+      "Bagging and loading general waste, cardboard, and domestic household rubbish",
+      "Garden waste removal including leaves, branches, trimmings, and light green waste",
+      "Sweeping and tidying yards, garages, rooms, and other areas after waste is removed",
+      "Sorting suitable waste items to separate recyclable cardboard, metals, and plastics",
+      "Loading and transporting collected materials to appropriate waste facilities"
     ],
-    forTitle: "Who This Service Is For",
-    forIntro: "Our clearance service is designed for households needing help with heavy lifting and bulk waste disposal:",
+
+    forTitle:
+      "Who Our Waste Removal Service Is For",
+
+    forIntro:
+      "Our waste clearance service is designed for households, landlords, and businesses that need help removing unwanted or bulky items:",
+
     forList: [
-      "Homeowners clearing out garages, lofts, gardens, or preparing for renovations",
-      "Tenants needing to clear out unwanted furniture and general waste before moving",
-      "Landlords requiring quick rubbish removal after tenant checkouts to re-market properties",
-      "Bereaved families needing a respectful, professional house clearance service"
+      "Homeowners clearing garages, lofts, gardens, or properties before renovations",
+      "Tenants needing domestic waste removal before moving out of a property",
+      "Landlords requiring rubbish removal after tenant checkouts or property clearances",
+      "Families and property owners requiring a professional house clearance service"
     ],
-    processTitle: "Our Waste Removal Process",
+
+    processTitle:
+      "Our Waste Removal Process",
+
     processSteps: [
       {
         stepNumber: "01",
-        title: "Quote & Volume Assessment",
-        description: "We assess the volume and type of waste to provide a clear, weight-based clearance estimate."
+        title: "Quote & Waste Assessment",
+        description:
+          "We assess the type and approximate volume of waste to provide a clear clearance estimate before the work begins."
       },
       {
         stepNumber: "02",
-        title: "Loading & Sweeping",
-        description: "Our team does the heavy lifting, loads the waste van, and sweeps the cleared areas."
+        title: "Collection & Loading",
+        description:
+          "Our team handles the heavy lifting, collects the agreed waste, loads it safely, and sweeps the cleared areas."
       },
       {
         stepNumber: "03",
-        title: "Responsible Recycling",
-        description: "We sort the materials, sending recyclable items to local facilities and disposing of rubbish at licensed stations."
+        title: "Sorting & Responsible Disposal",
+        description:
+          "Where suitable, we separate recyclable materials and transport the collected waste to appropriate waste facilities."
       }
     ],
+
     whyChoose: [
       {
-        title: "Responsible Waste Removal Service",
-        description: "We handle household waste responsibly and arrange disposal through appropriate waste facilities."
+        title: "Reliable Waste Removal Service",
+        description:
+          "We provide practical household waste removal and property clearance, handling the lifting, loading, and cleanup for you."
       },
       {
         title: "No Heavy Lifting Required",
-        description: "Our team handles all the physical loading and clearing, saving you trips to the local tip."
+        description:
+          "Our team handles the physical work involved in clearing unwanted furniture, household rubbish, garden waste, and other agreed items."
       },
       {
-        title: "Responsible Recycling Focus",
-        description: "We sort through cleared items, aiming to recycle metals, cardboard, and plastics to minimize landfill waste."
+        title: "Responsible Waste Clearance",
+        description:
+          "We sort suitable recyclable materials and arrange disposal through appropriate waste facilities where possible."
       }
     ],
-    areasContent: "We provide licensed domestic waste removal, garage clearance, and garden rubbish clearance across Walsall, Willenhall, Wolverhampton, Dudley, and the wider West Midlands.",
+
+    areasContent:
+      "We provide professional waste removal, domestic waste removal, house clearance, and garden waste removal across Walsall, Willenhall, Wolverhampton, Dudley, and the wider West Midlands.",
+
     faqs: [
       {
-        question: "Are you a licensed waste carrier?",
-        answer: "Yes, Refuse Shine Cleaning LTD is fully registered and licensed to carry and dispose of household waste. We provide official receipts for all clearances."
+        question: "What is included in your waste removal service?",
+        answer:
+          "Our waste removal service includes collecting and loading agreed household rubbish, unwanted furniture, appliances, cardboard, garden waste, and other suitable items, followed by appropriate disposal or recycling."
       },
+
       {
         question: "What items can you remove?",
-        answer: "We remove general household waste, cardboard, paper, unwanted furniture (sofas, mattresses, wardrobes), appliances, and garden green waste (leaves, branches)."
+        answer:
+          "We can remove general household waste, cardboard, paper, unwanted furniture such as sofas, mattresses and wardrobes, suitable appliances, and garden waste including leaves and branches."
       },
+
+      {
+        question: "Do you provide garden waste removal?",
+        answer:
+          "Yes. We can collect suitable garden waste such as leaves, branches, trimmings, and light green waste as part of our waste removal service."
+      },
+
+      {
+        question: "Do you provide full house clearance?",
+        answer:
+          "Yes. We provide house clearance services for landlords, homeowners, and property representatives who need unwanted household items and general waste cleared from a property."
+      },
+
       {
         question: "Are there items you cannot accept?",
-        answer: "Yes. Due to licensing guidelines, we cannot accept hazardous materials including asbestos, plasterboard, paints, oils, solvents, car batteries, or clinical waste."
+        answer:
+          "Yes. Certain hazardous or restricted materials may not be accepted. Please tell us what needs to be removed when requesting a quote so we can confirm whether it is suitable for collection."
       },
+
       {
         question: "How do you charge for waste removal?",
-        answer: "Clearance rates are calculated based on the volume of waste (how much of the van is filled) and the weight of the materials. We offer clear estimates before loading."
+        answer:
+          "Pricing depends on factors such as the type and approximate volume of waste, the amount of loading required, and the collection location. We provide an estimate before the work begins."
       },
+
       {
-        question: "Do you clear out entire houses?",
-        answer: "Yes, we offer full house clearance services for landlords, estate executors, and homeowners preparing properties for sale or tenancy."
+        question: "Do you provide commercial waste removal?",
+        answer:
+          "We can discuss waste removal requirements for suitable businesses and commercial properties. Contact us with details of the waste type and volume so we can confirm availability."
       }
     ]
   }
