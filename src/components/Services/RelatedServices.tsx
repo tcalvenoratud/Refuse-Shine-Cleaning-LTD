@@ -1,16 +1,13 @@
-"use client"
-
 import * as React from "react"
 import Link from "next/link"
 import { ArrowRight, Sparkles } from "lucide-react"
-import { motion } from "framer-motion"
 import { SERVICES_DATA, ServiceDetail } from "@/lib/services-data"
 
 interface RelatedServicesProps {
   currentSlug: string;
 }
 
-const RELATED_SERVICES: Record<string, string[]> = {
+export const RELATED_SERVICES: Record<string, string[]> = {
   "regular-house-cleaning": [
     "deep-cleaning",
     "carpet-cleaning",
@@ -114,10 +111,9 @@ export function RelatedServices({ currentSlug }: RelatedServicesProps) {
           {related.map((service) => {
             const Icon = service.icon;
             return (
-              <motion.div
+              <div
                 key={service.slug}
-                whileHover={{ y: -4, transition: { duration: 0.2 } }}
-                className="group rounded-2xl border border-border/60 bg-card p-6 shadow-xs hover:shadow-md hover:border-primary/20 dark:border-border/10 dark:bg-card/75 dark:hover:border-accent/30 transition-all duration-300 relative flex flex-col justify-between"
+                className="group rounded-2xl border border-border/60 bg-card p-6 shadow-xs hover:shadow-md hover:border-primary/20 dark:border-border/10 dark:bg-card/75 dark:hover:border-accent/30 transition-all duration-300 hover:-translate-y-1 relative flex flex-col justify-between"
               >
                 <div>
                   {/* Icon */}
@@ -145,7 +141,7 @@ export function RelatedServices({ currentSlug }: RelatedServicesProps) {
                     <ArrowRight className="size-4 group-hover:translate-x-1 transition-transform" />
                   </Link>
                 </div>
-              </motion.div>
+              </div>
             )
           })}
         </div>

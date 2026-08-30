@@ -64,6 +64,8 @@ export default async function ServicePage({ params }: PageProps) {
     notFound();
   }
 
+
+
   // Schema structured data definitions
   const baseUrl = "https://www.refuseshinecleaningltd.co.uk";
   const serviceUrl = `${baseUrl}/services/${service.slug}`;
