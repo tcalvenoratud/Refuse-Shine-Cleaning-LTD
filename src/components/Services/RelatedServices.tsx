@@ -10,24 +10,85 @@ interface RelatedServicesProps {
   currentSlug: string;
 }
 
+const RELATED_SERVICES: Record<string, string[]> = {
+  "regular-house-cleaning": [
+    "deep-cleaning",
+    "carpet-cleaning",
+    "window-cleaning",
+  ],
+
+  "deep-cleaning": [
+    "regular-house-cleaning",
+    "kitchen-deep-cleaning",
+    "bathroom-cleaning",
+  ],
+
+  "kitchen-deep-cleaning": [
+    "deep-cleaning",
+    "bathroom-cleaning",
+    "appliance-cleaning",
+  ],
+
+  "bathroom-cleaning": [
+    "deep-cleaning",
+    "kitchen-deep-cleaning",
+    "airbnb-short-let-cleaning",
+  ],
+
+  "end-of-tenancy-cleaning": [
+    "bathroom-cleaning",
+    "move-in-move-out-cleaning",
+    "waste-removal-services",
+  ],
+
+  "move-in-move-out-cleaning": [
+    "end-of-tenancy-cleaning",
+    "airbnb-short-let-cleaning",
+    "carpet-cleaning",
+  ],
+
+  "airbnb-short-let-cleaning": [
+    "bathroom-cleaning",
+    "move-in-move-out-cleaning",
+    "appliance-cleaning",
+  ],
+
+  "post-construction-cleaning": [
+    "appliance-cleaning",
+    "waste-removal-services",
+    "window-cleaning",
+  ],
+
+  "carpet-cleaning": [
+    "regular-house-cleaning",
+    "move-in-move-out-cleaning",
+    "window-cleaning",
+  ],
+
+  "appliance-cleaning": [
+    "kitchen-deep-cleaning",
+    "airbnb-short-let-cleaning",
+    "post-construction-cleaning",
+  ],
+
+  "window-cleaning": [
+    "regular-house-cleaning",
+    "post-construction-cleaning",
+    "carpet-cleaning",
+  ],
+
+  "waste-removal-services": [
+    "end-of-tenancy-cleaning",
+    "post-construction-cleaning",
+    "airbnb-short-let-cleaning",
+  ],
+};
+
 export function RelatedServices({ currentSlug }: RelatedServicesProps) {
-  // Filter out the current service
-  const filtered = SERVICES_DATA.filter((s) => s.slug !== currentSlug);
-
-  // Generate a deterministic hash of the currentSlug
-  let hash = 0;
-  for (let i = 0; i < currentSlug.length; i++) {
-    hash = currentSlug.charCodeAt(i) + ((hash << 5) - hash);
-  }
-
-  // Use the hash to select a starting point for rotation
-  const startIndex = Math.abs(hash) % filtered.length;
-
-  // Rotate the list and take the first 3 services
-  const related = [
-    ...filtered.slice(startIndex),
-    ...filtered.slice(0, startIndex)
-  ].slice(0, 3);
+  const mappedSlugs = RELATED_SERVICES[currentSlug] ?? [];
+  const related = mappedSlugs
+    .map((slug) => SERVICES_DATA.find((s) => s.slug === slug))
+    .filter((s): s is ServiceDetail => s !== undefined);
 
   return (
     <section className="relative overflow-hidden bg-background pt-12 pb-10 border-b border-border/40 dark:border-border/10">
@@ -50,7 +111,7 @@ export function RelatedServices({ currentSlug }: RelatedServicesProps) {
 
         {/* Services List Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto">
-          {related.map((service, index) => {
+          {related.map((service) => {
             const Icon = service.icon;
             return (
               <motion.div
