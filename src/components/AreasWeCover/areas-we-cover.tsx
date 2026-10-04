@@ -38,7 +38,7 @@ const itemVariants: Variants = {
 
 export function AreasWeCover() {
   return (
-    <section className="relative overflow-hidden bg-background pt-8 pb-6 md:pt-10 md:pb-8 lg:pb-10 border-t border-border/40 dark:border-border/10">
+    <section id="areas-we-cover" className="relative overflow-hidden bg-background pt-8 pb-6 md:pt-10 md:pb-8 lg:pb-10 border-t border-border/40 dark:border-border/10 scroll-mt-24">
       {/* Background visual details */}
       <div className="absolute top-[10%] left-[-10%] -z-10 size-[300px] sm:size-[450px] rounded-full bg-accent/5 dark:bg-accent/10 blur-3xl" />
       <div className="absolute bottom-[10%] right-[-10%] -z-10 size-[300px] sm:size-[450px] rounded-full bg-primary/5 dark:bg-primary/10 blur-3xl" />
@@ -73,33 +73,46 @@ export function AreasWeCover() {
           viewport={{ once: true, margin: "-100px" }}
           className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4"
         >
-          {LOCATIONS.map((location) => (
-            <motion.div
-              key={location}
-              variants={itemVariants}
-              whileHover={{ y: -4, transition: { duration: 0.2 } }}
-            >
-              <Link
-                href="/book"
-                className="group block p-4 rounded-2xl border border-border/60 bg-card hover:border-primary/40 dark:border-border/10 dark:bg-card/75 dark:hover:border-accent/40 transition-all duration-300 shadow-xs hover:shadow-md relative overflow-hidden"
-                aria-label={`Book professional cleaning service in ${location}`}
+          {LOCATIONS.map((location) => {
+            const slug = location.toLowerCase().replace(/\s+/g, "-");
+            return (
+              <motion.div
+                key={location}
+                variants={itemVariants}
+                whileHover={{ y: -4, transition: { duration: 0.2 } }}
               >
-                {/* Subtle inner hover glow */}
-                <div className="absolute inset-0 bg-gradient-to-br from-transparent to-primary/2 dark:to-accent/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
+                <Link
+                  href={`/locations/${slug}`}
+                  className="group block p-4 rounded-2xl border border-border/60 bg-card hover:border-primary/40 dark:border-border/10 dark:bg-card/75 dark:hover:border-accent/40 transition-all duration-300 shadow-xs hover:shadow-md relative overflow-hidden"
+                  aria-label={`View professional cleaning services in ${location}`}
+                >
+                  {/* Subtle inner hover glow */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-transparent to-primary/2 dark:to-accent/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
 
-                <div className="flex items-start gap-2.5">
-                  <MapPin className="size-4.5 text-primary dark:text-accent shrink-0 mt-0.5" />
-                  <div>
-                    <h3 className="text-base font-extrabold text-foreground group-hover:text-primary dark:group-hover:text-accent transition-colors">
-                      {location}
-                    </h3>
-
+                  <div className="flex items-start gap-2.5">
+                    <MapPin className="size-4.5 text-primary dark:text-accent shrink-0 mt-0.5" />
+                    <div>
+                      <h3 className="text-base font-extrabold text-foreground group-hover:text-primary dark:group-hover:text-accent transition-colors">
+                        {location}
+                      </h3>
+                    </div>
                   </div>
-                </div>
-              </Link>
-            </motion.div>
-          ))}
+                </Link>
+              </motion.div>
+            );
+          })}
         </motion.div>
+
+        {/* Explore All Areas Button */}
+        <div className="mt-8 text-center">
+          <Link
+            href="/locations"
+            className="inline-flex items-center gap-2 text-sm font-bold text-primary dark:text-accent hover:underline"
+          >
+            <span>Explore Full West Midlands Service Directory</span>
+            <ArrowRight className="size-4" />
+          </Link>
+        </div>
 
         {/* Bottom CTA Banner */}
         <motion.div

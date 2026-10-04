@@ -1,7 +1,7 @@
 "use client"
 
-import * as React from "react"
-import { MapPin, CheckCircle2 } from "lucide-react"
+import Link from "next/link"
+import { MapPin, CheckCircle2, ArrowRight } from "lucide-react"
 import { motion } from "framer-motion"
 
 interface ServiceAreasProps {
@@ -9,13 +9,24 @@ interface ServiceAreasProps {
 }
 
 const PRIMARY_LOCATIONS = [
-  "Willenhall", "Walsall", "Wolverhampton", "Dudley", "West Bromwich", "Birmingham"
+  { name: "Willenhall", slug: "willenhall" },
+  { name: "Walsall", slug: "walsall" },
+  { name: "Wolverhampton", slug: "wolverhampton" },
+  { name: "Dudley", slug: "dudley" },
+  { name: "West Bromwich", slug: "west-bromwich" },
+  { name: "Bilston", slug: "bilston" },
 ];
 
 const SECONDARY_LOCATIONS = [
-  "Bilston", "Tipton", "Aldridge", "Oldbury", "Brownhills", "Cannock", "Smethwick",
-  "Rowley Regis", "Halesowen", "Sutton Coldfield", "Brierley Hill", "Stourbridge",
-  "Solihull", "Tamworth", "Kidderminster", "Stafford", "Redditch"
+  { name: "Tipton", slug: "tipton" },
+  { name: "Oldbury", slug: "oldbury" },
+  { name: "Smethwick", slug: "smethwick" },
+  { name: "Aldridge", slug: "aldridge" },
+  { name: "Brownhills", slug: "brownhills" },
+  { name: "Cannock", slug: "cannock" },
+  { name: "Rowley Regis", slug: "rowley-regis" },
+  { name: "Halesowen", slug: "halesowen" },
+  { name: "Birmingham", slug: "birmingham" },
 ];
 
 export function ServiceAreas({ areasContent }: ServiceAreasProps) {
@@ -51,6 +62,16 @@ export function ServiceAreas({ areasContent }: ServiceAreasProps) {
             <p className="text-base text-muted-foreground leading-relaxed">
               We provide clean tools, fully vetted teams, and tailored clean checklists to homes and business premises throughout our designated zones. Contact us to schedule a cleaner in your local town.
             </p>
+
+            <div className="mt-6">
+              <Link
+                href="/locations"
+                className="inline-flex items-center gap-2 text-sm font-bold text-primary dark:text-accent hover:underline"
+              >
+                <span>View All Service Locations & Local Areas</span>
+                <ArrowRight className="size-4" />
+              </Link>
+            </div>
           </motion.div>
 
           {/* Right Column: Location Listing Grid */}
@@ -66,10 +87,14 @@ export function ServiceAreas({ areasContent }: ServiceAreasProps) {
             </h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3.5 mb-6">
               {PRIMARY_LOCATIONS.map((loc) => (
-                <div key={loc} className="flex items-center gap-2 font-bold text-foreground">
-                  <CheckCircle2 className="size-4.5 text-primary dark:text-accent shrink-0" />
-                  <span className="text-base">{loc}</span>
-                </div>
+                <Link
+                  key={loc.slug}
+                  href={`/locations/${loc.slug}`}
+                  className="flex items-center gap-2 font-bold text-foreground hover:text-primary dark:hover:text-accent transition-colors group"
+                >
+                  <CheckCircle2 className="size-4.5 text-primary dark:text-accent shrink-0 group-hover:scale-110 transition-transform" />
+                  <span className="text-base group-hover:underline">{loc.name}</span>
+                </Link>
               ))}
             </div>
 
@@ -79,13 +104,14 @@ export function ServiceAreas({ areasContent }: ServiceAreasProps) {
               Other Surrounding Areas Covered:
             </h3>
             <div className="flex flex-wrap gap-2 text-sm text-foreground/80 dark:text-foreground/90 font-semibold">
-              {SECONDARY_LOCATIONS.map((loc, idx) => (
-                <span 
-                  key={loc}
-                  className="px-3 py-1 rounded-full bg-muted/40 dark:bg-muted/10 border border-border/40"
+              {SECONDARY_LOCATIONS.map((loc) => (
+                <Link 
+                  key={loc.slug}
+                  href={`/locations/${loc.slug}`}
+                  className="px-3 py-1 rounded-full bg-muted/40 dark:bg-muted/10 border border-border/40 hover:border-primary/40 hover:text-primary dark:hover:text-accent transition-colors"
                 >
-                  {loc}
-                </span>
+                  {loc.name}
+                </Link>
               ))}
             </div>
           </motion.div>

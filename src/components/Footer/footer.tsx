@@ -55,6 +55,7 @@ const QUICK_LINKS = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },
   { label: "Our Services", href: "/services" },
+  { label: "Areas We Serve", href: "/locations" },
   { label: "Contact Us", href: "/contact" },
   { label: "Book Now", href: "/book" },
 ]
@@ -84,7 +85,7 @@ export function Footer() {
                   className="object-cover rounded-md"
                   loading="lazy"
                   decoding="async"
-                  quality={70}
+                  quality={75}
                 />
               </div>
               <div className="flex flex-col">
