@@ -1,6 +1,7 @@
 import { MetadataRoute } from "next";
 import { SERVICES_DATA } from "@/lib/services-data";
 import { LOCATIONS_DATA } from "@/lib/locations-data";
+import { getAllBlogPosts } from "@/lib/blog-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.refuseshinecleaningltd.co.uk";
@@ -24,6 +25,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: "weekly",
       priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/blog`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.85,
     },
     {
       url: `${baseUrl}/book`,
@@ -71,5 +78,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  return [...staticRoutes, ...serviceRoutes, ...locationRoutes];
+  const blogRoutes = getAllBlogPosts().map((post) => ({
+    url: `${baseUrl}/blog/${post.slug}`,
+    lastModified: new Date(post.updatedAt || post.publishedAt),
+    changeFrequency: "monthly" as const,
+    priority: 0.75,
+  }));
+
+  return [...staticRoutes, ...serviceRoutes, ...locationRoutes, ...blogRoutes];
 }

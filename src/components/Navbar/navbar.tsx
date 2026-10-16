@@ -62,6 +62,7 @@ const PRIMARY_LINKS_BEFORE = [
 ]
 
 const PRIMARY_LINKS_AFTER = [
+  { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },
 ]
 
@@ -120,6 +121,13 @@ export function Navbar() {
     hoverTimeoutRef.current = setTimeout(() => {
       setIsAreasDropdownOpen(false)
     }, 180)
+  }
+
+  const isLinkActive = (href: string) => {
+    if (href === "/") {
+      return pathname === "/"
+    }
+    return pathname === href || pathname.startsWith(`${href}/`)
   }
 
   return (
@@ -193,7 +201,7 @@ export function Navbar() {
           <nav className="flex items-center gap-4 lg:gap-5">
             {/* Links before Areas We Serve (Home, About, Services) */}
             {PRIMARY_LINKS_BEFORE.map((link) => {
-              const isActive = pathname === link.href
+              const isActive = isLinkActive(link.href)
               return (
                 <Link
                   key={link.href}
@@ -334,7 +342,7 @@ export function Navbar() {
 
             {/* Links after Areas We Served (Contact) */}
             {PRIMARY_LINKS_AFTER.map((link) => {
-              const isActive = pathname === link.href
+              const isActive = isLinkActive(link.href)
               return (
                 <Link
                   key={link.href}
@@ -416,7 +424,7 @@ export function Navbar() {
                 <div className="flex flex-col gap-1.5 py-4 shrink-0">
                   {/* Home, About, Services */}
                   {PRIMARY_LINKS_BEFORE.map((link) => {
-                    const isActive = pathname === link.href
+                    const isActive = isLinkActive(link.href)
                     return (
                       <Link
                         key={link.href}
@@ -494,7 +502,7 @@ export function Navbar() {
 
                   {/* Contact */}
                   {PRIMARY_LINKS_AFTER.map((link) => {
-                    const isActive = pathname === link.href
+                    const isActive = isLinkActive(link.href)
                     return (
                       <Link
                         key={link.href}
