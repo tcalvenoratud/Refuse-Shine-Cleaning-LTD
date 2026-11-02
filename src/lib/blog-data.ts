@@ -79,6 +79,346 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "move-in-cleaning-checklist-for-new-homeowners",
+    title: "The Ultimate Move-In Cleaning Checklist for Your New Home",
+    excerpt:
+      "Stepping into a new home is exciting, but moving your belongings into someone else's leftover grime is not. Follow this comprehensive room-by-room move-in cleaning checklist to sanitize, deep clean, and refresh every corner before your furniture arrives.",
+    category: "Moving & Property Care",
+    featuredImage: "/assets/blog/move-in-cleaning-guide.jpg",
+    imageAlt:
+      "Spotless unfurnished modern UK living room with polished wood floors, sunny bay windows, and packed moving boxes ready for move-in day",
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-28",
+    readingTime: "7 min read",
+    featured: true,
+    metaTitle: "The Ultimate Move-In Cleaning Checklist | Refuse Shine",
+    metaDescription:
+      "Complete UK room-by-room move-in cleaning checklist. Disinfect bathrooms, degrease kitchens, and refresh carpets before unpacking your belongings.",
+    keywords: [
+      "move in cleaning checklist",
+      "cleaning new house before moving in",
+      "move in deep clean uk",
+      "moving house cleaning tips",
+      "move in cleaning wolverhampton",
+    ],
+    relatedSlugs: [
+      "how-often-should-you-deep-clean-your-home",
+      "end-of-tenancy-cleaning-checklist",
+      "how-to-keep-carpets-clean",
+    ],
+    relatedServiceSlugs: [
+      "move-in-move-out-cleaning",
+      "deep-cleaning",
+      "carpet-cleaning",
+    ],
+    relatedLocationSlugs: ["wolverhampton", "willenhall", "walsall"],
+    content: {
+      intro: [
+        "Receiving the keys to a new property is a milestone moment. However, the excitement of completion day often gives way to a harsh reality: previous occupants rarely leave a house in showroom condition. Even homes that appear reasonably tidy at a glance often harbour hidden dust, pet dander, grease in kitchen cabinetry, and neglected bathroom limescale.",
+        "Cleaning an empty house before removal vans pull up and boxes are unloaded is infinitely easier and faster than cleaning around bulky sofas, beds, and dining sets. This step-by-step move-in cleaning checklist ensures you start life in your new home with total peace of mind and pristine hygienic standards.",
+      ],
+      sections: [
+        {
+          id: "why-clean-empty-home",
+          heading: "Why Cleaning Before Unpacking Is a Game-Changer",
+          level: 2,
+          paragraphs: [
+            "Attempting to deep clean after you have already unpacked creates twice the work. Heavy furniture blocks access to skirting boards, wall edges, and radiator recesses, while airborne dust stirred up during vacuuming settles directly onto freshly unpacked bedding and clothes.",
+            "An empty property allows for uninterrupted high-to-low cleaning, wall-to-wall carpet hot water extraction, and thorough cabinet sanitisation. It also gives you an unhindered opportunity to inspect plasterwork, plumbing seals, and flooring conditions before placing heavy belongings.",
+          ],
+        },
+        {
+          id: "priority-order-table",
+          heading: "Move-In Cleaning Priority Order",
+          level: 2,
+          paragraphs: [
+            "When moving day arrives, time is strictly limited. Tackle rooms in descending order of hygiene criticality so you have a clean sanctuary to rest, shower, and eat on your very first night:",
+          ],
+          table: {
+            caption: "Recommended Sequence for Move-In Cleaning",
+            headers: ["Priority", "Zone / Room", "Focus Areas", "Time Estimate"],
+            rows: [
+              [
+                "Priority 1",
+                "Bathrooms & En-Suites",
+                "Toilet sanitisation, shower descaling, grout sterilisation, cabinet wipe-down",
+                "1.5 - 2.5 hours",
+              ],
+              [
+                "Priority 2",
+                "Kitchen & Utility",
+                "Inside cupboards, fridge/freezer defrost, oven degreasing, sink sanitising",
+                "2.5 - 4 hours",
+              ],
+              [
+                "Priority 3",
+                "Bedrooms",
+                "Wardrobes interior, skirting boards, window sills, mattress base vacuuming",
+                "1 - 2 hours",
+              ],
+              [
+                "Priority 4",
+                "Floors & Hallways",
+                "Carpet deep extraction, hard floor mopping, high-traffic entryways",
+                "2 - 3 hours",
+              ],
+            ],
+          },
+        },
+        {
+          id: "kitchen-deep-clean-move-in",
+          heading: "1. The Kitchen: Sanitize Before Food Touches Any Surface",
+          level: 2,
+          paragraphs: [
+            "The kitchen is where food preparation takes place, making hygiene non-negotiable. Even if the previous owners left it superficially swept, crumb accumulation and dried cooking oils inside cupboards are common magnets for pests.",
+          ],
+          list: {
+            type: "bullet",
+            items: [
+              "Cabinets and Drawers: Vacuum loose crumbs from drawer corners and wipe all internal shelving with an antibacterial cleaner. Don't forget the tops of high wall units.",
+              "Major Appliances: Pull out the fridge to sweep behind the coils; wash crisper drawers and disinfect door seals. If an oven is included, inspect the racks and glass door for baked-on carbon.",
+              "Worktops and Splashbacks: Disinfect quartz, laminate, or granite counters thoroughly, paying special attention to corners and sealant beads.",
+              "The Sink and Drain: Descale the mixer tap aerator and pour a kettle of boiling water mixed with baking soda and white vinegar down the waste trap to clear lingering grease odours.",
+            ],
+          },
+          callout: {
+            type: "tip",
+            title: "Appliance Filter Tip",
+            text: "Check the cooker extractor hood filter on day one. If the aluminium mesh is tacky with amber cooking grease, soak it in hot water with grease-cutting washing-up liquid, or replace charcoal recirculation cartridges before cooking your first meal.",
+          },
+        },
+        {
+          id: "bathroom-sanitisation",
+          heading: "2. The Bathrooms: Total Sterilisation and Descaling",
+          level: 2,
+          paragraphs: [
+            "You want your first hot shower in your new home to feel rejuvenating, not uncomfortable. Bathrooms require medical-grade disinfection and mineral descaling before bringing in your personal toiletries.",
+          ],
+          list: {
+            type: "bullet",
+            items: [
+              "Toilet Fixtures: Thoroughly disinfect the bowl, handle, flush plate, and the floor fixings behind the pedestal. Consider replacing the toilet seat entirely for a fresh start.",
+              "Shower & Tub Descaling: Dissolve limescale rings from the shower rose, mixer controls, and shower glass using an acidic limescale remover.",
+              "Tile Grout and Sealant: Examine silicone beads around the bath edge. Treat any spots of black mould with a dedicated fungicidal cleaner to prevent fungal spores from spreading.",
+              "Ventilation Grilles: Vacuum dust and fibrous lint from the bathroom extractor fan to ensure maximum airflow and stop humidity build-up.",
+            ],
+          },
+        },
+        {
+          id: "carpets-and-hard-floors",
+          heading: "3. Carpets, Skirting Boards and Living Spaces",
+          level: 2,
+          paragraphs: [
+            "Carpets trap incredible quantities of particulate matter from previous residents, including dead skin cells, pet dander, and outdoor allergens. Vacuuming alone only removes loose surface debris.",
+            "Performing a deep hot water extraction clean while rooms are completely bare allows you to cover 100% of the floor without moving heavy furniture back and forth. You will also avoid creating wet carpet indentations under heavy wardrobe feet.",
+          ],
+          list: {
+            type: "ordered",
+            items: [
+              "Dust from the ceiling down: Clear cobwebs from ceiling corners, light pendants, and architraves.",
+              "Wipe all vertical joinery: Clean door handles, window sills, switch plates, and skirting boards with damp microfibre cloths.",
+              "Deep vacuum carpet edges: Use a crevice nozzle along the carpet perimeter where dust settles against skirting boards.",
+              "Steam clean or extract: Run a hot-water carpet extractor across all carpeted rooms, and allow proper ventilation to accelerate drying before boxes arrive.",
+            ],
+          },
+          callout: {
+            type: "safety",
+            title: "Drying Time Notice",
+            text: "Deep-cleaned carpets need between 4 to 8 hours of drying time depending on indoor air circulation and ambient temperature. Keep internal doors open and heating set at a gentle warmth to promote rapid drying before unloading furniture.",
+          },
+        },
+        {
+          id: "booking-professional-move-in-cleaning",
+          heading: "Why Book a Professional Move-In Clean?",
+          level: 2,
+          paragraphs: [
+            "Moving home is consistently ranked as one of life's most stressful experiences. Between legal completions, key collections, removal logistics, and utility switches, finding 8 to 12 hours of free time to scrub an empty property is nearly impossible.",
+            "At Refuse Shine Cleaning LTD, our specialist <a href=\"/services/move-in-move-out-cleaning\" class=\"text-primary dark:text-accent font-semibold underline underline-offset-4 hover:opacity-80\">move-in and move-out cleaning service</a> takes the physical burden off your shoulders. We serve homeowners across <a href=\"/locations/wolverhampton\" class=\"text-primary dark:text-accent font-semibold underline underline-offset-4 hover:opacity-80\">Wolverhampton</a>, <a href=\"/locations/willenhall\" class=\"text-primary dark:text-accent font-semibold underline underline-offset-4 hover:opacity-80\">Willenhall</a>, <a href=\"/locations/walsall\" class=\"text-primary dark:text-accent font-semibold underline underline-offset-4 hover:opacity-80\">Walsall</a>, and the wider West Midlands. Our experienced teams bring industrial-grade equipment, eco-friendly disinfectants, and specialized <a href=\"/services/carpet-cleaning\" class=\"text-primary dark:text-accent font-semibold underline underline-offset-4 hover:opacity-80\">carpet cleaning machinery</a> so your new home is fresh, sanitized, and ready for you to settle in immediately.",
+          ],
+        },
+      ],
+      conclusion: [
+        "A pristine new home sets the foundation for your family's next chapter. By following this move-in checklist or enlisting professional support before moving day, you ensure your new living spaces are spotless, hygienic, and truly welcoming from the very first minute.",
+      ],
+      contextualCta: {
+        title: "Moving Into a New Home in the West Midlands?",
+        description:
+          "Let our professional cleaning team transform your empty property with an intensive, sanitising move-in deep clean before your furniture arrives.",
+        primaryButtonText: "Explore Move-In Cleaning Services",
+        primaryButtonHref: "/services/move-in-move-out-cleaning",
+        secondaryButtonText: "Get an Instant Quote",
+        secondaryButtonHref: "/contact",
+      },
+    },
+  },
+  {
+    slug: "how-to-remove-bathroom-limescale-and-mould",
+    title: "How to Remove Stubborn Bathroom Limescale and Prevent Black Mould",
+    excerpt:
+      "Tired of cloudy shower screens, crusted taps, and persistent black mould along bathroom silicone? Discover professional descaling methods, safe mould eradication techniques, and daily maintenance habits for UK bathrooms.",
+    category: "Cleaning Tips",
+    featuredImage: "/assets/blog/bathroom-cleaning-guide.jpg",
+    imageAlt:
+      "Gleaming clean modern British bathroom featuring polished chrome taps, spotless walk-in shower glass screen, and gleaming subway tiles",
+    publishedAt: "2026-10-22",
+    readingTime: "6 min read",
+    featured: false,
+    metaTitle: "How to Remove Bathroom Limescale & Mould | Refuse Shine",
+    metaDescription:
+      "Step-by-step guide to removing thick bathroom limescale from shower screens, clearing mould from tile grout, and maintaining hard water fixtures safely.",
+    keywords: [
+      "how to remove bathroom limescale",
+      "remove black mould bathroom sealant",
+      "clean limescale shower screen",
+      "bathroom descaling tips",
+      "bathroom cleaning service west midlands",
+    ],
+    relatedSlugs: [
+      "move-in-cleaning-checklist-for-new-homeowners",
+      "how-often-should-you-deep-clean-your-home",
+      "how-to-clean-a-kitchen-thoroughly",
+    ],
+    relatedServiceSlugs: [
+      "bathroom-cleaning",
+      "deep-cleaning",
+    ],
+    relatedLocationSlugs: ["dudley", "birmingham", "west-bromwich"],
+    content: {
+      intro: [
+        "Bathrooms in the United Kingdom face a relentless dual challenge: mineral-heavy hard water that leaves cloudy limescale crusts, and enclosed humidity that creates an ideal breeding ground for toxic black mould (Stachybotrys chartarum and Aspergillus).",
+        "Left untreated, limescale bonds molecularly to glass and chrome, causing permanent etching and corroding tap cartridges. Simultaneously, black mould roots into silicone seals and porous grout lines, releasing airborne spores that compromise indoor air quality. Here is our professional blueprint for eliminating both effectively without damaging your bathroom fittings.",
+      ],
+      sections: [
+        {
+          id: "science-behind-limescale-mould",
+          heading: "The Cause: Why British Bathrooms Suffer Most",
+          level: 2,
+          paragraphs: [
+            "Much of the West Midlands and greater UK relies on water supplies rich in dissolved calcium and magnesium carbonates. Every time water evaporates from shower screens or tap spouts, these chalky minerals stay behind, forming rock-hard calcite deposits.",
+            "At the same time, warm steam from showers condenses on cold exterior walls, mirrors, and tile surfaces. Because modern double glazing seals rooms tightly, moisture remains trapped, fueling mould colony development within 24 to 48 hours.",
+          ],
+        },
+        {
+          id: "descaling-chrome-taps",
+          heading: "1. Restoring Limescale-Crusted Chrome Taps & Showerheads",
+          level: 2,
+          paragraphs: [
+            "Heavy limescale forms a green or white crust around tap aerators, restricting water flow and making tap spouts look neglected. The key to descaling is chemical dwell time, not aggressive abrasive scrubbing.",
+          ],
+          list: {
+            type: "ordered",
+            items: [
+              "Soak cotton pads or kitchen paper in distilled white vinegar or a tailored citric acid solution.",
+              "Wrap the saturated pads firmly around the base of the tap and around the spout aerator.",
+              "Secure in place with an elastic band and leave undisturbed for 30 to 45 minutes to dissolve the calcium bond.",
+              "Unwrap and gently wipe away the softened chalk using a soft microfibre cloth or an old soft-bristled toothbrush.",
+              "Rinse thoroughly with clean cold water and polish dry with a dry glass cloth to prevent fresh water spotting.",
+            ],
+          },
+          callout: {
+            type: "warning",
+            title: "Protect Delicate Finishes",
+            text: "Never use strong acidic solutions (including vinegar) on gold, brushed brass, matte black, or unlacquered copper fixtures. Acid can strip delicate electroplated coatings within minutes. For specialized finishes, always use manufacturer-approved pH-neutral descalers.",
+          },
+        },
+        {
+          id: "cloudy-shower-screens",
+          heading: "2. Clearing Stubborn Haze on Glass Shower Screens",
+          level: 2,
+          paragraphs: [
+            "Shower glass often develops a rough, milky haze that normal glass sprays fail to remove. This is a hybrid buildup of calcium carbonate fused with soap scum fatty acids.",
+          ],
+          list: {
+            type: "bullet",
+            items: [
+              "Apply a thick descaling foam or a warm citric acid solution across the glass surface.",
+              "Allow the solution to dwell for 10 minutes so the acid can penetrate the mineral crust.",
+              "Scrub gently in circular motions using a non-scratch white cellulose sponge. Never use green abrasive scouring pads or metal wire wool on shower glass.",
+              "Rinse down with the shower handset using lukewarm water.",
+              "Immediately dry with a silicone squeegee and buff with a dry waffle-weave microfibre towel.",
+            ],
+          },
+        },
+        {
+          id: "eliminating-black-mould",
+          heading: "3. Eliminating Black Mould From Grout and Silicone",
+          level: 2,
+          paragraphs: [
+            "Black mould often takes hold along the silicone bead where the shower tray meets the tiled wall. Because silicone is flexible, fungal hyphae can penetrate deep into the compound.",
+          ],
+          list: {
+            type: "bullet",
+            items: [
+              "Surface Grout Mould: Apply an oxygen-based or chlorine-based fungicidal mould spray. Allow it to penetrate for 15 minutes before scrubbing with a stiff grout detail brush.",
+              "Deep Silicone Mould: If black spots remain inside transparent silicone after surface scrubbing, the mould has embedded beneath the sealant. No spray will permanently remove it; the silicone must be cleanly stripped with a sealant remover and resealed with high-grade sanitary anti-fungal silicone.",
+              "Tile Wall Cleaning: Wash tiled walls from bottom to top to prevent run-down streak marks, then rinse thoroughly with clear water.",
+            ],
+          },
+          callout: {
+            type: "safety",
+            title: "Chemical Mixing Safety Warning",
+            text: "Never mix chlorine mould sprays with acidic descalers or vinegar. Combining bleach with acid triggers a rapid chemical reaction producing toxic chlorine gas, which can cause severe respiratory injury. Always use one product, rinse thoroughly, ventilate, and wait before applying another.",
+          },
+        },
+        {
+          id: "daily-prevention-table",
+          heading: "The Prevention Blueprint: Daily & Weekly Habits",
+          level: 2,
+          paragraphs: [
+            "Preventing limescale and mould from returning is vastly easier than descaling crusted surfaces every month:",
+          ],
+          table: {
+            caption: "Routine Maintenance for Limescale and Mould Control",
+            headers: ["Frequency", "Key Action", "Expected Result"],
+            rows: [
+              [
+                "Daily (After Shower)",
+                "Squeegee glass screens and wipe down chrome taps with a dry cloth",
+                "Removes 90% of mineral standing water before it can evaporate into scale",
+              ],
+              [
+                "Daily",
+                "Run the extractor fan for 15 minutes after showering with the door closed",
+                "Expels moist humid air outside and halts mould spore germination",
+              ],
+              [
+                "Weekly",
+                "Spray tile surrounds with a light maintenance spray and rinse clean",
+                "Prevents body oils and soap bar scum from binding to tile glaze",
+              ],
+              [
+                "Monthly",
+                "Detail tap aerators and inspect silicone beads along bath edges",
+                "Catches early mineral deposits before they calcify into rock-hard crusts",
+              ],
+            ],
+          },
+        },
+        {
+          id: "professional-bathroom-restoration",
+          heading: "When to Enlist Professional Bathroom Deep Cleaners",
+          level: 2,
+          paragraphs: [
+            "Restoring a bathroom with years of severe calcification, stained tile grout, and neglected sanitaryware requires commercial-grade descaling agents and specialist steam cleaning machinery. Handling strong chemicals without the right protective gear can also irritate skin and lungs.",
+            "Refuse Shine Cleaning LTD provides expert <a href=\"/services/bathroom-cleaning\" class=\"text-primary dark:text-accent font-semibold underline underline-offset-4 hover:opacity-80\">bathroom deep cleaning</a> and full-property <a href=\"/services/deep-cleaning\" class=\"text-primary dark:text-accent font-semibold underline underline-offset-4 hover:opacity-80\">deep cleaning services</a> across <a href=\"/locations/dudley\" class=\"text-primary dark:text-accent font-semibold underline underline-offset-4 hover:opacity-80\">Dudley</a>, <a href=\"/locations/birmingham\" class=\"text-primary dark:text-accent font-semibold underline underline-offset-4 hover:opacity-80\">Birmingham</a>, <a href=\"/locations/west-bromwich\" class=\"text-primary dark:text-accent font-semibold underline underline-offset-4 hover:opacity-80\">West Bromwich</a>, and surrounding West Midlands areas. We dissolve mineral buildup safely, restore shower sparkle, and sanitize your bathroom to clinical standards.",
+          ],
+        },
+      ],
+      conclusion: [
+        "Keeping your bathroom free from limescale and black mould is entirely manageable when combining simple daily squeegee habits with systematic descaling. For neglected or heavily scaled bathrooms, a professional deep clean resets the clock, making future maintenance effortless.",
+      ],
+      contextualCta: {
+        title: "Tired of Scrubbing Limescale and Mould?",
+        description:
+          "Book our experienced local cleaning team to deep clean, descale, and restore your bathroom fixtures to a spotless, showroom shine.",
+        primaryButtonText: "Explore Bathroom Cleaning",
+        primaryButtonHref: "/services/bathroom-cleaning",
+        secondaryButtonText: "Request a Free Quote",
+        secondaryButtonHref: "/contact",
+      },
+    },
+  },
+  {
     slug: "how-often-should-you-deep-clean-your-home",
     title: "How Often Should You Deep Clean Your Home?",
     excerpt:
@@ -89,7 +429,7 @@ export const BLOG_POSTS: BlogPost[] = [
     publishedAt: "2026-10-14",
     updatedAt: "2026-10-15",
     readingTime: "6 min read",
-    featured: true,
+    featured: false,
     metaTitle: "How Often Should You Deep Clean Your Home? | Refuse Shine",
     metaDescription:
       "Learn how often UK homes need deep cleaning, room-by-room maintenance timelines, seasonal factors, and signs your house needs a thorough deep clean.",
@@ -101,9 +441,9 @@ export const BLOG_POSTS: BlogPost[] = [
       "deep cleaning vs regular cleaning"
     ],
     relatedSlugs: [
+      "move-in-cleaning-checklist-for-new-homeowners",
       "end-of-tenancy-cleaning-checklist",
-      "how-to-clean-a-kitchen-thoroughly",
-      "how-to-keep-carpets-clean"
+      "how-to-remove-bathroom-limescale-and-mould",
     ],
     relatedServiceSlugs: ["deep-cleaning", "regular-house-cleaning"],
     relatedLocationSlugs: ["willenhall", "wolverhampton"],
@@ -243,9 +583,9 @@ export const BLOG_POSTS: BlogPost[] = [
       "end of tenancy cleaning walsall"
     ],
     relatedSlugs: [
+      "move-in-cleaning-checklist-for-new-homeowners",
       "how-often-should-you-deep-clean-your-home",
-      "how-to-clean-a-kitchen-thoroughly",
-      "how-to-keep-carpets-clean"
+      "how-to-remove-bathroom-limescale-and-mould",
     ],
     relatedServiceSlugs: [
       "end-of-tenancy-cleaning",
@@ -374,9 +714,9 @@ export const BLOG_POSTS: BlogPost[] = [
       "carpet cleaning dudley"
     ],
     relatedSlugs: [
+      "move-in-cleaning-checklist-for-new-homeowners",
       "how-often-should-you-deep-clean-your-home",
       "end-of-tenancy-cleaning-checklist",
-      "how-to-clean-a-kitchen-thoroughly"
     ],
     relatedServiceSlugs: ["carpet-cleaning", "deep-cleaning"],
     relatedLocationSlugs: ["dudley", "west-bromwich"],
@@ -474,9 +814,9 @@ export const BLOG_POSTS: BlogPost[] = [
       "kitchen cleaning willenhall"
     ],
     relatedSlugs: [
+      "how-to-remove-bathroom-limescale-and-mould",
       "how-often-should-you-deep-clean-your-home",
-      "end-of-tenancy-cleaning-checklist",
-      "how-to-keep-carpets-clean"
+      "move-in-cleaning-checklist-for-new-homeowners",
     ],
     relatedServiceSlugs: ["kitchen-deep-cleaning", "appliance-cleaning"],
     relatedLocationSlugs: ["willenhall", "walsall"],
